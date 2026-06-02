@@ -15,5 +15,6 @@
 
 ## Рабочие планы
 - [[../youtube-money-system/plans/14-day-relaunch-money-sprint]]
+- [[../youtube-money-system/plans/7-day-pdf-offer-sprint-validated]]
 - [[../youtube-money-system/plans/youtube-money-tracker-weekly]]
 - [[../youtube-money-system/plans/winner-selection-rules]]
