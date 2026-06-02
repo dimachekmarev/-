@@ -1,10 +1,3 @@
----
-type: hermes-memory-local-current
-target: memory
-updated_at: 2026-06-02T15:37:17.417669+00:00
----
-# MEMORY.local-current
-
 Obsidian vault is the primary knowledge base: /root/obsidian-vault. Hermes memory source files live under /root/obsidian-vault/agents/hermes-memory/; startup context file: /root/obsidian-vault/agents/hermes-memory/context-bootstrap.md; daily booster: /root/obsidian-vault/agents/hermes-memory/daily-context-booster.md.
 §
 Memory Contract for the default Hermes agent: /root/obsidian-vault/agents/Memory-Contract-Hermes-Default.md; it is the source of truth for memory hygiene and conflicts.
@@ -12,4 +5,3 @@ Memory Contract for the default Hermes agent: /root/obsidian-vault/agents/Memory
 Supabase memory mirror is managed by /root/.hermes/scripts/hermes_memory_sync.py and schema /root/supabase-work/supabase/migrations/20260602_hermes_memory_documents.sql. Current project ref hagmwnadcvdravmhedcd is unavailable until Supabase DNS/project/token is restored.
 §
 Smart Agent AI context: Дмитрий Чекмарев, Telegram gateway on Ubuntu server, Hermes Agent. Detailed company/project/agent state belongs in Obsidian, not local durable memory.
-
