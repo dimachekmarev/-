@@ -1,7 +1,7 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-03T18:08:06.425844+00:00
+updated_at: 2026-06-03T19:08:12.453037+00:00
 ---
 # MEMORY.local-current
 
@@ -13,8 +13,12 @@ Smart Agent AI context: Дмитрий Чекмарев, Telegram gateway on Ubu
 §
 Autostart58/autoschool content pipeline has a hard anti-repeat requirement for visuals: repeated article/Telegram cover photos are unacceptable; cron scripts should enforce image history/dedup, not rely on prompts.
 §
-Hermes researcher agent installed as profile `researcher` from /root/agents/hermes-researcher-agent (v0.2.1, AlekseiUL). Uses deepseek-v4-pro via deepseek provider (dpqv4.pro). Alias: `researcher`. Launch: `hermes -p researcher chat` or `researcher` (if alias is set). Skills include research-intelligence (source ladders, evidence gate, browser verification). CLI-only profile — no gateway, no cron.
+Researcher agent: profile `researcher` v0.2.1, deepseek-v4-pro, CLI-only, skills: research-intelligence.
 §
 Codex 5.5 fallback rule: When Codex limits exhaust, immediately switch to dpqv4.pro (deepseek provider, deepseek-v4-pro model at api.deepseek.com) — NOT to OpenRouter. The dpqv4.pro deepseek path is the primary duplicating fallback. Default profile already uses provider=deepseek, model=deepseek-v4-pro. This is the user's preferred fallback when Codex goes down.
 §
-Numerologic CO-CEO: autonomous business agent with SQLite backend (ceo.db), tiered report generation, Hermes profile `numerologic-ceo` on deepseek-v4-pro, cron: daily reports (07 UTC) + daily decisions (08 UTC). Backend CLI: /root/.hermes/scripts/numerologic_ceo.py. Site at dimachekmarev/numerologic with GitHub Actions auto-deploy (needs Pages enabled manually once).
+Numerologic CO-CEO: profile `numerologic-ceo` (deepseek-v4-pro), ceo.db backend, cron: daily reports+decisions. Stitch prompt: /root/web-projects/numerologic/STITCH_PROMPT.md. Site: dimachekmarev/numerologic (GH Actions, Pages needs manual enable).
+§
+n8n Docker removed — freed 2.7G. Disk: 81% (2.7G free). Do not suggest n8n.
+§
+UI design: user prefers Google Stitch (stitch.withgoogle.com) over agent-generated HTML/CSS. Write detailed English prompts for Stitch; implement its output.
