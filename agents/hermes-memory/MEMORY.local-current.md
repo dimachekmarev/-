@@ -1,7 +1,7 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-03T10:06:50.320883+00:00
+updated_at: 2026-06-03T11:06:55.969425+00:00
 ---
 # MEMORY.local-current
 
@@ -14,3 +14,5 @@ Supabase memory mirror is managed by /root/.hermes/scripts/hermes_memory_sync.py
 Smart Agent AI context: Дмитрий Чекмарев, Telegram gateway on Ubuntu server, Hermes Agent. Detailed company/project/agent state belongs in Obsidian, not local durable memory.
 §
 Autostart58/autoschool content pipeline has a hard anti-repeat requirement for visuals: repeated article/Telegram cover photos are unacceptable; cron scripts should enforce image history/dedup, not rely on prompts.
+§
+Hermes researcher agent installed as profile `researcher` from /root/agents/hermes-researcher-agent; launch via `researcher`, `researcher-agent`, or `hermes -p researcher chat`.
