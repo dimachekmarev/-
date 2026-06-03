@@ -1,7 +1,7 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-03T08:05:48.647285+00:00
+updated_at: 2026-06-03T09:05:50.818943+00:00
 ---
 # MEMORY.local-current
 
@@ -12,4 +12,5 @@ Memory Contract for the default Hermes agent: /root/obsidian-vault/agents/Memory
 Supabase memory mirror is managed by /root/.hermes/scripts/hermes_memory_sync.py and schema /root/supabase-work/supabase/migrations/20260602_hermes_memory_documents.sql. Current project ref hagmwnadcvdravmhedcd is unavailable until Supabase DNS/project/token is restored.
 §
 Smart Agent AI context: Дмитрий Чекмарев, Telegram gateway on Ubuntu server, Hermes Agent. Detailed company/project/agent state belongs in Obsidian, not local durable memory.
-
+§
+Autostart58/autoschool content pipeline has a hard anti-repeat requirement for visuals: repeated article/Telegram cover photos are unacceptable; cron scripts should enforce image history/dedup, not rely on prompts.
