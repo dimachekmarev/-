@@ -1,7 +1,7 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-03T13:07:13.927079+00:00
+updated_at: 2026-06-03T14:07:23.524067+00:00
 ---
 # MEMORY.local-current
 
@@ -16,3 +16,7 @@ Smart Agent AI context: Дмитрий Чекмарев, Telegram gateway on Ubu
 Autostart58/autoschool content pipeline has a hard anti-repeat requirement for visuals: repeated article/Telegram cover photos are unacceptable; cron scripts should enforce image history/dedup, not rely on prompts.
 §
 Hermes researcher agent installed as profile `researcher` from /root/agents/hermes-researcher-agent; launch via `researcher`, `researcher-agent`, or `hermes -p researcher chat`.
+§
+Hermes researcher agent installed as profile `researcher` from /root/agents/hermes-researcher-agent (v0.2.1, AlekseiUL). Uses deepseek-v4-pro via deepseek provider (dpqv4.pro). Alias: `researcher`. Launch: `hermes -p researcher chat` or `researcher` (if alias is set). Skills include research-intelligence (source ladders, evidence gate, browser verification). CLI-only profile — no gateway, no cron.
+§
+Codex 5.5 fallback rule: When Codex limits exhaust, immediately switch to dpqv4.pro (deepseek provider, deepseek-v4-pro model at api.deepseek.com) — NOT to OpenRouter. The dpqv4.pro deepseek path is the primary duplicating fallback. Default profile already uses provider=deepseek, model=deepseek-v4-pro. This is the user's preferred fallback when Codex goes down.
