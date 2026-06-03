@@ -1,7 +1,7 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-03T19:08:12.453037+00:00
+updated_at: 2026-06-03T20:08:29.499809+00:00
 ---
 # MEMORY.local-current
 
@@ -15,7 +15,7 @@ Autostart58/autoschool content pipeline has a hard anti-repeat requirement for v
 §
 Researcher agent: profile `researcher` v0.2.1, deepseek-v4-pro, CLI-only, skills: research-intelligence.
 §
-Codex 5.5 fallback rule: When Codex limits exhaust, immediately switch to dpqv4.pro (deepseek provider, deepseek-v4-pro model at api.deepseek.com) — NOT to OpenRouter. The dpqv4.pro deepseek path is the primary duplicating fallback. Default profile already uses provider=deepseek, model=deepseek-v4-pro. This is the user's preferred fallback when Codex goes down.
+Model priority: PRIMARY = openai-codex / gpt-5.5. When Codex limits exhaust (429/rate-limit), fall back to deepseek/deepseek-v4-pro at api.deepseek.com. When Codex limits recover, switch BACK to Codex as primary — do NOT stay on DeepSeek. DeepSeek is RESERVE, not default. The fallback chain is: 1) deepseek/deepseek-v4-pro, 2) openrouter anthropic/claude-sonnet-4.6, 3) openrouter google/gemini-2.5-pro. NOT OpenRouter as first fallback.
 §
 Numerologic CO-CEO: profile `numerologic-ceo` (deepseek-v4-pro), ceo.db backend, cron: daily reports+decisions. Stitch prompt: /root/web-projects/numerologic/STITCH_PROMPT.md. Site: dimachekmarev/numerologic (GH Actions, Pages needs manual enable).
 §
