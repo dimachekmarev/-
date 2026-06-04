@@ -1,7 +1,7 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-04T12:10:29.994661+00:00
+updated_at: 2026-06-04T13:10:34.392290+00:00
 ---
 # MEMORY.local-current
 
@@ -17,7 +17,7 @@ Researcher agent: profile `researcher` v0.2.1, deepseek-v4-pro, CLI-only, skills
 §
 Model priority: PRIMARY = openai-codex / gpt-5.5. When Codex limits exhaust (429/rate-limit), fall back to deepseek/deepseek-v4-pro at api.deepseek.com. When Codex limits recover, switch BACK to Codex as primary — do NOT stay on DeepSeek. DeepSeek is RESERVE, not default. The fallback chain is: 1) deepseek/deepseek-v4-pro, 2) openrouter anthropic/claude-sonnet-4.6, 3) openrouter google/gemini-2.5-pro. NOT OpenRouter as first fallback.
 §
-Numerologic CO-CEO: profile `numerologic-ceo` (deepseek-v4-pro), ceo.db backend, cron: daily reports+decisions. Stitch prompt: /root/web-projects/numerologic/STITCH_PROMPT.md. Site: dimachekmarev/numerologic (GH Actions, Pages needs manual enable).
+Numerologic CO-CEO: profile `numerologic-ceo` (deepseek-v4-pro), ceo.db backend, cron: daily reports+decisions. Stitch prompt: /root/web-projects/numerologic/STITCH_PROMPT.md. Site: dimachekmarev/numerologic (GH Actions, Pages needs manual enable). Revenue claims require real payment-provider/bank confirmation; mock/test/manual SQLite records count as 0 ₽.
 §
 n8n Docker removed — freed 2.7G. Disk: 81% (2.7G free). Do not suggest n8n.
 §
