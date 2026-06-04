@@ -1,7 +1,7 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-03T23:08:46.093143+00:00
+updated_at: 2026-06-04T00:08:51.382644+00:00
 ---
 # MEMORY.local-current
 
@@ -21,4 +21,4 @@ Numerologic CO-CEO: profile `numerologic-ceo` (deepseek-v4-pro), ceo.db backend,
 §
 n8n Docker removed — freed 2.7G. Disk: 81% (2.7G free). Do not suggest n8n.
 §
-UI design: user prefers Google Stitch (stitch.withgoogle.com) over agent-generated HTML/CSS. Write detailed English prompts for Stitch; implement its output.
+UI design: user prefers Google Stitch over agent-generated HTML/CSS; write detailed English Stitch prompts and implement output. Numerologic UI should be bright, modern, friendly, feminine/light app/PWA for RU women, not dark mystical; focus on mini-analysis → paid reports → Club subscription → add-ons.
