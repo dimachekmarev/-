@@ -1,10 +1,3 @@
----
-type: hermes-memory-local-current
-target: memory
-updated_at: 2026-06-05T20:26:06.115978+00:00
----
-# MEMORY.local-current
-
 Obsidian vault is the primary knowledge base: /root/obsidian-vault. Hermes memory source files live under /root/obsidian-vault/agents/hermes-memory/; startup context file: /root/obsidian-vault/agents/hermes-memory/context-bootstrap.md; daily booster: /root/obsidian-vault/agents/hermes-memory/daily-context-booster.md.
 §
 Memory Contract for the default Hermes agent: /root/obsidian-vault/agents/Memory-Contract-Hermes-Default.md; it is the source of truth for memory hygiene and conflicts.
