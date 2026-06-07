@@ -1,24 +1,16 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-07T16:45:43.190074+00:00
+updated_at: 2026-06-07T17:46:11.787752+00:00
 ---
 # MEMORY.local-current
 
-Obsidian vault is the primary knowledge base: /root/obsidian-vault. Hermes memory source files live under /root/obsidian-vault/agents/hermes-memory/; startup context file: /root/obsidian-vault/agents/hermes-memory/context-bootstrap.md; daily booster: /root/obsidian-vault/agents/hermes-memory/daily-context-booster.md.
+Obsidian vault is the primary knowledge base: /root/obsidian-vault. Hermes memory/context files: /root/obsidian-vault/agents/hermes-memory/. Memory contract: /root/obsidian-vault/agents/Memory-Contract-Hermes-Default.md.
 §
-Memory Contract for the default Hermes agent: /root/obsidian-vault/agents/Memory-Contract-Hermes-Default.md; it is the source of truth for memory hygiene and conflicts.
+Smart Agent AI context belongs in Obsidian, not local durable memory; local memory should stay as short pointers/rules only.
 §
-Smart Agent AI context: Дмитрий Чекмарев, Telegram gateway on Ubuntu server, Hermes Agent. Detailed company/project/agent state belongs in Obsidian, not local durable memory.
-§
-Autostart58/autoschool content pipeline has a hard anti-repeat requirement for visuals: repeated article/Telegram cover photos are unacceptable; cron scripts should enforce image history/dedup, not rely on prompts.
-§
-Researcher agent: profile `researcher` v0.2.1, deepseek-v4-pro, CLI-only, skills: research-intelligence.
-§
-Model priority: PRIMARY = openai-codex / gpt-5.5. When Codex limits exhaust (429/rate-limit), fall back to deepseek/deepseek-v4-pro at api.deepseek.com. When Codex limits recover, switch BACK to Codex as primary — do NOT stay on DeepSeek. DeepSeek is RESERVE, not default. The fallback chain is: 1) deepseek/deepseek-v4-pro, 2) openrouter anthropic/claude-sonnet-4.6, 3) openrouter google/gemini-2.5-pro. NOT OpenRouter as first fallback.
-§
-Numerologic CO-CEO: profile `numerologic-ceo` (deepseek-v4-pro), ceo.db backend, cron: daily reports+decisions. Stitch prompt: /root/web-projects/numerologic/STITCH_PROMPT.md. Site: dimachekmarev/numerologic (GH Actions, Pages needs manual enable). Revenue claims require real payment-provider/bank confirmation; mock/test/manual SQLite records count as 0 ₽.
+Model routing: primary openai-codex/gpt-5.5; if rate-limited, fallback to deepseek/deepseek-v4-pro, then OpenRouter Claude/Gemini; switch back to Codex when recovered.
 §
 Hermes VPS has 1GB RAM; keep concurrency low. n8n removed; do not suggest n8n.
 §
-UI design: user prefers Google Stitch over agent-generated HTML/CSS; write detailed English Stitch prompts and implement output. Numerologic UI should be bright, modern, friendly, feminine/light app/PWA for RU women, not dark mystical; focus on mini-analysis → paid reports → Club subscription → add-ons.
+Project-specific long context, current agent states, reports, prompts, revenue status, and UI briefs belong in Obsidian project notes, not durable memory.
