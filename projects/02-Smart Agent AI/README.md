@@ -15,6 +15,11 @@
 
 ## Контроль
 - Еженедельный паспорт результатов
+- [[site/SEO-Performance-Trust-Checklist|SEO + скорость + доверие сайта]] — чеклист роста скорости, технического SEO и доверия поиска
 
 ## Агент в проекте
 - [[agents/SEO-Site-Publisher-Agent|SEO Site Publisher Agent]] — ежедневные SEO-тексты на сайт + синк в Telegram
+- `worker-research` — аудит скорости, индексации и семантики
+- `worker-execution` — технические исправления сайта
+- `worker-content` — доверие, E-E-A-T, перелинковка и структура материалов
+- `controller-quality` — контроль качества перед закрытием

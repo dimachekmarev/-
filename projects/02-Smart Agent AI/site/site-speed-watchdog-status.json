@@ -1,0 +1,42 @@
+{
+  "updated_at_utc": "2026-06-08T18:10:55.412773+00:00",
+  "status": "red",
+  "red_flags": [
+    "https://smart-agent-ai.ru/: публичная страница отдаётся без кеша (no-store, no-cache, must-revalidate)",
+    "https://smart-agent-ai.ru/: ставит PHPSESSID анонимному посетителю",
+    "https://smart-agent-ai.ru/: найден mixed content http:// (2)",
+    "https://smart-agent-ai.ru/: медленный ответ total=3.779s",
+    "https://smart-agent-ai.ru/articles/: публичная страница отдаётся без кеша (no-store, no-cache, must-revalidate)",
+    "https://smart-agent-ai.ru/articles/: ставит PHPSESSID анонимному посетителю",
+    "https://smart-agent-ai.ru/articles/: найден mixed content http:// (1)"
+  ],
+  "results": [
+    {
+      "url": "https://smart-agent-ai.ru/",
+      "status": 200,
+      "final_url": "https://smart-agent-ai.ru/",
+      "total_seconds": 3.779,
+      "bytes": 156199,
+      "cache_control": "no-store, no-cache, must-revalidate",
+      "set_cookie": "PHPSESSID=85a4052aa813d19daefd2aef4d5cd64c; path=/",
+      "assets_count": 77,
+      "http_assets": [
+        "http://smart-agent-ai.ru/wp-content/uploads/2026/04/picture.png",
+        "http://smart-agent-ai.ru/wp-content/uploads/2026/04/picture-1.png"
+      ]
+    },
+    {
+      "url": "https://smart-agent-ai.ru/articles/",
+      "status": 200,
+      "final_url": "https://smart-agent-ai.ru/articles/",
+      "total_seconds": 0.416,
+      "bytes": 129219,
+      "cache_control": "no-store, no-cache, must-revalidate",
+      "set_cookie": "PHPSESSID=cf7a889227db7b50cdcc39fbd0956b58; path=/",
+      "assets_count": 68,
+      "http_assets": [
+        "http://smart-agent-ai.ru/wp-content/uploads/2025/12/robot-working-as-librarian-instead-humans-1024x574.jpg"
+      ]
+    }
+  ]
+}
