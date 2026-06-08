@@ -1,7 +1,7 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-08T15:54:34.885531+00:00
+updated_at: 2026-06-08T16:55:05.961742+00:00
 ---
 # MEMORY.local-current
 
@@ -14,3 +14,7 @@ Model routing: primary openai-codex/gpt-5.5; if rate-limited, fallback to deepse
 Hermes VPS has 1GB RAM; keep concurrency low. n8n removed; do not suggest n8n.
 §
 Project-specific long context, current agent states, reports, prompts, revenue status, and UI briefs belong in Obsidian project notes, not durable memory.
+§
+VK access configured: app 54628476, user 8314079. User token with messages+offline scope. Credentials stored in /root/obsidian-vault/agents/hermes-memory/vk-credentials.md
+§
+VK Department project is stored at /root/obsidian-vault/projects/vk-department. Publisher script: /root/.hermes/scripts/vk_department_publish.py. Active VK cron jobs post 2/day each to dikaya_kleshnya and smart_agent_ai.
