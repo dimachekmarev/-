@@ -1,6 +1,6 @@
 ---
 type: hermes-context-bootstrap
-updated_at: 2026-06-08T06:50:01.211731+00:00
+updated_at: 2026-06-08T07:50:09.852680+00:00
 status: active
 ---
 # Hermes Context Bootstrap
