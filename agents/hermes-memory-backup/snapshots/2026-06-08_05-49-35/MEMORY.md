@@ -1,10 +1,3 @@
----
-type: hermes-memory-local-current
-target: memory
-updated_at: 2026-06-08T05:55:38.152322+00:00
----
-# MEMORY.local-current
-
 Obsidian vault is the primary knowledge base: /root/obsidian-vault. Hermes memory/context files: /root/obsidian-vault/agents/hermes-memory/. Memory contract: /root/obsidian-vault/agents/Memory-Contract-Hermes-Default.md.
 §
 Smart Agent AI context belongs in Obsidian, not local durable memory; local memory should stay as short pointers/rules only.
