@@ -1,7 +1,7 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-09T18:07:25.330830+00:00
+updated_at: 2026-06-09T19:07:33.028383+00:00
 ---
 # MEMORY.local-current
 
@@ -9,7 +9,7 @@ Obsidian vault is the primary knowledge base: /root/obsidian-vault. Hermes memor
 §
 Smart Agent AI context belongs in Obsidian, not local durable memory; local memory should stay as short pointers/rules only.
 §
-Model routing: primary openai-codex/gpt-5.5; if rate-limited, fallback to deepseek/deepseek-v4-pro, then OpenRouter Claude/Gemini; switch back to Codex when recovered.
+Model routing: primary deepseek/deepseek-v4-pro; fallback chain: openai-codex/gpt-5.5 → openrouter/deepseek-v4-flash (both configured in config.yaml fallback_providers). Telegram allowed_chats includes -1002311196243 (NUMEROLOGIC group).
 §
 Hermes VPS has 1GB RAM; keep concurrency low. n8n removed; do not suggest n8n.
 §
