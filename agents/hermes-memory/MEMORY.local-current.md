@@ -1,7 +1,7 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-09T21:09:34.716619+00:00
+updated_at: 2026-06-09T22:09:37.824725+00:00
 ---
 # MEMORY.local-current
 
@@ -11,7 +11,7 @@ Smart Agent AI context belongs in Obsidian, not local durable memory; local memo
 §
 Model routing: primary deepseek/deepseek-v4-pro; fallback chain: openai-codex/gpt-5.5 → openrouter/deepseek-v4-flash (both configured in config.yaml fallback_providers). Telegram allowed_chats includes -1002311196243 (NUMEROLOGIC group).
 §
-Hermes VPS has 1GB RAM; keep concurrency low. n8n removed; do not suggest n8n.
+Hermes VPS: 2 CPU, 1.9 GB RAM, 29 GB disk (18 GB free), NO swap configured. Keep concurrency low but not as strict as when it was 1 GB.
 §
 Project-specific long context, current agent states, reports, prompts, revenue status, and UI briefs belong in Obsidian project notes, not durable memory.
 §
