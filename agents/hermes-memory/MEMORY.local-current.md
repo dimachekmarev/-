@@ -1,7 +1,7 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-09T13:06:19.940364+00:00
+updated_at: 2026-06-09T14:06:42.029448+00:00
 ---
 # MEMORY.local-current
 
@@ -20,3 +20,5 @@ VK access configured: app 54628476, user 8314079. User token with messages+offli
 VK Department project is stored at /root/obsidian-vault/projects/vk-department. Publisher script: /root/.hermes/scripts/vk_department_publish.py. Active VK cron jobs post 2/day each to dikaya_kleshnya and smart_agent_ai.
 §
 Standalone Codex CLI is configured for Evidence Runner: `/usr/local/bin/walter-evidence` wraps `/root/tools/codex-cli-evidence-runner/scripts/walter`; `~/.codex/auth.json` is bridged from Hermes `openai-codex` OAuth; `~/.codex/config.toml` uses top-level `model = "gpt-5.5"`.
+§
+Yandex Disk is connected via rclone remote `yandex:` using OAuth. Dedicated skill: `yandex-disk-agent`; Obsidian notes: `/root/obsidian-vault/agents/hermes-memory/yandex-disk-agent.md` and `yandex-disk-inventory.md`; daily local inventory cron job updates the index.
