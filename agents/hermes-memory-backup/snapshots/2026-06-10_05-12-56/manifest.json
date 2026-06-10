@@ -1,0 +1,14 @@
+{
+  "updated_at_utc": "2026-06-10T05:12:56.569805+00:00",
+  "source": "/root/.hermes/memories",
+  "files": {
+    "MEMORY.md": {
+      "chars": 1394,
+      "sha256": "2dcd9221eaf3af90af1fcde2104bb4c67b8c9dcae715e329a6c90a253d31e3bb"
+    },
+    "USER.md": {
+      "chars": 1149,
+      "sha256": "10d8c6314b375edc3f51106dbca4cb83b36dcb8a7359e4054106bf3cce85548e"
+    }
+  }
+}
