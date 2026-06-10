@@ -1,23 +1,17 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-09T22:09:37.824725+00:00
+updated_at: 2026-06-10T00:12:51.635779+00:00
 ---
 # MEMORY.local-current
 
-Obsidian vault is the primary knowledge base: /root/obsidian-vault. Hermes memory/context files: /root/obsidian-vault/agents/hermes-memory/. Memory contract: /root/obsidian-vault/agents/Memory-Contract-Hermes-Default.md.
+Obsidian vault: /root/obsidian-vault (primary KB). Hermes memory files: agents/hermes-memory/. Long context/reports/revenue/UI briefs → Obsidian. Local durable memory → short pointers only.
 §
-Smart Agent AI context belongs in Obsidian, not local durable memory; local memory should stay as short pointers/rules only.
-§
-Model routing: primary deepseek/deepseek-v4-pro; fallback chain: openai-codex/gpt-5.5 → openrouter/deepseek-v4-flash (both configured in config.yaml fallback_providers). Telegram allowed_chats includes -1002311196243 (NUMEROLOGIC group).
+Model routing FIXED: config.yaml primary=openai-codex/gpt-5.5, fallback=[deepseek/deepseek-v4-pro → openrouter/anthropic/claude-sonnet-4-20250514]. Session /model override if stuck.
 §
 Hermes VPS: 2 CPU, 1.9 GB RAM, 29 GB disk (18 GB free), NO swap configured. Keep concurrency low but not as strict as when it was 1 GB.
 §
-Project-specific long context, current agent states, reports, prompts, revenue status, and UI briefs belong in Obsidian project notes, not durable memory.
-§
-VK access configured: app 54628476, user 8314079. User token with messages+offline scope. Credentials stored in /root/obsidian-vault/agents/hermes-memory/vk-credentials.md
-§
-VK Department project is stored at /root/obsidian-vault/projects/vk-department. Publisher script: /root/.hermes/scripts/vk_department_publish.py. Active VK cron jobs post 2/day each to dikaya_kleshnya and smart_agent_ai.
+VK: app 54628476, user 8314079. Token with wall+messages+offline. Creds: /root/obsidian-vault/agents/hermes-memory/vk-credentials.md. POST 09:00-22:00 MSK ONLY. Delete by from_id==8314079, never text. Dept proj: /root/obsidian-vault/projects/vk-department. 2/day to dikaya_kleshnya+smart_agent_ai. Publisher: vk_department_publish.py
 §
 Standalone Codex CLI is configured for Evidence Runner: `/usr/local/bin/walter-evidence` wraps `/root/tools/codex-cli-evidence-runner/scripts/walter`; `~/.codex/auth.json` is bridged from Hermes `openai-codex` OAuth; `~/.codex/config.toml` uses top-level `model = "gpt-5.5"`.
 §
