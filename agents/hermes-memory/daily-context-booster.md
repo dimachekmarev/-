@@ -1,6 +1,6 @@
 ---
 type: hermes-daily-context-booster
-updated_at: 2026-06-10T05:55:57.448172+00:00
+updated_at: 2026-06-11T05:55:21.303372+00:00
 status: active
 ---
 # Daily Context Booster — Hermes/Yana
@@ -18,12 +18,12 @@ status: active
 
 ```json
 {
-  "updated_at_utc": "2026-06-10T05:55:57.431558+00:00",
+  "updated_at_utc": "2026-06-11T05:55:21.287419+00:00",
   "obsidian": {
     "ok": true,
     "changed": true,
     "manifest": {
-      "updated_at_utc": "2026-06-10T05:55:57.414250+00:00",
+      "updated_at_utc": "2026-06-11T05:55:21.269385+00:00",
       "source": "/root/.hermes/memories",
       "files": {
         "MEMORY.md": {
@@ -46,21 +46,21 @@ status: active
 
 ## Свежие заметки Obsidian
 
-- `agents/hermes-memory-backup/snapshots/2026-06-10_05-55-57/USER.md`
-- `agents/hermes-memory-backup/snapshots/2026-06-10_05-55-57/MEMORY.md`
+- `agents/hermes-memory-backup/snapshots/2026-06-11_05-55-21/USER.md`
+- `agents/hermes-memory-backup/snapshots/2026-06-11_05-55-21/MEMORY.md`
 - `agents/hermes-memory-backup/latest/USER.md`
 - `agents/hermes-memory/context-bootstrap.md`
-- `agents/hermes-memory-backup/latest/MEMORY.md`
 - `agents/hermes-memory/USER.local-current.md`
+- `agents/hermes-memory-backup/latest/MEMORY.md`
 - `agents/hermes-memory/MEMORY.local-current.md`
-- `agents/hermes-memory/memory-hygiene-log.md`
-- `agents/hermes-memory-backup/snapshots/2026-06-10_05-40-57/USER.md`
-- `agents/hermes-memory-backup/snapshots/2026-06-10_05-40-57/MEMORY.md`
 - `agents/hermes-memory/yandex-disk-inventory.md`
-- `agents/hermes-memory-backup/snapshots/2026-06-10_05-12-56/USER.md`
-- `agents/hermes-memory-backup/snapshots/2026-06-10_05-12-56/MEMORY.md`
-- `agents/hermes-memory-backup/snapshots/2026-06-10_04-12-55/USER.md`
-- `agents/hermes-memory-backup/snapshots/2026-06-10_04-12-55/MEMORY.md`
+- `agents/hermes-memory-backup/snapshots/2026-06-11_05-22-20/USER.md`
+- `agents/hermes-memory-backup/snapshots/2026-06-11_05-22-20/MEMORY.md`
+- `agents/hermes-memory-backup/snapshots/2026-06-11_04-22-19/USER.md`
+- `agents/hermes-memory-backup/snapshots/2026-06-11_04-22-19/MEMORY.md`
+- `agents/hermes-memory-backup/snapshots/2026-06-11_03-22-18/USER.md`
+- `agents/hermes-memory-backup/snapshots/2026-06-11_03-22-18/MEMORY.md`
+- `agents/hermes-memory-backup/snapshots/2026-06-11_02-22-13/USER.md`
 
 ## Хвост единого дневника операций
 
