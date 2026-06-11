@@ -1,10 +1,3 @@
----
-type: hermes-memory-local-current
-target: memory
-updated_at: 2026-06-11T06:22:21.687859+00:00
----
-# MEMORY.local-current
-
 Obsidian vault: /root/obsidian-vault (primary KB). Hermes memory files: agents/hermes-memory/. Long context/reports/revenue/UI briefs → Obsidian. Local durable memory → short pointers only.
 §
 Model routing FIXED: config.yaml primary=openai-codex/gpt-5.5, fallback=[deepseek/deepseek-v4-pro → openrouter/anthropic/claude-sonnet-4-20250514]. Session /model override if stuck.
@@ -16,4 +9,3 @@ VK: app 54628476, user 8314079. Token with wall+messages+offline. Creds: /root/o
 Standalone Codex CLI is configured for Evidence Runner: `/usr/local/bin/walter-evidence` wraps `/root/tools/codex-cli-evidence-runner/scripts/walter`; `~/.codex/auth.json` is bridged from Hermes `openai-codex` OAuth; `~/.codex/config.toml` uses top-level `model = "gpt-5.5"`.
 §
 Yandex Disk is connected via rclone remote `yandex:` using OAuth. Dedicated skill: `yandex-disk-agent`; Obsidian notes: `/root/obsidian-vault/agents/hermes-memory/yandex-disk-agent.md` and `yandex-disk-inventory.md`; daily local inventory cron job updates the index.
-
