@@ -1,7 +1,7 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-12T09:35:59.498150+00:00
+updated_at: 2026-06-12T11:42:55.070547+00:00
 ---
 # MEMORY.local-current
 
@@ -16,4 +16,5 @@ VK: app 54628476, user 8314079. Token with wall+messages+offline. Creds: /root/o
 Standalone Codex CLI is configured for Evidence Runner: `/usr/local/bin/walter-evidence` wraps `/root/tools/codex-cli-evidence-runner/scripts/walter`; `~/.codex/auth.json` is bridged from Hermes `openai-codex` OAuth; `~/.codex/config.toml` uses top-level `model = "gpt-5.5"`.
 §
 Yandex Disk is connected via rclone remote `yandex:` using OAuth. Dedicated skill: `yandex-disk-agent`; Obsidian notes: `/root/obsidian-vault/agents/hermes-memory/yandex-disk-agent.md` and `yandex-disk-inventory.md`; daily local inventory cron job updates the index.
-
+§
+dikayakleshnya.ru hosted on Reg.Ru ISPmanager (IP 31.31.198.57). Deploy via sshpass+rsync, login u3439587, web root /var/www/u3439587/data/www/dikayakleshnya.ru/. Do NOT suggest Vercel/redeploy — site already live and deployed.
