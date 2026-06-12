@@ -1,15 +1,13 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-12T14:43:46.618130+00:00
+updated_at: 2026-06-12T15:44:11.969556+00:00
 ---
 # MEMORY.local-current
 
 Obsidian vault: /root/obsidian-vault (primary KB). Hermes memory files: agents/hermes-memory/. Long context/reports/revenue/UI briefs → Obsidian. Local durable memory → short pointers only.
 §
-Model routing FIXED: config.yaml primary=openai-codex/gpt-5.5, fallback=[deepseek/deepseek-v4-pro → openrouter/anthropic/claude-sonnet-4-20250514]. Session /model override if stuck.
-§
-Hermes VPS: 2 CPU, 1.9 GB RAM, 29 GB disk (18 GB free), NO swap configured. Keep concurrency low but not as strict as when it was 1 GB.
+Hermes VPS: 2 CPU, 1.9 GB RAM, 29 GB disk, 2 GB swap enabled at /swapfile. Keep concurrency low: one heavy code/build task plus light watchdogs.
 §
 VK: app 54628476, user 8314079. Token with wall+messages+offline. Creds: /root/obsidian-vault/agents/hermes-memory/vk-credentials.md. POST 09:00-22:00 MSK ONLY. Delete by from_id==8314079, never text. Dept proj: /root/obsidian-vault/projects/vk-department. 2/day to dikaya_kleshnya+smart_agent_ai. Publisher: vk_department_publish.py
 §
