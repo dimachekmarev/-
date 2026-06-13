@@ -1,7 +1,7 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-13T15:50:28.447048+00:00
+updated_at: 2026-06-13T16:50:29.529181+00:00
 ---
 # MEMORY.local-current
 
@@ -20,3 +20,5 @@ dikayakleshnya.ru — Reg.Ru hosting (IP 31.31.198.57, nginx). Server path: /var
 Hermes model auto-router is installed: /root/.hermes/scripts/hermes_model_router.py via cron job b2653f8887df every 5m. Codex gpt-5.5 is primary; after repeated Codex failures it switches to DeepSeek v4 pro; when Codex probe succeeds it returns to Codex and restarts gateway.
 §
 YouTube Agent Video Factory: heavy assets live on Yandex Disk `yandex:YouTube_Money_System/Agent_Video_Factory/`; Obsidian/memory keep only indexes and links.
+§
+Dmitry's YouTube Agent Video Factory should target global English audiences when monetization/RPM matters; he dislikes vague names like NEUROLUX and wants clear channel positioning.

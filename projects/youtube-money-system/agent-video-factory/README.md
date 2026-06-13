@@ -42,9 +42,11 @@ agent-video-factory/
 ## Доступы для запуска
 - Чек-лист со ссылками: [[access-links-checklist]]
 - Статус YouTube OAuth: [[youtube-auth-status]]
+- Статус Google Workspace: [[google-workspace-status]]
 
 ## Исследование ниш
 - 10 вариантов каналов с оценками: [[niche-research-10-channel-ideas]]
+- Английский ребрендинг канала: [[english-channel-rebrand-options]]
 
 ## Следующее действие
 1. Получить YouTube OAuth / доступ к каналу

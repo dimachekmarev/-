@@ -4,9 +4,16 @@
 - [x] OAuth Client ID — получен и сохранён локально в защищённом файле.
 - [x] Client Secret — получен и сохранён локально в защищённом файле.
 - [x] OAuth client JSON — собран локально для авторизации.
-- [x] OAuth authorization code — получен и обменян на токены.
 - [x] Refresh token — получен и сохранён локально в защищённом файле.
-- [ ] YouTube API проверка не завершена: HTTPError: HTTP Error 403: Forbidden.
+- [x] YouTube Data API v3 — включён и проверен.
+- [x] Канал подключён: `NEUROLUX` / `@neurolux-studio`.
+- [x] Channel ID: `UC3f037joMq9pnD708qhFsKg`.
+- [x] Uploads playlist: `UU3f037joMq9pnD708qhFsKg`.
+
+## Текущее состояние канала
+- Подписчики: 3.
+- Видео: 0.
+- Просмотры: 0.
 
 ## Ещё нужно
 - [ ] Указать режим тестовой публикации: `private` или `unlisted`.
@@ -22,14 +29,3 @@
 - В Obsidian не хранится Client Secret, authorization code, access token или refresh token.
 - Пароль от Google/YouTube не нужен.
 - Коды 2FA/SMS не пересылать в чат.
-## Текущий блокер — YouTube Data API v3 disabled
-
-OAuth-токены получены и сохранены, но проверка канала вернула `403 SERVICE_DISABLED`.
-
-Причина: в Google Cloud Project `795274412945` не включён YouTube Data API v3.
-
-Что сделать:
-1. Открыть: https://console.developers.google.com/apis/api/youtube.googleapis.com/overview?project=795274412945
-2. Нажать **Enable / Включить**.
-3. Подождать 2–5 минут.
-4. Повторить проверку YouTube API.
