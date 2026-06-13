@@ -3,7 +3,7 @@ type: kpi-board
 project: Smart Agent AI
 phase: phase-1-money-room
 created: 2026-06-13T17:27:59+00:00
-updated: 2026-06-13T17:32:55+00:00
+updated: 2026-06-13T18:08:51+00:00
 owner_profile: revenue-controller
 status: ready-for-controlled-dispatch
 source_plan: [[phase-1-money-room-command-plan]]
@@ -15,6 +15,11 @@ secrets_read: false
 
 Linked plan: [[phase-1-money-room-command-plan]]
 Lead tracker schema: [[phase-1-money-room-lead-tracker]]
+Outreach scripts: [[phase-1-money-room-outreach-scripts]]
+Proposal kit: [[phase-1-money-room-proposal-kit]]
+Invoice template: [[phase-1-money-room-invoice-template]]
+Delivery checklist: [[phase-1-money-room-delivery-checklist]]
+QA acceptance: [[phase-1-money-room-qa-acceptance]]
 Team map: [[agent-team-phase-1-money-room]]
 
 ## 1. 48h target
@@ -29,7 +34,7 @@ Offer: **AI-бот для приёма заявок за 48 часов**.
 | Replies | 25 | 10–12 | 25 | 0 | not-started | `outreach-sales-agent` |
 | Demo booked | 8 | 3–4 | 8 | 0 | not-started | `outreach-sales-agent` |
 | Demo completed | 6 | 2–3 | 6 | 0 | not-started | `outreach-sales-agent` + `proposal-agent` |
-| Proposal/payment offers | 4 | 1–2 | 4 | 0 | not-started | `proposal-agent` |
+| Proposal/payment offers | 4 | 1–2 | 4 | 0 | draft-ready-for-approval, not-sent | `proposal-agent` |
 | Payment pending | 2 | 0–1 | 2 | 0 | not-started | `proposal-agent` |
 | Paid | 1–2 | 0–1 | 1–2 | 0 | not-started | `revenue-controller` |
 
@@ -56,7 +61,7 @@ Use this table during the 48h sprint. Do not invent numbers; only actual logged 
 |---|---:|---:|---:|---:|---:|---:|---:|---|---|---|
 | H0–H4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | Waiting for downstream workers / approval gates | 1) lead list 40 A-segment 2) scripts draft 3) QA criteria | `revenue-controller` |
 | H4–H8 | 120 | 114 | 0 | 0 | 0 | 0 | 0 | Awaiting segment/script approval before any outreach | 1) CRM import from phase-1-money-room-leads-120.csv 2) approve first 20 sample leads 3) prepare outreach scripts, no sending | `lead-research-agent` |
-| H8–H12 |  |  |  |  |  |  |  |  |  |  |
+| H8–H12 | 120 | 114 | 0 | 0 | 0 | 0 | 0 | Awaiting segment/script/price-scope approval before outreach or КП send | 1) review [[phase-1-money-room-proposal-kit]] 2) review [[phase-1-money-room-invoice-template]] 3) delivery/QA gate before client handoff | `proposal-agent` |
 | H12–H16 |  |  |  |  |  |  |  |  |  |  |
 | H16–H20 |  |  |  |  |  |  |  |  |  |  |
 | H20–H24 |  |  |  |  |  |  |  |  |  |  |
@@ -100,10 +105,10 @@ Copy this block for each daily report.
 |---|---|---|---|---|
 | `lead-research-agent` | Build 120 leads, Segment A first | ICP from command plan | CRM-ready lead list | 120 rows, public source, score, pain, next action |
 | `crm-steward-agent` | Keep lead tracker clean | Lead list + status updates | Tracker + snapshots | every active lead has status and next_action_due |
-| `outreach-sales-agent` | Draft messages, not send | Segments + approved offer | 3 scripts + follow-up | no spam tone, no false promises, CTA clear |
+| `outreach-sales-agent` | Draft messages, not send | Segments + approved offer | [[phase-1-money-room-outreach-scripts]] | no spam tone, no false promises, CTA clear |
 | `proposal-agent` | Prepare payment-ready КП | hot replies + package rules | 1-page КП + packages | price/scope/48h requirements explicit |
-| `delivery-manager-agent` | Validate 48h delivery promise | proposed scope | intake + checklist | can actually deliver in 48h after materials |
-| `agent-qa-controller` | Gate quality and risks | scripts/КП/CRM/delivery | QA checklist + go/no-go | no unsafe promises, no missing handoff |
+| `delivery-manager-agent` | Validate 48h delivery promise | proposed scope | [[phase-1-money-room-delivery-checklist]] | checklist covers intake/accesses/T+0/T+6/T+24/T+48/handoff/risks; client-specific feasibility still requires scope |
+| `agent-qa-controller` | Gate quality and risks | scripts/КП/CRM/delivery | [[phase-1-money-room-qa-acceptance]] | QA criteria ready; final per-client go/no-go still requires approval artifacts and client-specific scope |
 | `revenue-controller` | Own money room and escalation | all handoffs | owner report + KPI decisions | stop/pivot decisions every 8h |
 
 ## 6. Approval gates status
@@ -111,10 +116,10 @@ Copy this block for each daily report.
 | Gate | Required before | Status | Owner | Notes |
 |---|---|---|---|---|
 | Segment approval | any real outreach | pending | `revenue-controller` / Дмитрий | approve niches and first 20 sample leads |
-| Script approval | any real outreach | pending | `revenue-controller` / Дмитрий | approve primary + follow-up text |
-| Price/scope approval | any КП/payment offer | pending | `revenue-controller` / Дмитрий | confirm package and discount rules |
-| Delivery feasibility | any paid promise | pending | `delivery-manager-agent` + `agent-qa-controller` | verify 48h MVP scope |
-| QA go/no-go | client handoff | pending | `agent-qa-controller` | final safety gate |
+| Script approval | any real outreach | draft-ready-for-approval | `revenue-controller` / Дмитрий | review [[phase-1-money-room-outreach-scripts]]; outreach still blocked until approval |
+| Price/scope approval | any КП/payment offer | draft-ready-for-approval | `proposal-agent` → `revenue-controller` / Дмитрий | review [[phase-1-money-room-proposal-kit]] + [[phase-1-money-room-invoice-template]]; КП not sent |
+| Delivery feasibility | any paid promise | checklist-ready-for-qa | `delivery-manager-agent` + `agent-qa-controller` | review [[phase-1-money-room-delivery-checklist]]; client-specific go/no-go still requires actual scope/materials |
+| QA go/no-go | client handoff | checklist-ready-for-use; per-client gate pending | `agent-qa-controller` | review [[phase-1-money-room-qa-acceptance]]; final GO requires client-specific scope, approval artifacts and delivery handoff |
 
 ## 7. Stop / pivot board
 
