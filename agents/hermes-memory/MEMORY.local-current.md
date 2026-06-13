@@ -1,7 +1,7 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-13T12:49:25.093585+00:00
+updated_at: 2026-06-13T13:49:26.245068+00:00
 ---
 # MEMORY.local-current
 
@@ -18,4 +18,5 @@ Yandex Disk is connected via rclone remote `yandex:` using OAuth. Dedicated skil
 dikayakleshnya.ru — Reg.Ru hosting (IP 31.31.198.57, nginx). Server path: /var/www/u3439587/data/www/dikayakleshnya.ru/. Deploy/update: rsync over SSH using credentials from secure credential note, not from durable memory. NEVER suggest Vercel/redeploy — site already live. Always check memory before proposing hosting solutions.
 §
 Hermes model auto-router is installed: /root/.hermes/scripts/hermes_model_router.py via cron job b2653f8887df every 5m. Codex gpt-5.5 is primary; after repeated Codex failures it switches to DeepSeek v4 pro; when Codex probe succeeds it returns to Codex and restarts gateway.
-
+§
+YouTube Agent Video Factory: heavy assets live on Yandex Disk `yandex:YouTube_Money_System/Agent_Video_Factory/`; Obsidian/memory keep only indexes and links.
