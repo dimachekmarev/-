@@ -34,6 +34,11 @@ agent-video-factory/
 └── control/                         ← GO/NO-GO логи контроллера
 ```
 
+## Хранение файлов
+- Тяжёлые материалы храним на Яндекс.Диске: `yandex:YouTube_Money_System/Agent_Video_Factory/`
+- В Obsidian держим только индекс, роли, планы, статусы и ссылки.
+- Правило: [[storage-policy]]
+
 ## Следующее действие
 1. Получить YouTube OAuth / доступ к каналу
 2. Настроить ElevenLabs для озвучки
