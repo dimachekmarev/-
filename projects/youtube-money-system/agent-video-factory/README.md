@@ -41,6 +41,7 @@ agent-video-factory/
 
 ## Доступы для запуска
 - Чек-лист со ссылками: [[access-links-checklist]]
+- Статус YouTube OAuth: [[youtube-auth-status]]
 
 ## Исследование ниш
 - 10 вариантов каналов с оценками: [[niche-research-10-channel-ideas]]
