@@ -213,6 +213,21 @@
       "image_source": "google_drive",
       "drive_file_id": "1K_KOAUH2Ke682Xnl3VCaIUICv5oNfTmi",
       "image_sha256": "e67f67a3ab33b4e5629928cdd328d8f078896db5984fadfaa9d0d4dda6277805"
+    },
+    {
+      "ts": "2026-06-14T15:33:00.150201Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "title": "Воскресный вечер без тревоги за понедельник",
+      "heading": "🔥 ВОСКРЕСНЫЙ ВЕЧЕР БЕЗ ТРЕВОГИ ЗА ПОНЕДЕЛЬНИК",
+      "text_key": "auto:6c18acf40a412213",
+      "fingerprint": "6c18acf40a412213",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_84",
+      "attachment": "photo8314079_457240375",
+      "visual_key": "ai:diagonal-system",
+      "image_source": "generated_svg",
+      "drive_file_id": null,
+      "image_sha256": "9184b2dd38cf54cf23c64616806bd1798ffbdf70c745e578cb8a24480deab944"
     }
   ],
   "recent_images": [
@@ -230,6 +245,21 @@
       "sha256": "e67f67a3ab33b4e5629928cdd328d8f078896db5984fadfaa9d0d4dda6277805",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_26",
       "attachment": "photo8314079_457240374"
+    },
+    {
+      "ts": "2026-06-14T15:33:00.150272Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "source": "generated_svg",
+      "visual_key": "ai:diagonal-system",
+      "variant": "diagonal-system",
+      "drive_file_id": null,
+      "drive_file_name": null,
+      "drive_file_url": null,
+      "drive_fallback_reason": "no_drive_pool_configured",
+      "sha256": "9184b2dd38cf54cf23c64616806bd1798ffbdf70c745e578cb8a24480deab944",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_84",
+      "attachment": "photo8314079_457240375"
     }
   ],
   "communities": {
@@ -252,6 +282,14 @@
       "fingerprint": "9783daabf808be27",
       "title": "С чем едят настоящих волжских раков",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_26"
+    },
+    {
+      "ts": "2026-06-14T15:33:00.150266Z",
+      "community": "smart_agent_ai",
+      "text_key": "auto:6c18acf40a412213",
+      "fingerprint": "6c18acf40a412213",
+      "title": "Воскресный вечер без тревоги за понедельник",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_84"
     }
   ]
 }
