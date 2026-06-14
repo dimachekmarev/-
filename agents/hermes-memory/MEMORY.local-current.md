@@ -1,7 +1,7 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-14T04:51:42.896550+00:00
+updated_at: 2026-06-14T05:40:43.776044+00:00
 ---
 # MEMORY.local-current
 
@@ -22,3 +22,4 @@ Hermes model auto-router is installed: /root/.hermes/scripts/hermes_model_router
 YouTube Agent Video Factory: heavy assets live on Yandex Disk `yandex:YouTube_Money_System/Agent_Video_Factory/`; Obsidian/memory keep only indexes and links.
 §
 Dmitry's YouTube Agent Video Factory should target global English audiences when monetization/RPM matters; he dislikes vague names like NEUROLUX and wants clear channel positioning.
+
