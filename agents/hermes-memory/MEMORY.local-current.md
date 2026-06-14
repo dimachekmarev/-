@@ -1,7 +1,7 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-14T12:55:17.206256+00:00
+updated_at: 2026-06-14T13:56:06.950305+00:00
 ---
 # MEMORY.local-current
 
@@ -15,11 +15,10 @@ Standalone Codex CLI is configured for Evidence Runner: `/usr/local/bin/walter-e
 §
 Yandex Disk is connected via rclone remote `yandex:` using OAuth. Dedicated skill: `yandex-disk-agent`; Obsidian notes: `/root/obsidian-vault/agents/hermes-memory/yandex-disk-agent.md` and `yandex-disk-inventory.md`; daily local inventory cron job updates the index.
 §
-dikayakleshnya.ru — Reg.Ru hosting (IP 31.31.198.57, nginx). Server path: /var/www/u3439587/data/www/dikayakleshnya.ru/. Deploy/update: rsync over SSH using credentials from secure credential note, not from durable memory. NEVER suggest Vercel/redeploy — site already live. Always check memory before proposing hosting solutions.
+dikayakleshnya.ru — Reg.Ru (31.31.198.57), root /var/www/u3439587/data/www/dikayakleshnya.ru/, deploy rsync/SSH creds from secure note, no Vercel. Yandex payment registered; keep shopId/secretKey server-side/secure, never static frontend.
 §
 Hermes model auto-router is installed: /root/.hermes/scripts/hermes_model_router.py via cron job b2653f8887df every 5m. Codex gpt-5.5 is primary; after repeated Codex failures it switches to DeepSeek v4 pro; when Codex probe succeeds it returns to Codex and restarts gateway.
 §
 YouTube Agent Video Factory: heavy assets live on Yandex Disk `yandex:YouTube_Money_System/Agent_Video_Factory/`; Obsidian/memory keep only indexes and links.
 §
 Dmitry's YouTube Agent Video Factory should target global English audiences when monetization/RPM matters; he dislikes vague names like NEUROLUX and wants clear channel positioning.
-
