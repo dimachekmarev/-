@@ -22,6 +22,8 @@ North Star goal: [[main-goal-2026-10-01]] — заработать и получ
 - Выручка
 
 ## Рабочие планы
+- [[Smart Agent Product Studio]] — основной быстрый денежный продукт: ниши, Lite/Pro/VIP, воронка, регламент агентов.
+- [[2-week-calendar-plan]] — 14-дневный фокус-блок 10:00–14:00 MSK, записан в Google Calendar.
 - [[../youtube-money-system/plans/14-day-relaunch-money-sprint]]
 - [[../youtube-money-system/plans/7-day-pdf-offer-sprint-validated]]
 - [[../youtube-money-system/plans/youtube-money-tracker-weekly]]
