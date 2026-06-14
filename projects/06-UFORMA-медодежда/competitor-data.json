@@ -1,0 +1,2487 @@
+{
+  "scraped_at": "2026-06-14T22:09:36.605239",
+  "source": "https://u-forma.ru/",
+  "categories": {
+    "muzhskaya": {
+      "name": "Мужская одежда",
+      "url": "/catalog/muzhskaya_odezhda/",
+      "product_count": 28,
+      "products": [
+        {
+          "name": "Медицинский халат мужской Эдвард дл. / Тиси Белый",
+          "price": "3500",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/553/hvb09eqohak3mg0h7i5i1atk5ca29dvk.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/muzhskaya_odezhda/khalat/115064/",
+          "product_id": "115064",
+          "category_key": "muzhskaya",
+          "category": "Мужская одежда"
+        },
+        {
+          "name": "Брюки медицинские мужские Джоггеры / спандекс Черный",
+          "price": "4500",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/764/cifh0031xreom71t01nefs3zjss1f2j4.webp",
+            "https://u-forma.ru/upload/iblock/c39/j8rhclp2ih75ybfb6f4009eokfswmvsf.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/muzhskaya_odezhda/bryuki_/111790/",
+          "product_id": "111790",
+          "category_key": "muzhskaya",
+          "category": "Мужская одежда"
+        },
+        {
+          "name": "Рубашка медицинская мужская Генри / спандекс Серый",
+          "price": "4990",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/20a/3p66avicc0ndm2ar87uvnnj5je8rxsk4.webp",
+            "https://u-forma.ru/upload/iblock/05d/u4amqzhjbhx92lzs15uyfig9k11wqlpw.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/muzhskaya_odezhda/rubashki/111171/",
+          "product_id": "111171",
+          "category_key": "muzhskaya",
+          "category": "Мужская одежда"
+        },
+        {
+          "name": "Брюки медицинские мужские Генри / спандекс Белый",
+          "price": "4290",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/90b/67pkm47q4jg5joqqfupebtxo333tcmar.webp",
+            "https://u-forma.ru/upload/iblock/8e1/18st320323wjrzsv44b0nmzi1tsmrj0t.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/muzhskaya_odezhda/bryuki_/111870/",
+          "product_id": "111870",
+          "category_key": "muzhskaya",
+          "category": "Мужская одежда"
+        },
+        {
+          "name": "Брюки медицинские мужские Джоггеры / спандекс Темный василек",
+          "price": "4500",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/d59/7mwxolt91hxrufamvol4vhjfz7de56yr.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/muzhskaya_odezhda/bryuki_/111837/",
+          "product_id": "111837",
+          "category_key": "muzhskaya",
+          "category": "Мужская одежда"
+        },
+        {
+          "name": "Брюки медицинские мужские Джоггеры / спандекс Белый",
+          "price": "4500",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/3ca/zlt7hhzyk4pvfafk3x9e0nfo7exjemxf.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/muzhskaya_odezhda/bryuki_/111800/",
+          "product_id": "111800",
+          "category_key": "muzhskaya",
+          "category": "Мужская одежда"
+        },
+        {
+          "name": "Брюки медицинские мужские Генри / спандекс Черный",
+          "price": "4290",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/833/gwndkxjwk8l578py1dnfe8ez5pgarrih.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/muzhskaya_odezhda/bryuki_/111879/",
+          "product_id": "111879",
+          "category_key": "muzhskaya",
+          "category": "Мужская одежда"
+        },
+        {
+          "name": "Костюм хирургический мужской / тиси Темно синий",
+          "price": "1758",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/e01/vxpodd4fk6uj3hzheib7a6oa592b3tej.webp",
+            "https://u-forma.ru/upload/iblock/78c/721isvnhovae0dl2yf82z4dnqp4odu62.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/muzhskaya_odezhda/kostyum/114546/",
+          "product_id": "114546",
+          "category_key": "muzhskaya",
+          "category": "Мужская одежда"
+        },
+        {
+          "name": "Рубашка медицинская мужская Генри / спандекс Белый",
+          "price": "4990",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/cbd/eghxs379bqergb4r1pvx0d6mnlcj732e.webp",
+            "https://u-forma.ru/upload/iblock/baf/bvv25jz9loktu5ayah99h72ya37bp4q3.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/muzhskaya_odezhda/rubashki/111196/",
+          "product_id": "111196",
+          "category_key": "muzhskaya",
+          "category": "Мужская одежда"
+        },
+        {
+          "name": "Футболка мужская Джон / спандекс Белый",
+          "price": "3990",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/f37/ntcboxmq5h8i8eq3wrmvjyrlcrivptzg.webp",
+            "https://u-forma.ru/upload/iblock/522/aqq03zd524hgi1bdy678fivr8n0989g3.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/muzhskaya_odezhda/rubashki/123421/",
+          "product_id": "123421",
+          "category_key": "muzhskaya",
+          "category": "Мужская одежда"
+        },
+        {
+          "name": "Брюки медицинские мужские Генри / спандекс Серый (А-341)",
+          "price": "4290",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/ad7/ryqlb9l7m51gviv4f0volxdghgw03c9f.webp",
+            "https://u-forma.ru/upload/iblock/4d0/73wtn9yxev9p8r53oyk0e96zjdf650tx.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/muzhskaya_odezhda/bryuki_/120173/",
+          "product_id": "120173",
+          "category_key": "muzhskaya",
+          "category": "Мужская одежда"
+        },
+        {
+          "name": "Брюки медицинские мужские Джоггеры / Вискоза Белый",
+          "price": "3900",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/3ca/zlt7hhzyk4pvfafk3x9e0nfo7exjemxf.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/muzhskaya_odezhda/bryuki_/123627/",
+          "product_id": "123627",
+          "category_key": "muzhskaya",
+          "category": "Мужская одежда"
+        },
+        {
+          "name": "Брюки медицинские мужские Джоггеры / Вискоза Черный",
+          "price": "3900",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/764/cifh0031xreom71t01nefs3zjss1f2j4.webp",
+            "https://u-forma.ru/upload/iblock/c39/j8rhclp2ih75ybfb6f4009eokfswmvsf.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/muzhskaya_odezhda/bryuki_/123635/",
+          "product_id": "123635",
+          "category_key": "muzhskaya",
+          "category": "Мужская одежда"
+        },
+        {
+          "name": "Футболка мужская хирургическая Конор / спандекс Белый",
+          "price": "3990",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/48e/64ymhptus9w8gem78d8xh055l235yeoc.webp",
+            "https://u-forma.ru/upload/iblock/3bc/997obpw7ruoosxjd1i8nuaiqd343ke2s.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/muzhskaya_odezhda/futbolka/123896/",
+          "product_id": "123896",
+          "category_key": "muzhskaya",
+          "category": "Мужская одежда"
+        },
+        {
+          "name": "Брюки медицинские мужские Спорт / спандекс Черный",
+          "price": "4300",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/aaa/1h6d5ivesa6hwjuv7p18nd1prmxtv9ex.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/muzhskaya_odezhda/bryuki_/110873/",
+          "product_id": "110873",
+          "category_key": "muzhskaya",
+          "category": "Мужская одежда"
+        },
+        {
+          "name": "Медицинский костюм Сафари мужской / спандекс Черный",
+          "price": "8500",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/28e/h40rfe0p34kdrbcpqssowzlzoatg6sfi.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/muzhskaya_odezhda/kostyum/110607/",
+          "product_id": "110607",
+          "category_key": "muzhskaya",
+          "category": "Мужская одежда"
+        },
+        {
+          "name": "Брюки медицинские мужские Джоггеры / спандекс Темно серый",
+          "price": "4500",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/a3f/saovldefkaf5ligdqyp1rxcrt5lk079r.webp",
+            "https://u-forma.ru/upload/iblock/c5f/iob2mhbhyifk9xitxd0rfjb96o2mji88.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/muzhskaya_odezhda/bryuki_/111819/",
+          "product_id": "111819",
+          "category_key": "muzhskaya",
+          "category": "Мужская одежда"
+        },
+        {
+          "name": "Медицинский костюм Сафари мужской / оптима Белый",
+          "price": "7100",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/5e8/th3ere9vb1k098hc3e2ioayikq7ijqoo.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/muzhskaya_odezhda/kostyum/113625/",
+          "product_id": "113625",
+          "category_key": "muzhskaya",
+          "category": "Мужская одежда"
+        },
+        {
+          "name": "Медицинский халат мужской Эдвард дл. / Sapfira Белый",
+          "price": "4500",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/553/hvb09eqohak3mg0h7i5i1atk5ca29dvk.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/muzhskaya_odezhda/khalat/113214/",
+          "product_id": "113214",
+          "category_key": "muzhskaya",
+          "category": "Мужская одежда"
+        },
+        {
+          "name": "Медицинский костюм Сафари мужской / оптима Черный",
+          "price": "7100",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/28e/h40rfe0p34kdrbcpqssowzlzoatg6sfi.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/muzhskaya_odezhda/kostyum/121929/",
+          "product_id": "121929",
+          "category_key": "muzhskaya",
+          "category": "Мужская одежда"
+        },
+        {
+          "name": "Брюки медицинские мужские Джоггеры / Вискоза Темный василек",
+          "price": "3900",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/d59/7mwxolt91hxrufamvol4vhjfz7de56yr.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/muzhskaya_odezhda/bryuki_/123644/",
+          "product_id": "123644",
+          "category_key": "muzhskaya",
+          "category": "Мужская одежда"
+        },
+        {
+          "name": "Брюки медицинские мужские Джоггеры / Вискоза Темно серый",
+          "price": "3900",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/a3f/saovldefkaf5ligdqyp1rxcrt5lk079r.webp",
+            "https://u-forma.ru/upload/iblock/c5f/iob2mhbhyifk9xitxd0rfjb96o2mji88.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/muzhskaya_odezhda/bryuki_/123618/",
+          "product_id": "123618",
+          "category_key": "muzhskaya",
+          "category": "Мужская одежда"
+        },
+        {
+          "name": "Футболка мужская хирургическая Конор / спандекс Темно серый",
+          "price": "3990",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/bd6/40ay61ignojunf4e0jjpso02xe11mk3e.webp",
+            "https://u-forma.ru/upload/iblock/e5a/26pro9c0zp63q9aknlsusk4r9opy8s7x.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/muzhskaya_odezhda/futbolka/123905/",
+          "product_id": "123905",
+          "category_key": "muzhskaya",
+          "category": "Мужская одежда"
+        },
+        {
+          "name": "Футболка мужская хирургическая Конор / спандекс Темный василек",
+          "price": "3990",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/e9e/5ws14i7ocos872o2nadu8futh6akar25.webp",
+            "https://u-forma.ru/upload/iblock/f7f/pqm8mzlwxlnpvvdhjzd09jegpiw5mo3c.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/muzhskaya_odezhda/futbolka/123925/",
+          "product_id": "123925",
+          "category_key": "muzhskaya",
+          "category": "Мужская одежда"
+        },
+        {
+          "name": "Футболка мужская хирургическая Конор / спандекс Серый",
+          "price": "3990",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/48e/64ymhptus9w8gem78d8xh055l235yeoc.webp",
+            "https://u-forma.ru/upload/iblock/3bc/997obpw7ruoosxjd1i8nuaiqd343ke2s.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/muzhskaya_odezhda/futbolka/123919/",
+          "product_id": "123919",
+          "category_key": "muzhskaya",
+          "category": "Мужская одежда"
+        },
+        {
+          "name": "Брюки медицинские мужские Генри / Вискоза Черный",
+          "price": "",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/4d0/73wtn9yxev9p8r53oyk0e96zjdf650tx.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/muzhskaya_odezhda/bryuki_/123180/",
+          "product_id": "123180",
+          "category_key": "muzhskaya",
+          "category": "Мужская одежда"
+        },
+        {
+          "name": "Рубашка медицинская мужская Генри / тиси Белый",
+          "price": "",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/cbd/eghxs379bqergb4r1pvx0d6mnlcj732e.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/muzhskaya_odezhda/rubashki/123593/",
+          "product_id": "123593",
+          "category_key": "muzhskaya",
+          "category": "Мужская одежда"
+        },
+        {
+          "name": "Футболка мужская Джон / Вискоза Белый",
+          "price": "",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/f37/ntcboxmq5h8i8eq3wrmvjyrlcrivptzg.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/muzhskaya_odezhda/futbolka/123335/",
+          "product_id": "123335",
+          "category_key": "muzhskaya",
+          "category": "Мужская одежда"
+        }
+      ]
+    },
+    "zhenskaya": {
+      "name": "Женская одежда",
+      "url": "/catalog/zhenskaya_odezhda/",
+      "product_count": 120,
+      "products": [
+        {
+          "name": "Жакет медицинский Симона / Премиум Белый",
+          "price": "5570",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/d97/j99ed6oep6v2c2o31wd1b3vl8222c33l.webp",
+            "https://u-forma.ru/upload/iblock/55b/mzyh2mraqq6es1l4sq8ax95mvc0wkf15.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/zhakety/113194/",
+          "product_id": "113194",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Блуза медицинская Милана короткий рукав / спандекс Белый",
+          "price": "4300",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/edc/z0n7z9vulnhwrjjrj2mo699r8y2xozg0.webp",
+            "https://u-forma.ru/upload/iblock/402/x6eiapn3rpi99387stkjc2eycr7n8c8z.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bluzy/123531/",
+          "product_id": "123531",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Футболка медицинская Лето / спандекс  Сердечки на сером",
+          "price": "3900",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/ee6/96z5py04yoiqzaulwfl54ye3tsw5lzha.webp",
+            "https://u-forma.ru/upload/iblock/837/i4pa06fd2tb20d9hob0d3r25qhgjiu5v.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/futbolki/123987/",
+          "product_id": "123987",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Жакет медицинский Симона / оптима Черный",
+          "price": "5270",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/7a5/fjboq9s5px3trcn2dr4vppwik193wv11.webp",
+            "https://u-forma.ru/upload/iblock/130/sgzovww7kztwexrged6oo0k7740d67mr.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/zhakety/123935/",
+          "product_id": "123935",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Блуза медицинская Дина / SPT-Микс Серо-голубой",
+          "price": "5200",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/50e/tqme625af3nc7pzucre82837zxt09shn.webp",
+            "https://u-forma.ru/upload/iblock/310/ua023ze8tuuczq6b2bxlq96hx2csc7ao.webp",
+            "https://u-forma.ru/upload/iblock/b85/pncmfm4s0xs0o7ik3pz9ryquxwzrozrb.webp",
+            "https://u-forma.ru/upload/iblock/1f9/unk8o11kk6z6j9biz8mcrcz81s977kac.webp",
+            "https://u-forma.ru/upload/iblock/dbe/87s154onev0qaansygkpjplpywvab9fc.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bluzy/124499/",
+          "product_id": "124499",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Футболка медицинская Лето / спандекс  Коала",
+          "price": "3900",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/666/p9ou178764fbl05p2xdoodbhsg8r62y6.webp",
+            "https://u-forma.ru/upload/iblock/308/he1r1yjse76297cx5c8zfnleeejzy97f.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/futbolki/123960/",
+          "product_id": "123960",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Футболка медицинская Лето / спандекс  Голубые сердечки на синем",
+          "price": "3900",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/fe9/6pemcb5wuakfkznfa2sfxgi5mltlf7rv.jpg",
+            "https://u-forma.ru/upload/iblock/514/1tzkwjbjotpaka0y1gf61zfvq4pgmh40.jpg"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/futbolki/123971/",
+          "product_id": "123971",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Футболка медицинская Лето / спандекс  Сердечки на чёрном",
+          "price": "3900",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/127/y6n873vrliu70ctn2wnwyqkm06iog992.webp",
+            "https://u-forma.ru/upload/iblock/d8c/muvsdq48xxq5v5epu8iamey2c08bezqv.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/futbolki/124010/",
+          "product_id": "124010",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Блуза медицинская Милана рукав 3/4 / спандекс Белый",
+          "price": "4500",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/a0b/fzvc1o0nu4q2hya3kz52d4d9mlfpb1nq.webp",
+            "https://u-forma.ru/upload/iblock/dc4/6x83uen8r3dpqd6hz7vgwiuuym7v2pdz.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bluzy/129963/",
+          "product_id": "129963",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский костюм Лилия, короткий рукав / тиси Белый",
+          "price": "1950",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/766/p6g96cgpreckk4nmkgf1xuhywtwiqtoc.webp",
+            "https://u-forma.ru/upload/iblock/829/cy0lq36hgv8p6v4o495dok921ue3u898.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/kostyumy/114730/",
+          "product_id": "114730",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Блуза медицинская Шарлотта / спандекс Коралл",
+          "price": "4650",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/836/tex8919dycfhc3ypyhoe2dsxjkcpafil.webp",
+            "https://u-forma.ru/upload/iblock/155/1gk1e7a00uzdnzzxhj2mb6cfxavkmv7d.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bluzy/123891/",
+          "product_id": "123891",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Футболка медицинская Лето / спандекс  Голубые сердечки на синем",
+          "price": "3900",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/f37/20tf60l1wzjy6ew4eadibwnu5l4ak7qu.webp",
+            "https://u-forma.ru/upload/iblock/ac7/i9n52sy1ah9wvhtb2ksg30gkaosstwjr.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/futbolki/123978/",
+          "product_id": "123978",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Блуза медицинская Келли / SPT-Микс Черный",
+          "price": "4100",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/463/mrycbtdfdr2i7g2asu3ncvvnk0h5fwku.webp",
+            "https://u-forma.ru/upload/iblock/588/uqdpwfo1467asvlis6vm30mybeh6bm92.webp",
+            "https://u-forma.ru/upload/iblock/42e/enfh6bw2wzdwlfgys66age7cotmww2jk.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bluzy/130022/",
+          "product_id": "130022",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Брюки медицинские женские стрелка / тиси Белый",
+          "price": "1500",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/273/96tbn8tmjeaustjab0t2ncv8my1ae3z9.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bryuki/112305/",
+          "product_id": "112305",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Блуза медицинская Анжелика / спандекс Арбуз",
+          "price": "4100",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/725/jn8m8jy1emi821047lna5xi84bbt8tt7.webp",
+            "https://u-forma.ru/upload/iblock/3df/ug7nywudb9tojixpi827tr2m350e942z.webp",
+            "https://u-forma.ru/upload/iblock/2ed/ixz224dbo9bz1ci3x071p4kz40ox1cp2.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bluzy/119473/",
+          "product_id": "119473",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Блуза медицинская Шарлотта / спандекс Сирень бл.",
+          "price": "4650",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/611/zqso4uvlk4q1sd16djnlicnm3pr46whq.webp",
+            "https://u-forma.ru/upload/iblock/fbf/7rj4nceymmp1ugkddcoz048v0zrw0f3g.webp",
+            "https://u-forma.ru/upload/iblock/076/dg87vmeipxk61b20x0zdkjeco1ckjm1v.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bluzy/129950/",
+          "product_id": "129950",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Блуза медицинская Милана короткий рукав / спандекс Сирень бл.",
+          "price": "4300",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/d48/fo1pm4fytph1a5qxtpe6pqwioundfuwz.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bluzy/129929/",
+          "product_id": "129929",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Топ медицинский Мери / спандекс  Бабочки",
+          "price": "1186",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/241/jyw5uq0fmfyz2f5tqxo7w4ejwkhm9yi4.webp",
+            "https://u-forma.ru/upload/iblock/c3e/v47uvka4hpg2uiv4zvthsik16x032d5q.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bluzy/119470/",
+          "product_id": "119470",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Блуза медицинская Анабель / спандекс Белый",
+          "price": "3900",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/ae6/puqsx2rzpmat74417glc76soov1nlt6k.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bluzy/126227/",
+          "product_id": "126227",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Топ медицинский Роксана / спандекс  Шоколад",
+          "price": "3990",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/855/qin2m6ulgaul1wthvxabranf9085wxgn.webp",
+            "https://u-forma.ru/upload/iblock/4d3/qo7jak6o655o3kbl43w0s6lh3pbnnzge.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/top/120058/",
+          "product_id": "120058",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Жакет медицинский Симона / Премиум Черный",
+          "price": "5570",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/5ef/lo1ezjfmn707ugl8z920z0gyvcwbrrwc.webp",
+            "https://u-forma.ru/upload/iblock/153/chm527ua5pv9ar8tdf4eof1dzkmwml8d.webp",
+            "https://u-forma.ru/upload/iblock/328/bx0e3efr95mu07qjp10ado215q1tbetp.webp",
+            "https://u-forma.ru/upload/iblock/59f/5d0j4xmtf7jc35t0ez7hw5he98rivkjs.webp",
+            "https://u-forma.ru/upload/iblock/ce3/23bqacko8jqbari036moghnm2d8clq58.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/zhakety/113205/",
+          "product_id": "113205",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский костюм Лилия, короткий рукав / тиси Шоколад",
+          "price": "1950",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/389/lgxmdcd6lrma3jpih00qsh8fv26888yh.webp",
+            "https://u-forma.ru/upload/iblock/997/u0481saju34bld3f9wn9z5opmhiblnzb.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/kostyumy/114791/",
+          "product_id": "114791",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Брюки медицинские женские / оптима Темно синий",
+          "price": "2000",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/180/i6nhutwka2woluo4wlkrfetocr809t31.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bryuki/120287/",
+          "product_id": "120287",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Брюки медицинские женские стрелка / тиси Темно синий",
+          "price": "1500",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/5b6/idkwuqtfgbgsa43l36jqc2qs3bx07nrk.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bryuki/112268/",
+          "product_id": "112268",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский костюм Лилия, короткий рукав / тиси Сиреневый",
+          "price": "1950",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/8ec/1qrvqyxvxy6nqwkiowb3aaislr6fou8k.webp",
+            "https://u-forma.ru/upload/iblock/7b4/b60jmzbazyl0f7jupdj4a2kublw4gagb.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/kostyumy/114752/",
+          "product_id": "114752",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Топ медицинский Мери / спандекс  Логотип",
+          "price": "1186",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/4ca/j1l02mwffrwy4a0v3m99qrltix8thkct.webp",
+            "https://u-forma.ru/upload/iblock/fdd/x7jas1lbz2yw0ipntwh3ufdhaw6zjgeg.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/top/122031/",
+          "product_id": "122031",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Блуза медицинская Азель длинный рукав / спандекс Белый",
+          "price": "4100",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/0d3/rj773h1auc9bsl1i1iyyw05rh76bnvhb.webp",
+            "https://u-forma.ru/upload/iblock/12c/gr69v89h7m6zawvvqjb7lx1d1hchq4be.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bluzy/127112/",
+          "product_id": "127112",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Брюки медицинские женские стрелка / тиси Черный",
+          "price": "1500",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/e73/5h4ykbrojcwed05u1qw6kq0ktjlbdn21.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bryuki/112287/",
+          "product_id": "112287",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Брюки медицинские женские стрелка / оптима вискоза Черный",
+          "price": "2300",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/e73/5h4ykbrojcwed05u1qw6kq0ktjlbdn21.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bryuki/123361/",
+          "product_id": "123361",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Топ медицинский Роксана / спандекс  Темно синий",
+          "price": "3990",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/f20/7435aql2wnazf32557tmz54x3aulf96q.webp",
+            "https://u-forma.ru/upload/iblock/d32/vic7ckjs094t9690r7j1884pi8xkt8d8.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/top/111080/",
+          "product_id": "111080",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Блуза медицинская Анжелика / спандекс Черный",
+          "price": "4100",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/d03/3rp3x0k9zhn9s0c390b0luchs3npkvd2.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bluzy/115678/",
+          "product_id": "115678",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Брюки медицинские женские стрелка / оптима вискоза Темно синий",
+          "price": "2300",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/5b6/idkwuqtfgbgsa43l36jqc2qs3bx07nrk.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bryuki/123387/",
+          "product_id": "123387",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Блуза медицинская Анжелика / спандекс Темно синий",
+          "price": "4100",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/903/qp69c0xaislx0z01g1pftrswxirqto2d.webp",
+            "https://u-forma.ru/upload/iblock/ecc/ir1czwi708rw729c67nv5i3z1g8om7ts.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bluzy/115669/",
+          "product_id": "115669",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Топ медицинский Роксана / спандекс  Баклажан",
+          "price": "3990",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/66f/8h2jcoc7ywwzszjqfhqb4gesaa1sq34a.webp",
+            "https://u-forma.ru/upload/iblock/237/m88cilu3tvg3on2j2qrim7ww9kcaegsx.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/top/111036/",
+          "product_id": "111036",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский костюм Нимфа / тиси Белый",
+          "price": "2300",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/574/5yyghtut8k99dc1xea1ct542zvmz4wbt.webp",
+            "https://u-forma.ru/upload/iblock/db6/1qa8gg24db58lpjt3ccwjkgn1y379bsb.webp",
+            "https://u-forma.ru/upload/iblock/348/90t3m1kg1abnuw9rb459lji2oehe7eds.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/kostyumy/120317/",
+          "product_id": "120317",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский костюм Нимфа / тиси Черный",
+          "price": "2300",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/ec1/6vhp2wzml2u34qlajc22symy7ok99rpd.webp",
+            "https://u-forma.ru/upload/iblock/129/paazi80owx8bo63gyaeldjexc122y1dg.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/kostyumy/114230/",
+          "product_id": "114230",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский костюм Мелисса, рукав 1/2 / тиси Белый",
+          "price": "2950",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/fe0/vhxcw8t983ymgkxnjn4l0s3m6nl9uln2.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/kostyumy/120159/",
+          "product_id": "120159",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский костюм Мелисса, рукав 1/2 / тиси Лаванда",
+          "price": "2950",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/5a3/a5zu6br4nd62vwqa0q85a0770g9amsrz.webp",
+            "https://u-forma.ru/upload/iblock/436/ysgp6pl5qvehxcw7spevlp14610diugx.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/kostyumy/111708/",
+          "product_id": "111708",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский костюм Лилия с брюками София / Вискоза Олива",
+          "price": "3100",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/6f0/1fxu5iq3iuw4ndfs5nll9huhzq7lpjdr.webp",
+            "https://u-forma.ru/upload/iblock/e0b/ax0shjwh9nadnmgj4cdjmx8wymegqkcm.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/kostyumy/115784/",
+          "product_id": "115784",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Топ медицинский Роксана / спандекс  Слива",
+          "price": "3990",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/9d6/m9r9soorbc48shly5qob5rx46339p6go.webp",
+            "https://u-forma.ru/upload/iblock/2d9/9h823oftsql1slojz90uh4qh3jggsar7.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/top/111092/",
+          "product_id": "111092",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Брюки медицинские женские стрелка / Вискоза Черный",
+          "price": "2300",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/e73/5h4ykbrojcwed05u1qw6kq0ktjlbdn21.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bryuki/123654/",
+          "product_id": "123654",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Брюки медицинские женские стрелка / оптима Темно синий",
+          "price": "2300",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/5b6/idkwuqtfgbgsa43l36jqc2qs3bx07nrk.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bryuki/110681/",
+          "product_id": "110681",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский костюм Кокетка / тиси Белый",
+          "price": "3300",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/5d3/bvqdabyse86tje21hkdstyygbavydflo.webp",
+            "https://u-forma.ru/upload/iblock/a38/xq7q6dh46isqcbch3zf15mtmhkhfrxrr.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/kostyumy/113918/",
+          "product_id": "113918",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Брюки медицинские женские стрелка / Sapfira Белый",
+          "price": "2000",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/273/96tbn8tmjeaustjab0t2ncv8my1ae3z9.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bryuki/123287/",
+          "product_id": "123287",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Футболка медицинская / спандекс  Белый",
+          "price": "3590",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/82b/6aw1laubd2yjixmjbnaqotxvrwhxp9w2.webp",
+            "https://u-forma.ru/upload/iblock/63b/d51j45z1j2t9v5tlmxfxnfu26c9x7cg6.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/futbolki/111432/",
+          "product_id": "111432",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Блуза медицинская Анжелика / спандекс Белый",
+          "price": "4100",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/a5b/1exd5u7u6tvvp7tcsek59a9pt78i4gfc.webp",
+            "https://u-forma.ru/upload/iblock/407/wzjnfux2w6ukt9tv6bc3ik0nxaqvq2l9.webp",
+            "https://u-forma.ru/upload/iblock/e64/ltg69ddk2p1tz09tf71f1wo5p8o31dmq.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bluzy/115695/",
+          "product_id": "115695",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский костюм Нимфа / оптима Белый",
+          "price": "4700",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/574/5yyghtut8k99dc1xea1ct542zvmz4wbt.webp",
+            "https://u-forma.ru/upload/iblock/348/90t3m1kg1abnuw9rb459lji2oehe7eds.webp",
+            "https://u-forma.ru/upload/iblock/662/k58c0vgkoydf00q0d53a3dvj1imps9mo.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/kostyumy/110990/",
+          "product_id": "110990",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Футболка медицинская / спандекс  Темно синий",
+          "price": "3590",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/8ad/0be5ti4g84pfo0z2l7dtakd9002i6kxe.webp",
+            "https://u-forma.ru/upload/iblock/cdc/9zx7sncyn1hdems2a4xrhrk59a8k311b.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/futbolki/111512/",
+          "product_id": "111512",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский костюм Жасмин, рукав 1/2 / тиси Лазурь",
+          "price": "3400",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/1a0/n9g0sq0ab5j9698avlfknqv6rh3q8joh.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/kostyumy/113343/",
+          "product_id": "113343",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский костюм Лилия / Sapfira Белый",
+          "price": "4900",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/766/p6g96cgpreckk4nmkgf1xuhywtwiqtoc.webp",
+            "https://u-forma.ru/upload/iblock/829/cy0lq36hgv8p6v4o495dok921ue3u898.webp",
+            "https://u-forma.ru/upload/iblock/cff/9nh1rib4m1neezciy4rtdtnhl7in2it8.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/kostyumy/112925/",
+          "product_id": "112925",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Брюки медицинские женские София / спандекс Белый",
+          "price": "3400",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/02d/mxdxltsiyqanzznr8y159hg3g1cpovuv.webp",
+            "https://u-forma.ru/upload/iblock/1b8/k54oc9uy7t3pgaz5k0pdsjisjr9k6gpm.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bryuki/111897/",
+          "product_id": "111897",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский костюм Жасмин, рукав 1/2 / тиси Белый",
+          "price": "3400",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/da8/9964dpxa9vvnr7x4bs7lzjyrd3xatyt9.webp",
+            "https://u-forma.ru/upload/iblock/8a9/hqf8frd9re273n1kqx5scg5jmdg3hvd7.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/kostyumy/113303/",
+          "product_id": "113303",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Блуза медицинская Юлия / оптима Черный",
+          "price": "2029",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/d41/0mw7pc0a5rcb3uigmrvjg7bskhbrb9tw.webp",
+            "https://u-forma.ru/upload/iblock/7a4/1v949occ380dmojzd3pz8p8q1ebxcroj.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bluzy/113457/",
+          "product_id": "113457",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Брюки медицинские женские Спорт / спандекс  Белый",
+          "price": "4200",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/289/vti9klrrl522t71pto0gn2rzzbi7zpmi.webp",
+            "https://u-forma.ru/upload/iblock/c84/hi2m9ht4s9k8v1lzc2yjyzmlnjwbvjdc.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bryuki/112227/",
+          "product_id": "112227",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Футболка медицинская / спандекс  Морская волна",
+          "price": "3590",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/b2e/q9ygvm0uhyr0u67662bp9m750jx62qa4.webp",
+            "https://u-forma.ru/upload/iblock/ec2/3vbosabfu1msk265loy8qpytls23q1vn.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/futbolki/111420/",
+          "product_id": "111420",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Блуза медицинская Анжелика / спандекс Серый (А-341)",
+          "price": "4100",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/f36/20bkd2dlrq2gebl78hlr27x3i38ymkhd.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/dlya_kogo/dlya_administratorov/115721/",
+          "product_id": "115721",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Футболка медицинская / спандекс  Черный",
+          "price": "3590",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/cae/zglpwfc3b72amshnvcl0mdjlk5wvekkb.webp",
+            "https://u-forma.ru/upload/iblock/532/emipw3odur1zez54ii07jaj72t5ydhbu.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/futbolki/111448/",
+          "product_id": "111448",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Брюки медицинские женские София / оптима Белый",
+          "price": "1879",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/02d/mxdxltsiyqanzznr8y159hg3g1cpovuv.webp",
+            "https://u-forma.ru/upload/iblock/1b8/k54oc9uy7t3pgaz5k0pdsjisjr9k6gpm.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bryuki/114366/",
+          "product_id": "114366",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Блуза медицинская Юлия / тиси Белый",
+          "price": "2550",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/e9a/72yt12lj09konq76025up9e3l386r9vp.webp",
+            "https://u-forma.ru/upload/iblock/a5d/t53tgxzn3m3h1746dko1pwvgid48j9p0.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bluzy/112465/",
+          "product_id": "112465",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Брюки медицинские женские София / оптима Черный",
+          "price": "1879",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/440/0a730mdzp6z235dsul4s9d52hz8729q5.webp",
+            "https://u-forma.ru/upload/iblock/688/2zyt0h3b2ixiamnju4memyrbjadtd63s.webp",
+            "https://u-forma.ru/upload/iblock/d6d/dot0mleruee4bklf213jhiewxd7bju6r.webp",
+            "https://u-forma.ru/upload/iblock/376/jdoku6d1yzhl81jmlj1u3rv1bq2rwonw.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bryuki/114351/",
+          "product_id": "114351",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Брюки медицинские женские Анжелика / спандекс Белый",
+          "price": "3990",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/868/8xqkgr5xlyaddhjlou1q679xaikg99y7.webp",
+            "https://u-forma.ru/upload/iblock/033/xyr61nd0u5z1hajc40e7f6n1cklq738i.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bryuki/114168/",
+          "product_id": "114168",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Брюки медицинские женские София / спандекс Черный",
+          "price": "3400",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/f0a/3s8c03zrqr0objlx6g7ivoz2dznqp4ip.webp",
+            "https://u-forma.ru/upload/iblock/9a5/f1tv3tt2y7df3bdls1wtpioo03o5ur01.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bryuki/111909/",
+          "product_id": "111909",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Брюки медицинские женские Спорт / спандекс  Черный",
+          "price": "4200",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/45f/59fbf43wxxv8dk5bn9kj48kvo314dfis.webp",
+            "https://u-forma.ru/upload/iblock/5cd/09mcuypcdaz12w15hnxd5t3370x545om.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bryuki/112170/",
+          "product_id": "112170",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский халат Лилия, рукав 1/2 / тиси Белый",
+          "price": "1581",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/f3f/cd2vuerjx70fkxbyt561dhr3c2pw00x9.webp",
+            "https://u-forma.ru/upload/iblock/f4f/vvfnusydf61ln3cff55trv502o8c5x0n.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/khalaty/115435/",
+          "product_id": "115435",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский костюм Анабель / тиси Белый",
+          "price": "3990",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/819/g0nh0cbk2ddx6dnom44uieiz8kzve0tn.webp",
+            "https://u-forma.ru/upload/iblock/3b5/rsto4rkq0y7adny0zkkvfrwecqd5xgj0.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/kostyumy/112380/",
+          "product_id": "112380",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Брюки медицинские женские Анжелика / спандекс Черный",
+          "price": "3990",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/fb3/l1m8ssx3h1tn4xhm3iomgvofpohgr7i7.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bryuki/114177/",
+          "product_id": "114177",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Футболка медицинская Спорт / спандекс  Белый",
+          "price": "3250",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/56f/o3jvrwtzaizcr4lq8m9rxalhaawio4cs.webp",
+            "https://u-forma.ru/upload/iblock/380/417hn6lp0t17sqhpq59hwj233aga9cjq.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/futbolki/115940/",
+          "product_id": "115940",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Футболка медицинская Лето / спандекс  Звёзды",
+          "price": "3900",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/7f6/phs0rn7z75gi4l5vurp2v4z7nln3grlm.webp",
+            "https://u-forma.ru/upload/iblock/060/3e4dy6uzrgpln7wg2n3bjgg88fzqalia.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/futbolki/123999/",
+          "product_id": "123999",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Футболка медицинская Спорт / спандекс  Белый",
+          "price": "3250",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/7c0/4yo2hu4103x7ngk3opruq2soo631jt19.webp",
+            "https://u-forma.ru/upload/iblock/b07/fia3ow69n9utamsfcggloeodi4s6io03.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/futbolki/115968/",
+          "product_id": "115968",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский халат Лилия, рукав 1/2 / тиси Баклажан",
+          "price": "1581",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/136/40rxbxw1o5uq0clvo1auf1txw35byujx.webp",
+            "https://u-forma.ru/upload/iblock/237/4430f1oqn1r3g1cgscqx8mdzc1jjlu3c.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/khalaty/115480/",
+          "product_id": "115480",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский халат Лилия, рукав 1/2 / тиси Черный",
+          "price": "1581",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/5b3/n394h0q5i3is6qxtxfmtphdcm1p4j3ur.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/khalaty/115418/",
+          "product_id": "115418",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский костюм Джесс / Вискоза Олива",
+          "price": "4376",
+          "image_urls": [
+            "https://u-forma.ru/upload/resize_cache/iblock/a2e/2000_2000_140cd750bba9870f18aada2478b24840a/kbba8rdx2ans9p9c47tryh2d8jaoickt.webp",
+            "https://u-forma.ru/upload/resize_cache/iblock/d6c/2000_2000_140cd750bba9870f18aada2478b24840a/l9280ucnuvtbdnfpb40fr88n6knmdxoj.webp",
+            "https://u-forma.ru/upload/resize_cache/iblock/aac/2000_2000_140cd750bba9870f18aada2478b24840a/uckl6yfg5nx6v0wmtyr4d3upzi4orkam.webp",
+            "https://u-forma.ru/upload/resize_cache/iblock/285/2000_2000_140cd750bba9870f18aada2478b24840a/kej6vf3ouux1xb2iy4sqc413pydq330m.webp",
+            "https://u-forma.ru/upload/resize_cache/iblock/4f5/2000_2000_140cd750bba9870f18aada2478b24840a/gl1997lb0fbbuc6q5xt39q90do2vpmhm.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/kostyumy/124245/",
+          "product_id": "124245",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский костюм Джесс / Вискоза Светло серый",
+          "price": "4376",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/3da/96ob5trq3g11nlrtsjgd468imsdy3bfx.webp",
+            "https://u-forma.ru/upload/iblock/1c6/89t9jrzx8o1aqou7bykb3t3uijkal34v.webp",
+            "https://u-forma.ru/upload/iblock/6b3/pcc0kje3fktwmcfh4e9o7p2uhvu6r4px.webp",
+            "https://u-forma.ru/upload/iblock/757/zwc31adn6eme7r4nzcou09c19uukm0am.webp",
+            "https://u-forma.ru/upload/iblock/eed/ut0fgrcqmhcxsfqecd2qql22e3742o0t.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/kostyumy/124258/",
+          "product_id": "124258",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский халат Лилия, дл. рукав / тиси  Белый",
+          "price": "1849",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/727/lbybgvavysbx3mpvcumsw77nje42sptb.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/khalaty/114319/",
+          "product_id": "114319",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский халат Гретта / оптима Белый",
+          "price": "3029",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/fbf/rnk2a1baz6oa2tf24o6zikxasi6yx2u9.webp",
+            "https://u-forma.ru/upload/iblock/852/dv174x4vj5bmhhvktfqxle2kix5upv8v.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/khalaty/114063/",
+          "product_id": "114063",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский халат Мелисса, рукав 1/2 / тиси Лаванда",
+          "price": "2150",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/67a/4d9ss1zu0a0ct2z76edycv4vmgc3tm16.webp",
+            "https://u-forma.ru/upload/iblock/a77/sjv6lg0n902yesoomaex55k50pvyrvja.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/khalaty/113952/",
+          "product_id": "113952",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Блуза медицинская Изабелла / спандекс Белый",
+          "price": "3990",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/1be/dmf11elnwpa6ct31k4pi3u8abtmd088p.webp",
+            "https://u-forma.ru/upload/iblock/12a/brjqfkkj1x3xg32a5norv3qvm9ecrwkx.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bluzy/123696/",
+          "product_id": "123696",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский халат Адель / тиси Белый",
+          "price": "2387",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/472/04vo5tebxfwk0t13h6jwcu4dbxnm1ann.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/khalaty/115351/",
+          "product_id": "115351",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский костюм Лада / Вискоза Синий",
+          "price": "6990",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/54a/aqhjpx9ftl1tugkq1oa76l6p57uaxe4a.webp",
+            "https://u-forma.ru/upload/iblock/ba9/m7pfediq9it0sgk6mrz5g5hnsg6zcmw5.webp",
+            "https://u-forma.ru/upload/iblock/0a0/l83t7jykjw63p3ees7ihn8a0lahcl9ok.webp",
+            "https://u-forma.ru/upload/iblock/5f1/5azcfmybccwm3xfbzevvmvv9tth67l0i.webp",
+            "https://u-forma.ru/upload/iblock/4a5/l27lmqfvcizcrq39l2grqxs3nnhdzjk3.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/kostyumy/124481/",
+          "product_id": "124481",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский халат Кокетка дл.рукав / тиси Белый",
+          "price": "1950",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/aa2/m2n8xefw12jzjhd2h3hy95pnd4y417mg.webp",
+            "https://u-forma.ru/upload/iblock/cb4/e8vvjgm0cyotc9zkmc6u84j8d0bc3rc3.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/khalaty/111585/",
+          "product_id": "111585",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Френч хирургический жен. 3/4 / Sapfira Белый",
+          "price": "2558",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/efb/pi9nfgs1huo89mx25ga5tbmcbe7w8lqb.webp",
+            "https://u-forma.ru/upload/iblock/62f/qr5ix766pe2i5mn6j5gjrgx03l9nkmcn.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/french/115523/",
+          "product_id": "115523",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский халат Юлия, рукав 3/4 / оптима Черный",
+          "price": "2514",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/4aa/63nixy7o5og8h3luks8thp1h42a68zja.webp",
+            "https://u-forma.ru/upload/iblock/a6d/2f9ah3i6nsgbqqq1ynjpqhd0y800sjv9.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/khalaty/115378/",
+          "product_id": "115378",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский костюм Лада / Вискоза Светло серый",
+          "price": "6990",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/9ee/s3rtxi963x2kxzwq7cc1wxmi3313jcms.webp",
+            "https://u-forma.ru/upload/iblock/233/uvrb8y6hfpx3mew17zyt3z9o3r6jp2ri.webp",
+            "https://u-forma.ru/upload/iblock/494/ujbny3ui9uo0nqg22nut8prdmgk1ep49.webp",
+            "https://u-forma.ru/upload/iblock/43d/1znasb47u2iurjd0ex1s8orlnuk37ktl.webp",
+            "https://u-forma.ru/upload/iblock/7ba/fhcayxupyzxqnepw5xycps9uaa3nxyz4.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/dlya_kogo/dlya_administratorov/124469/",
+          "product_id": "124469",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Блуза медицинская Изабелла / спандекс Яркий баклажан",
+          "price": "3990",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/0e6/iiz1zyw25v1z92usqfvm9h9u1hv6w4y5.webp",
+            "https://u-forma.ru/upload/iblock/c64/kyhg9rzavpjzwyu2o2rahy5zx2jy73dc.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bluzy/123683/",
+          "product_id": "123683",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Блуза медицинская Изабелла / спандекс Коралл",
+          "price": "3990",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/bbc/aqirs7gzq4i60r1v7kbtmyvg6ikdlwjf.webp",
+            "https://u-forma.ru/upload/iblock/af8/dd0jda8l44gdneuausejb5gwn52i9bno.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bluzy/123677/",
+          "product_id": "123677",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский костюм Дана / Вискоза Белый",
+          "price": "4437",
+          "image_urls": [
+            "https://u-forma.ru/upload/resize_cache/iblock/2c4/2000_2000_140cd750bba9870f18aada2478b24840a/3u40y7su0qcoxekxvqun8zkg9p70ye2p.webp",
+            "https://u-forma.ru/upload/resize_cache/iblock/0bd/2000_2000_140cd750bba9870f18aada2478b24840a/4kplp1d6a4jeo0zvw2g2rpn989le6871.webp",
+            "https://u-forma.ru/upload/resize_cache/iblock/a2f/2000_2000_140cd750bba9870f18aada2478b24840a/eefxpq4g3knf3d8yzbhrsxvzsa8sjb3q.webp",
+            "https://u-forma.ru/upload/resize_cache/iblock/770/2000_2000_140cd750bba9870f18aada2478b24840a/vexoze27q91h13ldwt15zlb8t6f7qk83.webp",
+            "https://u-forma.ru/upload/resize_cache/iblock/f11/2000_2000_140cd750bba9870f18aada2478b24840a/b8udq403gtllxo3yc6d54vzbv9j2cpu2.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/kostyumy/124194/",
+          "product_id": "124194",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский халат Юлия, рукав 3/4 / оптима Белый",
+          "price": "2514",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/9cf/84z1n9hig5nk54loul6ji0c4sy0v2mr7.webp",
+            "https://u-forma.ru/upload/iblock/736/t6pku8avi2oqh7e02fu3v1kdeq7l8gx0.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/khalaty/115388/",
+          "product_id": "115388",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский халат Лилия, рукав 1/2 / тиси Лаванда",
+          "price": "1581",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/17d/1t8q5mzluj6rclqp8mlxjle4nptiz8he.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/khalaty/115467/",
+          "product_id": "115467",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский халат Адель / оптима Черный",
+          "price": "3094",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/eb9/ssoirvo4vvq87ewqeowu7exhr47rwc2j.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/khalaty/115323/",
+          "product_id": "115323",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Блуза медицинская Изабелла / спандекс Сиреневый",
+          "price": "3990",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/a19/edu7a41d596nk7fbouln15a5scfv7nqu.webp",
+            "https://u-forma.ru/upload/iblock/6ae/ed1lbbqomzvp081sznqdjkl8e7siqkha.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bluzy/123689/",
+          "product_id": "123689",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский костюм Джесс / Вискоза Белый",
+          "price": "4376",
+          "image_urls": [
+            "https://u-forma.ru/upload/resize_cache/iblock/109/2000_2000_140cd750bba9870f18aada2478b24840a/noi6jhjph1uuukh58v96rklm1sd49fyw.webp",
+            "https://u-forma.ru/upload/resize_cache/iblock/737/2000_2000_140cd750bba9870f18aada2478b24840a/d6nw3o54fm48py6oneo85e0o84ypvre0.webp",
+            "https://u-forma.ru/upload/resize_cache/iblock/11a/2000_2000_140cd750bba9870f18aada2478b24840a/0mg4cntq59ucb9ebbcrcvvmblr1jk1qf.webp",
+            "https://u-forma.ru/upload/resize_cache/iblock/997/2000_2000_140cd750bba9870f18aada2478b24840a/msu046k8griboql96gs3ddqu83qy7zg2.webp",
+            "https://u-forma.ru/upload/resize_cache/iblock/1cc/2000_2000_140cd750bba9870f18aada2478b24840a/iy801g98jb3k73iwqcq3rwa95gkr7t0a.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/kostyumy/124232/",
+          "product_id": "124232",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский халат Жасмин (кант), рукав 1/2 / тиси Черный",
+          "price": "2900",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/e58/8k9rsc34yeal6j7xiwq8k1splzynb1v8.webp",
+            "https://u-forma.ru/upload/iblock/a12/qs5rpem023vy20a44dtjabw7ai5p30e9.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/khalaty/112866/",
+          "product_id": "112866",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Френч хирургический жен. 3/4 / оптима вискоза Черный",
+          "price": "4500",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/9d5/77dm59sj4hhk8u2q1llvbctdjcje7o2c.webp",
+            "https://u-forma.ru/upload/iblock/ed3/vo5w3fx2p3ph50nwa8pr8dqmjsghwxam.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/french/112597/",
+          "product_id": "112597",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский халат Адель / Sapfira Белый",
+          "price": "2431",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/472/04vo5tebxfwk0t13h6jwcu4dbxnm1ann.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/khalaty/113264/",
+          "product_id": "113264",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Блуза медицинская Анжелика / спандекс Серый (А-343)",
+          "price": "4100",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/f36/20bkd2dlrq2gebl78hlr27x3i38ymkhd.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bluzy/120580/",
+          "product_id": "120580",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Топ медицинский Мери / оптима Черный",
+          "price": "1976",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/784/ve5zqh8fqmow2f6a0txz4lin69aawc04.webp",
+            "https://u-forma.ru/upload/iblock/8e1/l340zxmmej33uvq04oo2h6dsrj995nbu.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/top/115911/",
+          "product_id": "115911",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский халат Юлия, рукав 3/4 / тиси  Белый",
+          "price": "2900",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/736/t6pku8avi2oqh7e02fu3v1kdeq7l8gx0.webp",
+            "https://u-forma.ru/upload/iblock/9cf/84z1n9hig5nk54loul6ji0c4sy0v2mr7.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/khalaty/114405/",
+          "product_id": "114405",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский костюм Лилия с брюками София / Вискоза Черный",
+          "price": "3100",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/8b2/lwqg4s2jr8hk6tfi6n8asannt2v45oke.webp",
+            "https://u-forma.ru/upload/iblock/e3b/rv4iyh5nazop2z4qwcgbifpbbdn65ex3.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/kostyumy/122269/",
+          "product_id": "122269",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский халат Анабель / тиси Белый",
+          "price": "2166",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/0e3/p8nejiwkqs3u41n04f6rnp3frhuuahix.webp",
+            "https://u-forma.ru/upload/iblock/0bd/35ek51j06h6evp33nssnh9czb98j4h3s.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/khalaty/115235/",
+          "product_id": "115235",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский халат Симона / оптима Белый",
+          "price": "5500",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/958/n52usf3n8lgbr5adrkrmds2a581k07s4.webp",
+            "https://u-forma.ru/upload/iblock/a20/3u1gm6bb26x5ikyr78l3h6ue71ttopp6.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/khalaty/114259/",
+          "product_id": "114259",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский халат Симона / оптима Черный",
+          "price": "5500",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/315/b1tl7of26wmb0uqe16ex3xwdflcaufk4.webp",
+            "https://u-forma.ru/upload/iblock/9e0/eh3rf13vukf70q1lmrgix02ebhv3waqi.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/khalaty/114268/",
+          "product_id": "114268",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Футболка медицинская / спандекс  Шоколад",
+          "price": "3590",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/74b/taqds724lsg1uqaf881dqn766krgvkkl.webp",
+            "https://u-forma.ru/upload/iblock/50c/jdazwlg7s3q4zpyi9zqihbqfvk79t8xe.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/futbolki/120131/",
+          "product_id": "120131",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский халат Изабелла / спандекс Белый",
+          "price": "4900",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/dbd/16ae279zztwt77abotowybcuek3ti8er.webp",
+            "https://u-forma.ru/upload/iblock/0a3/vj3wl7dghb5cinrdhtuoddxm24y7bmqt.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/khalaty/113531/",
+          "product_id": "113531",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский костюм Лилия с брюками София / Вискоза Белый",
+          "price": "3100",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/60b/1vyguakor7dm6hiilaknz4ti28k5kvv0.webp",
+            "https://u-forma.ru/upload/iblock/9b2/ej5g28l64r7f45stgdgq4gng7r4sslbo.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/kostyumy/122258/",
+          "product_id": "122258",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Блуза медицинская Юлия / сансара Розовый",
+          "price": "2225",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/2dc/2eloir8gu0nllguegi1isbkzougi9f5g.webp",
+            "https://u-forma.ru/upload/iblock/b2f/iyt29ytr3gfxk6h9d6wr1yfugx837j3h.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bluzy/116162/",
+          "product_id": "116162",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Блуза медицинская Аннета / оптима Черный",
+          "price": "2517",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/745/2t99vlcm9kcvg3xx6lakgcc5rxk0no6u.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bluzy/129503/",
+          "product_id": "129503",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский костюм Жасмин, рукав 1/2 / тиси Персик",
+          "price": "3400",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/dfa/garx3dc0i57bhf6c2xnrizlhlfe6vv0b.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/kostyumy/120243/",
+          "product_id": "120243",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Брюки медицинские женские Одри / SPT-Микс Белый",
+          "price": "3700",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/377/5yfxc7dr8l8qq6e6rkxf9k80i92a4uek.webp",
+            "https://u-forma.ru/upload/iblock/731/t3id7li8gnwbri6yqxef2a28in50t7op.webp",
+            "https://u-forma.ru/upload/iblock/ae5/arguru1jtl2k3cojxuybey6nbh0qrxjt.webp",
+            "https://u-forma.ru/upload/iblock/bb9/t1alb7j8rckzyfuy59tqo17sm0akj0hx.webp",
+            "https://u-forma.ru/upload/iblock/264/zva5ehx1158ale5oubol1ardo6j89yiz.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bryuki/124509/",
+          "product_id": "124509",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Брюки медицинские женские София / оптима Темно синий",
+          "price": "1879",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/c93/z163lou0j603qx8m803avt964ty5p8ne.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bryuki/120370/",
+          "product_id": "120370",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Блуза медицинская Юлия / сансара Светло голубой",
+          "price": "2225",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/1c5/cn16nkbl8570lx3cobyd3jzvbukdzkob.webp",
+            "https://u-forma.ru/upload/iblock/8ca/irdl0uriwb77ccwhs1j6v2hicnauxt0h.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bluzy/120713/",
+          "product_id": "120713",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинское платье Алина / оптима вискоза Черный",
+          "price": "4100",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/b46/qr7cxnz37qulj3y47nbhjbv3t4nhcqxn.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/plate/111363/",
+          "product_id": "111363",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский комбинезон Николь, кор. рукав / спандекс  Серый",
+          "price": "3602",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/6cd/rap8ay9q66z5ocljtzow4q3do85f4ul8.webp",
+            "https://u-forma.ru/upload/iblock/6b3/eq7srxyw1a0092n9po4koujd731crb1o.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/kombinezony/119391/",
+          "product_id": "119391",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Топ медицинский Аврора / тиси  Белый",
+          "price": "1115",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/23f/g1l2qym1als3d2tsrppxn5mih8c76vkj.webp",
+            "https://u-forma.ru/upload/iblock/fd6/1fczp14tmzgcffkjeyiimt4p7mnwiavt.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/top/123213/",
+          "product_id": "123213",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский костюм Лилия / оптима Белый",
+          "price": "4900",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/f23/kjgc4ocj4w9a2hffn8ldnoa4nkfw2v0b.webp",
+            "https://u-forma.ru/upload/iblock/cff/9nh1rib4m1neezciy4rtdtnhl7in2it8.webp",
+            "https://u-forma.ru/upload/iblock/591/q24mrzavoa92zt6z2xdmiscftht6k0ga.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/kostyumy/119460/",
+          "product_id": "119460",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский халат Изабелла / спандекс Сиреневый",
+          "price": "4900",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/354/pac54jwaxhpqo310lnf03ocbiwuky1pt.webp",
+            "https://u-forma.ru/upload/iblock/070/a13pz2qi6t209zctuc7z7lu39vd9wdni.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/khalaty/124168/",
+          "product_id": "124168",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский халат Мелисса, рукав 1/2 / тиси Персик",
+          "price": "2150",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/507/7avovbfaw6zw40lty2r499npoeqptqgx.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/khalaty/120275/",
+          "product_id": "120275",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Брюки медицинские женские Спорт / спандекс  Морская волна",
+          "price": "4200",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/f44/nxgqm09lp33dedss6tdw2c1odn5uzd11.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bryuki/121780/",
+          "product_id": "121780",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский халат Шарлотта / спандекс Белый",
+          "price": "4990",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/045/qsgqb5vcasu6fddaqfcweqo1kj6b33ev.webp",
+            "https://u-forma.ru/upload/iblock/2cf/2pucy1b3qlt7ah2w36hvscaka7rhq06d.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/khalaty/114946/",
+          "product_id": "114946",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Медицинский халат Шарлотта / спандекс Белый",
+          "price": "4990",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/212/bz1q6a15q4wsokl21ukhirjrp25eh65x.webp",
+            "https://u-forma.ru/upload/iblock/baf/rd5qq08kxrvb2wqxdq8iq2e729w6hepu.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/khalaty/114939/",
+          "product_id": "114939",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        },
+        {
+          "name": "Блуза медицинская Юлия / оптима Белый",
+          "price": "2029",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/e9a/72yt12lj09konq76025up9e3l386r9vp.webp",
+            "https://u-forma.ru/upload/iblock/a5d/t53tgxzn3m3h1746dko1pwvgid48j9p0.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bluzy/119465/",
+          "product_id": "119465",
+          "category_key": "zhenskaya",
+          "category": "Женская одежда"
+        }
+      ]
+    },
+    "main": {
+      "name": "Главная",
+      "url": "",
+      "product_count": 0,
+      "products": []
+    },
+    "povarskaya": {
+      "name": "Поварская одежда",
+      "url": "/catalog/povarskaya_odezhda/",
+      "product_count": 0,
+      "products": []
+    },
+    "premium": {
+      "name": "Премиум",
+      "url": "/catalog/premium/",
+      "product_count": 12,
+      "products": [
+        {
+          "name": "Блуза медицинская Дина / SPT-Микс Серо-голубой",
+          "price": "5200",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/50e/tqme625af3nc7pzucre82837zxt09shn.webp",
+            "https://u-forma.ru/upload/iblock/310/ua023ze8tuuczq6b2bxlq96hx2csc7ao.webp",
+            "https://u-forma.ru/upload/iblock/b85/pncmfm4s0xs0o7ik3pz9ryquxwzrozrb.webp",
+            "https://u-forma.ru/upload/iblock/1f9/unk8o11kk6z6j9biz8mcrcz81s977kac.webp",
+            "https://u-forma.ru/upload/iblock/dbe/87s154onev0qaansygkpjplpywvab9fc.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bluzy/124499/",
+          "product_id": "124499",
+          "category_key": "premium",
+          "category": "Премиум"
+        },
+        {
+          "name": "Жакет медицинский Симона / Премиум Черный",
+          "price": "5570",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/5ef/lo1ezjfmn707ugl8z920z0gyvcwbrrwc.webp",
+            "https://u-forma.ru/upload/iblock/153/chm527ua5pv9ar8tdf4eof1dzkmwml8d.webp",
+            "https://u-forma.ru/upload/iblock/328/bx0e3efr95mu07qjp10ado215q1tbetp.webp",
+            "https://u-forma.ru/upload/iblock/59f/5d0j4xmtf7jc35t0ez7hw5he98rivkjs.webp",
+            "https://u-forma.ru/upload/iblock/ce3/23bqacko8jqbari036moghnm2d8clq58.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/zhakety/113205/",
+          "product_id": "113205",
+          "category_key": "premium",
+          "category": "Премиум"
+        },
+        {
+          "name": "Медицинский костюм Джесс / Вискоза Олива",
+          "price": "4376",
+          "image_urls": [
+            "https://u-forma.ru/upload/resize_cache/iblock/a2e/2000_2000_140cd750bba9870f18aada2478b24840a/kbba8rdx2ans9p9c47tryh2d8jaoickt.webp",
+            "https://u-forma.ru/upload/resize_cache/iblock/d6c/2000_2000_140cd750bba9870f18aada2478b24840a/l9280ucnuvtbdnfpb40fr88n6knmdxoj.webp",
+            "https://u-forma.ru/upload/resize_cache/iblock/aac/2000_2000_140cd750bba9870f18aada2478b24840a/uckl6yfg5nx6v0wmtyr4d3upzi4orkam.webp",
+            "https://u-forma.ru/upload/resize_cache/iblock/285/2000_2000_140cd750bba9870f18aada2478b24840a/kej6vf3ouux1xb2iy4sqc413pydq330m.webp",
+            "https://u-forma.ru/upload/resize_cache/iblock/4f5/2000_2000_140cd750bba9870f18aada2478b24840a/gl1997lb0fbbuc6q5xt39q90do2vpmhm.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/kostyumy/124245/",
+          "product_id": "124245",
+          "category_key": "premium",
+          "category": "Премиум"
+        },
+        {
+          "name": "Медицинский костюм Джесс / Вискоза Светло серый",
+          "price": "4376",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/3da/96ob5trq3g11nlrtsjgd468imsdy3bfx.webp",
+            "https://u-forma.ru/upload/iblock/1c6/89t9jrzx8o1aqou7bykb3t3uijkal34v.webp",
+            "https://u-forma.ru/upload/iblock/6b3/pcc0kje3fktwmcfh4e9o7p2uhvu6r4px.webp",
+            "https://u-forma.ru/upload/iblock/757/zwc31adn6eme7r4nzcou09c19uukm0am.webp",
+            "https://u-forma.ru/upload/iblock/eed/ut0fgrcqmhcxsfqecd2qql22e3742o0t.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/kostyumy/124258/",
+          "product_id": "124258",
+          "category_key": "premium",
+          "category": "Премиум"
+        },
+        {
+          "name": "Медицинский костюм Лада / Вискоза Синий",
+          "price": "6990",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/54a/aqhjpx9ftl1tugkq1oa76l6p57uaxe4a.webp",
+            "https://u-forma.ru/upload/iblock/ba9/m7pfediq9it0sgk6mrz5g5hnsg6zcmw5.webp",
+            "https://u-forma.ru/upload/iblock/0a0/l83t7jykjw63p3ees7ihn8a0lahcl9ok.webp",
+            "https://u-forma.ru/upload/iblock/5f1/5azcfmybccwm3xfbzevvmvv9tth67l0i.webp",
+            "https://u-forma.ru/upload/iblock/4a5/l27lmqfvcizcrq39l2grqxs3nnhdzjk3.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/kostyumy/124481/",
+          "product_id": "124481",
+          "category_key": "premium",
+          "category": "Премиум"
+        },
+        {
+          "name": "Медицинский костюм Лада / Вискоза Светло серый",
+          "price": "6990",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/9ee/s3rtxi963x2kxzwq7cc1wxmi3313jcms.webp",
+            "https://u-forma.ru/upload/iblock/233/uvrb8y6hfpx3mew17zyt3z9o3r6jp2ri.webp",
+            "https://u-forma.ru/upload/iblock/494/ujbny3ui9uo0nqg22nut8prdmgk1ep49.webp",
+            "https://u-forma.ru/upload/iblock/43d/1znasb47u2iurjd0ex1s8orlnuk37ktl.webp",
+            "https://u-forma.ru/upload/iblock/7ba/fhcayxupyzxqnepw5xycps9uaa3nxyz4.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/dlya_kogo/dlya_administratorov/124469/",
+          "product_id": "124469",
+          "category_key": "premium",
+          "category": "Премиум"
+        },
+        {
+          "name": "Медицинский костюм Дана / Вискоза Белый",
+          "price": "4437",
+          "image_urls": [
+            "https://u-forma.ru/upload/resize_cache/iblock/2c4/2000_2000_140cd750bba9870f18aada2478b24840a/3u40y7su0qcoxekxvqun8zkg9p70ye2p.webp",
+            "https://u-forma.ru/upload/resize_cache/iblock/0bd/2000_2000_140cd750bba9870f18aada2478b24840a/4kplp1d6a4jeo0zvw2g2rpn989le6871.webp",
+            "https://u-forma.ru/upload/resize_cache/iblock/a2f/2000_2000_140cd750bba9870f18aada2478b24840a/eefxpq4g3knf3d8yzbhrsxvzsa8sjb3q.webp",
+            "https://u-forma.ru/upload/resize_cache/iblock/770/2000_2000_140cd750bba9870f18aada2478b24840a/vexoze27q91h13ldwt15zlb8t6f7qk83.webp",
+            "https://u-forma.ru/upload/resize_cache/iblock/f11/2000_2000_140cd750bba9870f18aada2478b24840a/b8udq403gtllxo3yc6d54vzbv9j2cpu2.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/kostyumy/124194/",
+          "product_id": "124194",
+          "category_key": "premium",
+          "category": "Премиум"
+        },
+        {
+          "name": "Медицинский костюм Джесс / Вискоза Белый",
+          "price": "4376",
+          "image_urls": [
+            "https://u-forma.ru/upload/resize_cache/iblock/109/2000_2000_140cd750bba9870f18aada2478b24840a/noi6jhjph1uuukh58v96rklm1sd49fyw.webp",
+            "https://u-forma.ru/upload/resize_cache/iblock/737/2000_2000_140cd750bba9870f18aada2478b24840a/d6nw3o54fm48py6oneo85e0o84ypvre0.webp",
+            "https://u-forma.ru/upload/resize_cache/iblock/11a/2000_2000_140cd750bba9870f18aada2478b24840a/0mg4cntq59ucb9ebbcrcvvmblr1jk1qf.webp",
+            "https://u-forma.ru/upload/resize_cache/iblock/997/2000_2000_140cd750bba9870f18aada2478b24840a/msu046k8griboql96gs3ddqu83qy7zg2.webp",
+            "https://u-forma.ru/upload/resize_cache/iblock/1cc/2000_2000_140cd750bba9870f18aada2478b24840a/iy801g98jb3k73iwqcq3rwa95gkr7t0a.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/kostyumy/124232/",
+          "product_id": "124232",
+          "category_key": "premium",
+          "category": "Премиум"
+        },
+        {
+          "name": "Брюки медицинские женские Одри / SPT-Микс Белый",
+          "price": "3700",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/377/5yfxc7dr8l8qq6e6rkxf9k80i92a4uek.webp",
+            "https://u-forma.ru/upload/iblock/731/t3id7li8gnwbri6yqxef2a28in50t7op.webp",
+            "https://u-forma.ru/upload/iblock/ae5/arguru1jtl2k3cojxuybey6nbh0qrxjt.webp",
+            "https://u-forma.ru/upload/iblock/bb9/t1alb7j8rckzyfuy59tqo17sm0akj0hx.webp",
+            "https://u-forma.ru/upload/iblock/264/zva5ehx1158ale5oubol1ardo6j89yiz.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bryuki/124509/",
+          "product_id": "124509",
+          "category_key": "premium",
+          "category": "Премиум"
+        },
+        {
+          "name": "Брюки медицинские женские Одри / SPT-Микс Черный",
+          "price": "3700",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/b40/rh5sr4e7tiqnmx83lhx0j9a0g7stgjmc.webp",
+            "https://u-forma.ru/upload/iblock/da4/10w6pz7tzq0txse978r2pk3er2fwwgc3.webp",
+            "https://u-forma.ru/upload/iblock/ef3/s1cq7oqe3lnf9lmqg9s1m5lnl9j9c4ei.webp",
+            "https://u-forma.ru/upload/iblock/1da/i80iaqwanyjr45ej1k84hf5lqptyxh6c.webp",
+            "https://u-forma.ru/upload/iblock/510/b9okn4x7j6631929b3sjzcwkemfw3ru8.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bryuki/124521/",
+          "product_id": "124521",
+          "category_key": "premium",
+          "category": "Премиум"
+        },
+        {
+          "name": "Брюки медицинские женские Карла / SPT-Микс Серо-голубой",
+          "price": "3990",
+          "image_urls": [
+            "https://u-forma.ru/upload/iblock/881/fhmaqg9960zdw4t1345iu3s0ycilgz1v.webp",
+            "https://u-forma.ru/upload/iblock/682/vxvafegijyrpnwpg8pey4prc3ffmcrkp.webp",
+            "https://u-forma.ru/upload/iblock/5d2/hrdabldiq29jw37usfdn7d17ixy5fai4.webp",
+            "https://u-forma.ru/upload/iblock/8dd/icr9qia2kkmkinbfclcaesaf9ehssvd3.webp",
+            "https://u-forma.ru/upload/iblock/8bf/byy6behx46acieyfwuxrwvl2i0h9wkio.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/zhenskaya_odezhda/bryuki/124492/",
+          "product_id": "124492",
+          "category_key": "premium",
+          "category": "Премиум"
+        },
+        {
+          "name": "Медицинский костюм Пилар / Премиум Белый",
+          "price": "7081",
+          "image_urls": [
+            "https://u-forma.ru/upload/resize_cache/iblock/2c5/2000_2000_140cd750bba9870f18aada2478b24840a/0rddy3hgrzr6881w7whog6e87n9tyh2d.webp",
+            "https://u-forma.ru/upload/resize_cache/iblock/abb/2000_2000_140cd750bba9870f18aada2478b24840a/c5mnk371nxudogw7u4npamia6bemotx3.webp",
+            "https://u-forma.ru/upload/resize_cache/iblock/371/2000_2000_140cd750bba9870f18aada2478b24840a/1edjdrhdqusiqr2u4udubhow571l2d4t.webp",
+            "https://u-forma.ru/upload/resize_cache/iblock/201/2000_2000_140cd750bba9870f18aada2478b24840a/wooqom353ykwq2esf435hd5n281ewu5d.webp",
+            "https://u-forma.ru/upload/resize_cache/iblock/11d/2000_2000_140cd750bba9870f18aada2478b24840a/okjqqjvdhaoaxy11zmuf8uuc9agpa3on.webp"
+          ],
+          "product_url": "https://u-forma.ru/catalog/dlya_kogo/dlya_medsestyer/124465/",
+          "product_id": "124465",
+          "category_key": "premium",
+          "category": "Премиум"
+        }
+      ]
+    },
+    "sale": {
+      "name": "SALE / Распродажа",
+      "url": "/catalog/sale/",
+      "product_count": 0,
+      "products": []
+    }
+  },
+  "category_meta": {
+    "muzhskaya": {
+      "title": "Пошив и продажа мужской медицинской одежды — U-FORMA",
+      "description": "Изготовление мужской медицинской одежды на заказ и в розницу. Профессиональный пошив, качественные материалы, доставка по всей России.",
+      "total_count": 28,
+      "pages": [
+        {
+          "file": "detail_muzhskaya_odezhda_khalat_115064_.html",
+          "count": 0
+        },
+        {
+          "file": "detail_muzhskaya_odezhda_rubashki_111171_.html",
+          "count": 0
+        },
+        {
+          "file": "muzhskaya.html",
+          "count": 20
+        },
+        {
+          "file": "muzhskaya_p2.html",
+          "count": 8
+        }
+      ]
+    },
+    "zhenskaya": {
+      "title": "Купить женскую медицинскую одежду в интернет-магазине U-FORMA",
+      "description": "Медицинская одежда женская - купить модную фирменную женскую мед одежду от  U-FORMA",
+      "total_count": 281,
+      "pages": [
+        {
+          "file": "detail_zhenskaya_odezhda_bluzy_123531_.html",
+          "count": 0
+        },
+        {
+          "file": "detail_zhenskaya_odezhda_futbolki_123987_.html",
+          "count": 0
+        },
+        {
+          "file": "detail_zhenskaya_odezhda_kostyumy_124245_.html",
+          "count": 0
+        },
+        {
+          "file": "detail_zhenskaya_odezhda_zhakety_113194_.html",
+          "count": 0
+        },
+        {
+          "file": "zhenskaya.html",
+          "count": 20
+        },
+        {
+          "file": "zhenskaya_p2.html",
+          "count": 20
+        },
+        {
+          "file": "zhenskaya_p3.html",
+          "count": 20
+        },
+        {
+          "file": "zhenskaya_p4.html",
+          "count": 20
+        },
+        {
+          "file": "zhenskaya_p5.html",
+          "count": 20
+        },
+        {
+          "file": "zhenskaya_p6.html",
+          "count": 20
+        }
+      ]
+    },
+    "main": {
+      "title": "Купить медицинскую одежду от производителя U-FORMA",
+      "description": "Медицинская одежда недорого - каталог модной медодежды от недорогих до премиум моделей!",
+      "total_count": 0,
+      "pages": [
+        {
+          "file": "main.html",
+          "count": 0
+        }
+      ]
+    },
+    "povarskaya": {
+      "title": "Поварская одежда - купить оптом и в розницу в Москве",
+      "description": "Поварская одежда - купить оптом и в розницу в Москве",
+      "total_count": 0,
+      "pages": [
+        {
+          "file": "povarskaya.html",
+          "count": 0
+        }
+      ]
+    },
+    "premium": {
+      "title": "Медицинская одежда Премиум - купить оптом и в розницу в Москве",
+      "description": "Премиум - купить оптом и в розницу в Москве",
+      "total_count": 12,
+      "pages": [
+        {
+          "file": "premium.html",
+          "count": 12
+        }
+      ]
+    },
+    "sale": {
+      "title": "Страница не найдена",
+      "description": "Интернет-магазин модной униформы для медработников Москва, Санкт-Петербург, Сыктывкар, Пенза, Краснодар, Самара. Доставка по всему миру.",
+      "total_count": 0,
+      "pages": [
+        {
+          "file": "sale.html",
+          "count": 0
+        }
+      ]
+    }
+  },
+  "total_products": 160,
+  "sample_product_details": [
+    {
+      "source_file": "detail_muzhskaya_odezhda_khalat_115064_.html",
+      "name": "Медицинский халат мужской Эдвард дл. / Тиси Белый",
+      "description": "Медицинский халат мужской Эдвард дл. / Тиси",
+      "sku": "115064",
+      "category": "Мужская одежда/Халат",
+      "price": 3500,
+      "schema_images": [
+        "https://u-forma.ru/upload/iblock/553/hvb09eqohak3mg0h7i5i1atk5ca29dvk.webp"
+      ],
+      "gallery_images": [
+        "https://u-forma.ru/upload/iblock/566/f53knl89nepilzarayezjrlczzruf7l9.webp"
+      ],
+      "total_gallery_images": 1,
+      "page_title": "Медицинский халат мужской Эдвард дл. / Тиси Белый - купить оптом и в розницу в Москве",
+      "meta_description": "Медицинский халат мужской Эдвард дл. / Тиси - купить в интернет-магазине модной униформы для медработников U-forma: Москва, Санкт-Петербург, Сыктывкар, Пенза, Краснодар, Самара. Доставка по всему миру.",
+      "og:title": "Медицинский халат мужской Эдвард дл. / Тиси Белый - купить оптом и в розницу в Москве",
+      "og:description": "Медицинский халат мужской Эдвард дл. / Тиси",
+      "og:image": "https://u-forma.ru:443/upload/iblock/553/hvb09eqohak3mg0h7i5i1atk5ca29dvk.webp",
+      "description_text": "Медицинский халат мужской Эдвард дл. / Тиси",
+      "composition_and_care": "хлопок 35%, полиэстер 65%\n                                1. Деликатная стирка при 40 ℃ \n2. Отбеливание запрещено \n3. Глажка при температуре до 150 ℃ через марлевую ткань \n4. Барабанная сушка разрешена \n5. Химчистка обычными реагентами, сухая чистка",
+      "size_options_count": 83,
+      "size_options_sample": [
+        "38",
+        "64",
+        "66",
+        "62",
+        "70",
+        "68",
+        "56",
+        "58",
+        "60",
+        "72",
+        "74",
+        "76",
+        "78",
+        "50-58",
+        "67",
+        "40-48",
+        "54",
+        "39",
+        "41",
+        "36 "
+      ],
+      "color_variants": [],
+      "info_sections": [
+        "Накопительная программа для клиентов",
+        "Скидки от объема для корпоративных клиентов",
+        "Информация о товаре",
+        "Состав и уход",
+        "Доставка"
+      ],
+      "offer_count": 4,
+      "low_price": 3500,
+      "high_price": 3500
+    },
+    {
+      "source_file": "detail_muzhskaya_odezhda_rubashki_111171_.html",
+      "name": "Рубашка медицинская мужская Генри / спандекс Серый",
+      "description": "Рубашка медицинская мужская Генри / спандекс",
+      "sku": "111171",
+      "category": "Мужская одежда/Рубашки",
+      "price": 4990,
+      "schema_images": [
+        "https://u-forma.ru/upload/iblock/20a/3p66avicc0ndm2ar87uvnnj5je8rxsk4.webp"
+      ],
+      "gallery_images": [
+        "https://u-forma.ru/upload/resize_cache/iblock/05d/100_100_140cd750bba9870f18aada2478b24840a/u4amqzhjbhx92lzs15uyfig9k11wqlpw.webp",
+        "https://u-forma.ru/upload/iblock/566/f53knl89nepilzarayezjrlczzruf7l9.webp",
+        "https://u-forma.ru/upload/iblock/cbd/eghxs379bqergb4r1pvx0d6mnlcj732e.webp",
+        "https://u-forma.ru/upload/iblock/05d/u4amqzhjbhx92lzs15uyfig9k11wqlpw.webp",
+        "https://u-forma.ru/upload/resize_cache/iblock/20a/100_100_140cd750bba9870f18aada2478b24840a/3p66avicc0ndm2ar87uvnnj5je8rxsk4.webp"
+      ],
+      "total_gallery_images": 5,
+      "page_title": "Рубашка медицинская мужская Генри / спандекс Серый - купить оптом и в розницу в Москве",
+      "meta_description": "Рубашка медицинская мужская Генри / спандекс - купить в интернет-магазине модной униформы для медработников U-forma: Москва, Санкт-Петербург, Сыктывкар, Пенза, Краснодар, Самара. Доставка по всему миру.",
+      "og:title": "Рубашка медицинская мужская Генри / спандекс Серый - купить оптом и в розницу в Москве",
+      "og:description": "Рубашка медицинская мужская Генри / спандекс",
+      "og:image": "https://u-forma.ru:443/upload/iblock/20a/3p66avicc0ndm2ar87uvnnj5je8rxsk4.webp",
+      "description_text": "Рубашка медицинская мужская Генри / спандекс",
+      "composition_and_care": "хлопок 57%, полиэстер 40%, спандекс 3%\n                                1. Деликатная стирка при 40 ℃ \n2. Отбеливание запрещено \n3. Глажка при температуре до 150 ℃ через марлевую ткань \n4. Барабанная сушка разрешена \n5. Химчистка обычными реагентами, сухая чистка",
+      "size_options_count": 83,
+      "size_options_sample": [
+        "38",
+        "64",
+        "66",
+        "62",
+        "70",
+        "68",
+        "56",
+        "58",
+        "60",
+        "72",
+        "74",
+        "76",
+        "78",
+        "50-58",
+        "67",
+        "40-48",
+        "54",
+        "39",
+        "41",
+        "36 "
+      ],
+      "color_variants": [],
+      "info_sections": [
+        "Накопительная программа для клиентов",
+        "Скидки от объема для корпоративных клиентов",
+        "Информация о товаре",
+        "Состав и уход",
+        "Доставка"
+      ],
+      "offer_count": 7,
+      "low_price": 4990,
+      "high_price": 4990
+    },
+    {
+      "source_file": "detail_zhenskaya_odezhda_bluzy_123531_.html",
+      "name": "Блуза медицинская Милана короткий рукав / спандекс Белый",
+      "description": "Блуза медицинская Милана короткий рукав / спандекс",
+      "sku": "123531",
+      "category": "Женская одежда/Блузы",
+      "price": 4300,
+      "schema_images": [
+        "https://u-forma.ru/upload/iblock/edc/z0n7z9vulnhwrjjrj2mo699r8y2xozg0.webp"
+      ],
+      "gallery_images": [
+        "https://u-forma.ru/upload/resize_cache/iblock/402/100_100_140cd750bba9870f18aada2478b24840a/x6eiapn3rpi99387stkjc2eycr7n8c8z.webp",
+        "https://u-forma.ru/upload/iblock/d48/fo1pm4fytph1a5qxtpe6pqwioundfuwz.webp",
+        "https://u-forma.ru/upload/iblock/566/f53knl89nepilzarayezjrlczzruf7l9.webp",
+        "https://u-forma.ru/upload/iblock/402/x6eiapn3rpi99387stkjc2eycr7n8c8z.webp",
+        "https://u-forma.ru/upload/resize_cache/iblock/edc/100_100_140cd750bba9870f18aada2478b24840a/z0n7z9vulnhwrjjrj2mo699r8y2xozg0.webp"
+      ],
+      "total_gallery_images": 5,
+      "page_title": "Блуза медицинская Милана короткий рукав / спандекс Белый - купить оптом и в розницу в Москве",
+      "meta_description": "Блуза медицинская Милана короткий рукав / спандекс Белый - купить в интернет-магазине модной униформы для медработников U-forma: Москва, Санкт-Петербург, Сыктывкар, Пенза, Краснодар, Самара. Доставка по всему миру.",
+      "og:title": "Блуза медицинская Милана короткий рукав / спандекс Белый - купить оптом и в розницу в Москве",
+      "og:description": "Блуза медицинская Милана короткий рукав / спандекс",
+      "og:image": "https://u-forma.ru:443/upload/iblock/edc/z0n7z9vulnhwrjjrj2mo699r8y2xozg0.webp",
+      "description_text": "Блуза медицинская Милана короткий рукав / спандекс",
+      "composition_and_care": "хлопок 57%, полиэстер 40%, спандекс 3%\n                                1. Деликатная стирка при 40 ℃ \n2. Отбеливание запрещено \n3. Глажка при температуре до 150 ℃ через марлевую ткань \n4. Барабанная сушка разрешена \n5. Химчистка обычными реагентами, сухая чистка",
+      "size_options_count": 83,
+      "size_options_sample": [
+        "38",
+        "64",
+        "66",
+        "62",
+        "70",
+        "68",
+        "56",
+        "58",
+        "60",
+        "72",
+        "74",
+        "76",
+        "78",
+        "50-58",
+        "67",
+        "40-48",
+        "54",
+        "39",
+        "41",
+        "36 "
+      ],
+      "color_variants": [],
+      "info_sections": [
+        "Накопительная программа для клиентов",
+        "Скидки от объема для корпоративных клиентов",
+        "Информация о товаре",
+        "Состав и уход",
+        "Доставка"
+      ],
+      "offer_count": 13,
+      "low_price": 4300,
+      "high_price": 4300
+    },
+    {
+      "source_file": "detail_zhenskaya_odezhda_futbolki_123987_.html",
+      "name": "Футболка медицинская Лето / спандекс  Сердечки на сером",
+      "description": "Футболка медицинская Лето / спандекс",
+      "sku": "123987",
+      "category": "Женская одежда/Футболки",
+      "price": 3900,
+      "schema_images": [
+        "https://u-forma.ru/upload/iblock/ee6/96z5py04yoiqzaulwfl54ye3tsw5lzha.webp"
+      ],
+      "gallery_images": [
+        "https://u-forma.ru/upload/iblock/fe9/6pemcb5wuakfkznfa2sfxgi5mltlf7rv.jpg",
+        "https://u-forma.ru/upload/iblock/f37/20tf60l1wzjy6ew4eadibwnu5l4ak7qu.webp",
+        "https://u-forma.ru/upload/iblock/127/y6n873vrliu70ctn2wnwyqkm06iog992.webp",
+        "https://u-forma.ru/upload/resize_cache/iblock/837/100_100_140cd750bba9870f18aada2478b24840a/i4pa06fd2tb20d9hob0d3r25qhgjiu5v.webp",
+        "https://u-forma.ru/upload/iblock/566/f53knl89nepilzarayezjrlczzruf7l9.webp",
+        "https://u-forma.ru/upload/iblock/666/p9ou178764fbl05p2xdoodbhsg8r62y6.webp",
+        "https://u-forma.ru/upload/iblock/7f6/phs0rn7z75gi4l5vurp2v4z7nln3grlm.webp",
+        "https://u-forma.ru/upload/resize_cache/iblock/ee6/100_100_140cd750bba9870f18aada2478b24840a/96z5py04yoiqzaulwfl54ye3tsw5lzha.webp",
+        "https://u-forma.ru/upload/iblock/837/i4pa06fd2tb20d9hob0d3r25qhgjiu5v.webp"
+      ],
+      "total_gallery_images": 9,
+      "page_title": "Футболка медицинская Лето / спандекс  Сердечки на сером - купить оптом и в розницу в Москве",
+      "meta_description": "Футболка медицинская Лето / спандекс  Сердечки на сером - купить в интернет-магазине модной униформы для медработников U-forma: Москва, Санкт-Петербург, Сыктывкар, Пенза, Краснодар, Самара. Доставка по всему миру.",
+      "og:title": "Футболка медицинская Лето / спандекс  Сердечки на сером - купить оптом и в розницу в Москве",
+      "og:description": "Футболка медицинская Лето / спандекс",
+      "og:image": "https://u-forma.ru:443/upload/iblock/ee6/96z5py04yoiqzaulwfl54ye3tsw5lzha.webp",
+      "description_text": "Футболка медицинская Лето / спандекс",
+      "composition_and_care": "хлопок 57%, полиэстер 40%, спандекс 3%\n                                1. Деликатная стирка при 40 ℃ \n2. Отбеливание запрещено \n3. Глажка при температуре до 150 ℃ через марлевую ткань \n4. Барабанная сушка разрешена \n5. Химчистка обычными реагентами, сухая чистка",
+      "size_options_count": 83,
+      "size_options_sample": [
+        "38",
+        "64",
+        "66",
+        "62",
+        "70",
+        "68",
+        "56",
+        "58",
+        "60",
+        "72",
+        "74",
+        "76",
+        "78",
+        "50-58",
+        "67",
+        "40-48",
+        "54",
+        "39",
+        "41",
+        "36 "
+      ],
+      "color_variants": [],
+      "info_sections": [
+        "Накопительная программа для клиентов",
+        "Скидки от объема для корпоративных клиентов",
+        "Информация о товаре",
+        "Состав и уход",
+        "Доставка"
+      ],
+      "offer_count": 7,
+      "low_price": 3900,
+      "high_price": 3900
+    },
+    {
+      "source_file": "detail_zhenskaya_odezhda_kostyumy_124245_.html",
+      "name": "Медицинский костюм Джесс / Вискоза Олива",
+      "description": "Медицинский костюм Джесс / Вискоза",
+      "sku": "124245",
+      "category": "Женская одежда/Костюмы",
+      "price": 4376,
+      "schema_images": [
+        "https://u-forma.ru/upload/iblock/a2e/kbba8rdx2ans9p9c47tryh2d8jaoickt.webp"
+      ],
+      "gallery_images": [
+        "https://u-forma.ru/upload/iblock/3da/96ob5trq3g11nlrtsjgd468imsdy3bfx.webp",
+        "https://u-forma.ru/upload/resize_cache/iblock/e64/100_100_140cd750bba9870f18aada2478b24840a/feks7q7e1j32yd1qexzfdpel6ttx793k.webp",
+        "https://u-forma.ru/upload/resize_cache/iblock/be7/2000_2000_140cd750bba9870f18aada2478b24840a/2cum329eqxftsxnd5hl016hdg54pigxl.webp",
+        "https://u-forma.ru/upload/resize_cache/iblock/e64/2000_2000_140cd750bba9870f18aada2478b24840a/feks7q7e1j32yd1qexzfdpel6ttx793k.webp",
+        "https://u-forma.ru/upload/resize_cache/iblock/285/100_100_140cd750bba9870f18aada2478b24840a/kej6vf3ouux1xb2iy4sqc413pydq330m.webp",
+        "https://u-forma.ru/upload/resize_cache/iblock/285/2000_2000_140cd750bba9870f18aada2478b24840a/kej6vf3ouux1xb2iy4sqc413pydq330m.webp",
+        "https://u-forma.ru/upload/resize_cache/iblock/4f5/2000_2000_140cd750bba9870f18aada2478b24840a/gl1997lb0fbbuc6q5xt39q90do2vpmhm.webp",
+        "https://u-forma.ru/upload/iblock/566/f53knl89nepilzarayezjrlczzruf7l9.webp",
+        "https://u-forma.ru/upload/resize_cache/iblock/a2e/100_100_140cd750bba9870f18aada2478b24840a/kbba8rdx2ans9p9c47tryh2d8jaoickt.webp",
+        "https://u-forma.ru/upload/resize_cache/iblock/be7/100_100_140cd750bba9870f18aada2478b24840a/2cum329eqxftsxnd5hl016hdg54pigxl.webp",
+        "https://u-forma.ru/upload/resize_cache/iblock/149/100_100_140cd750bba9870f18aada2478b24840a/bslzmjou3lullulirfrwr3ef1p1vbhe1.webp",
+        "https://u-forma.ru/upload/resize_cache/iblock/d6c/100_100_140cd750bba9870f18aada2478b24840a/l9280ucnuvtbdnfpb40fr88n6knmdxoj.webp",
+        "https://u-forma.ru/upload/resize_cache/iblock/4f5/100_100_140cd750bba9870f18aada2478b24840a/gl1997lb0fbbuc6q5xt39q90do2vpmhm.webp",
+        "https://u-forma.ru/upload/resize_cache/iblock/149/2000_2000_140cd750bba9870f18aada2478b24840a/bslzmjou3lullulirfrwr3ef1p1vbhe1.webp",
+        "https://u-forma.ru/upload/iblock/109/noi6jhjph1uuukh58v96rklm1sd49fyw.webp",
+        "https://u-forma.ru/upload/resize_cache/iblock/aac/2000_2000_140cd750bba9870f18aada2478b24840a/uckl6yfg5nx6v0wmtyr4d3upzi4orkam.webp",
+        "https://u-forma.ru/upload/resize_cache/iblock/d6c/2000_2000_140cd750bba9870f18aada2478b24840a/l9280ucnuvtbdnfpb40fr88n6knmdxoj.webp",
+        "https://u-forma.ru/upload/resize_cache/iblock/aac/100_100_140cd750bba9870f18aada2478b24840a/uckl6yfg5nx6v0wmtyr4d3upzi4orkam.webp"
+      ],
+      "total_gallery_images": 18,
+      "page_title": "Медицинский костюм Джесс / Вискоза Олива - купить оптом и в розницу в Москве",
+      "meta_description": "Медицинский костюм Джесс / Вискоза Олива - купить в интернет-магазине модной униформы для медработников U-forma: Москва, Санкт-Петербург, Сыктывкар, Пенза, Краснодар, Самара. Доставка по всему миру.",
+      "og:title": "Медицинский костюм Джесс / Вискоза Олива - купить оптом и в розницу в Москве",
+      "og:description": "Медицинский костюм Джесс / Вискоза",
+      "og:image": "https://u-forma.ru:443/upload/iblock/a2e/kbba8rdx2ans9p9c47tryh2d8jaoickt.webp",
+      "description_text": "Медицинский костюм Джесс / Вискоза",
+      "composition_and_care": "вискоза 35%, полиэстер 65%\n                                1. Деликатная стирка при 40 ℃ \n2. Отбеливание запрещено \n3. Глажка при температуре до 150 ℃ через марлевую ткань \n4. Барабанная сушка разрешена \n5. Химчистка обычными реагентами, сухая чистка",
+      "size_options_count": 83,
+      "size_options_sample": [
+        "38",
+        "64",
+        "66",
+        "62",
+        "70",
+        "68",
+        "56",
+        "58",
+        "60",
+        "72",
+        "74",
+        "76",
+        "78",
+        "50-58",
+        "67",
+        "40-48",
+        "54",
+        "39",
+        "41",
+        "36 "
+      ],
+      "color_variants": [],
+      "info_sections": [
+        "Накопительная программа для клиентов",
+        "Скидки от объема для корпоративных клиентов",
+        "Информация о товаре",
+        "Состав и уход",
+        "Доставка"
+      ],
+      "offer_count": 10,
+      "low_price": 4376,
+      "high_price": 4376
+    },
+    {
+      "source_file": "detail_zhenskaya_odezhda_zhakety_113194_.html",
+      "name": "Жакет медицинский Симона / Премиум Белый",
+      "description": "Жакет медицинский Симона / Вискоза 63&#37;, Полиэстер 30&#37;, Спандекс 7&#37;",
+      "sku": "113194",
+      "category": "Женская одежда/Жакеты",
+      "price": 5570,
+      "schema_images": [
+        "https://u-forma.ru/upload/iblock/d97/j99ed6oep6v2c2o31wd1b3vl8222c33l.webp"
+      ],
+      "gallery_images": [
+        "https://u-forma.ru/upload/iblock/5ef/lo1ezjfmn707ugl8z920z0gyvcwbrrwc.webp",
+        "https://u-forma.ru/upload/resize_cache/iblock/55b/100_100_140cd750bba9870f18aada2478b24840a/mzyh2mraqq6es1l4sq8ax95mvc0wkf15.webp",
+        "https://u-forma.ru/upload/iblock/566/f53knl89nepilzarayezjrlczzruf7l9.webp",
+        "https://u-forma.ru/upload/resize_cache/iblock/d97/100_100_140cd750bba9870f18aada2478b24840a/j99ed6oep6v2c2o31wd1b3vl8222c33l.webp",
+        "https://u-forma.ru/upload/iblock/55b/mzyh2mraqq6es1l4sq8ax95mvc0wkf15.webp"
+      ],
+      "total_gallery_images": 5,
+      "page_title": "Жакет медицинский Симона / Премиум Белый - купить оптом и в розницу в Москве",
+      "meta_description": "Жакет медицинский Симона / Премиум Белый - купить в интернет-магазине модной униформы для медработников U-forma: Москва, Санкт-Петербург, Сыктывкар, Пенза, Краснодар, Самара. Доставка по всему миру.",
+      "og:title": "Жакет медицинский Симона / Премиум Белый - купить оптом и в розницу в Москве",
+      "og:description": "Жакет медицинский Симона / Вискоза 63%, Полиэстер 30%, Спандекс 7%",
+      "og:image": "https://u-forma.ru:443/upload/iblock/d97/j99ed6oep6v2c2o31wd1b3vl8222c33l.webp",
+      "description_text": "Жакет медицинский Симона / Вискоза 63&#37;, Полиэстер 30&#37;, Спандекс 7&#37;",
+      "composition_and_care": "вискоза 63%, полиэстер 30%, спандекс 7%\n                                1. Деликатная стирка при 40 ℃ \n2. Отбеливание запрещено \n3. Глажка при температуре до 150 ℃ через марлевую ткань \n4. Барабанная сушка разрешена \n5. Химчистка обычными реагентами, сухая чистка",
+      "size_options_count": 83,
+      "size_options_sample": [
+        "38",
+        "64",
+        "66",
+        "62",
+        "70",
+        "68",
+        "56",
+        "58",
+        "60",
+        "72",
+        "74",
+        "76",
+        "78",
+        "50-58",
+        "67",
+        "40-48",
+        "54",
+        "39",
+        "41",
+        "36 "
+      ],
+      "color_variants": [],
+      "info_sections": [
+        "Накопительная программа для клиентов",
+        "Скидки от объема для корпоративных клиентов",
+        "Информация о товаре",
+        "Состав и уход",
+        "Доставка"
+      ],
+      "offer_count": 11,
+      "low_price": 5570,
+      "high_price": 5570
+    }
+  ]
+}

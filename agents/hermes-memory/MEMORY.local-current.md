@@ -1,11 +1,11 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-14T20:58:05.660683+00:00
+updated_at: 2026-06-14T21:58:25.710989+00:00
 ---
 # MEMORY.local-current
 
-Obsidian vault: /root/obsidian-vault (primary KB). Hermes memory files: agents/hermes-memory/. Long context/reports/revenue/UI briefs → Obsidian. Local durable memory → short pointers only.
+Obsidian vault: /root/obsidian-vault; reports/briefs → Obsidian. Hermes reports Telegram group: -1002143793106 “Отчеты по проектам” (invite t.me/+R7mjRLI-4GA1Zjcy).
 §
 Hermes VPS: 2 CPU, 1.9 GB RAM, 29 GB disk, 2 GB swap enabled at /swapfile. Keep concurrency low: one heavy code/build task plus light watchdogs.
 §
