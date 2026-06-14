@@ -198,9 +198,40 @@
       "fingerprint": "c6bc7af2b9f87318",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_83",
       "attachment": "photo8314079_457240365"
+    },
+    {
+      "ts": "2026-06-14T15:02:06.995211Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "title": "С чем едят настоящих волжских раков",
+      "heading": "🔥 С ЧЕМ ЕДЯТ НАСТОЯЩИХ ВОЛЖСКИХ РАКОВ",
+      "text_key": "raki-evening-20260614-s-chem-edyat-rakov",
+      "fingerprint": "9783daabf808be27",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_26",
+      "attachment": "photo8314079_457240374",
+      "visual_key": "google_drive:1K_KOAUH2Ke682Xnl3VCaIUICv5oNfTmi",
+      "image_source": "google_drive",
+      "drive_file_id": "1K_KOAUH2Ke682Xnl3VCaIUICv5oNfTmi",
+      "image_sha256": "e67f67a3ab33b4e5629928cdd328d8f078896db5984fadfaa9d0d4dda6277805"
     }
   ],
-  "recent_images": [],
+  "recent_images": [
+    {
+      "ts": "2026-06-14T15:02:06.995261Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "source": "google_drive",
+      "visual_key": "google_drive:1K_KOAUH2Ke682Xnl3VCaIUICv5oNfTmi",
+      "variant": null,
+      "drive_file_id": "1K_KOAUH2Ke682Xnl3VCaIUICv5oNfTmi",
+      "drive_file_name": "Gemini_Generated_Image_8gfep58gfep58gfe.png",
+      "drive_file_url": "https://drive.google.com/file/d/1K_KOAUH2Ke682Xnl3VCaIUICv5oNfTmi/view?usp=drivesdk",
+      "drive_fallback_reason": null,
+      "sha256": "e67f67a3ab33b4e5629928cdd328d8f078896db5984fadfaa9d0d4dda6277805",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_26",
+      "attachment": "photo8314079_457240374"
+    }
+  ],
   "communities": {
     "dikaya_kleshnya": {
       "group_id": 237416900,
@@ -212,5 +243,15 @@
       "url": "https://vk.com/smart_agent_ai",
       "cadence": "2/day"
     }
-  }
+  },
+  "recent_texts": [
+    {
+      "ts": "2026-06-14T15:02:06.995257Z",
+      "community": "dikaya_kleshnya",
+      "text_key": "raki-evening-20260614-s-chem-edyat-rakov",
+      "fingerprint": "9783daabf808be27",
+      "title": "С чем едят настоящих волжских раков",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_26"
+    }
+  ]
 }
