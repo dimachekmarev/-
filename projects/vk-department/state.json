@@ -258,6 +258,21 @@
       "image_source": "generated_svg",
       "drive_file_id": null,
       "image_sha256": "13f2f6dfa455aadfb0f356dfc50081399ee22b6f09b49bc776c09fda41525525"
+    },
+    {
+      "ts": "2026-06-15T15:04:28.686404Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "title": "Понедельник закончился. Дальше — только вкусное",
+      "heading": "🔥 ПОНЕДЕЛЬНИК ЗАКОНЧИЛСЯ. ДАЛЬШЕ — ТОЛЬКО ВКУСНОЕ",
+      "text_key": "raki-evening-20260615-ponedelnik-zakonchilsya",
+      "fingerprint": "e6b6ef89afe09397",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_28",
+      "attachment": "photo8314079_457240378",
+      "visual_key": "google_drive:1OVAhVFSThV4f9YvBW77kX6puM5T_YHIq",
+      "image_source": "google_drive",
+      "drive_file_id": "1OVAhVFSThV4f9YvBW77kX6puM5T_YHIq",
+      "image_sha256": "39216ea34fd4f8bb7f858a03f5e50f61e1f25dfd84930d83c98fd1a10eae2e9a"
     }
   ],
   "recent_images": [
@@ -320,6 +335,21 @@
       "sha256": "13f2f6dfa455aadfb0f356dfc50081399ee22b6f09b49bc776c09fda41525525",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_86",
       "attachment": "photo8314079_457240377"
+    },
+    {
+      "ts": "2026-06-15T15:04:28.686460Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "source": "google_drive",
+      "visual_key": "google_drive:1OVAhVFSThV4f9YvBW77kX6puM5T_YHIq",
+      "variant": null,
+      "drive_file_id": "1OVAhVFSThV4f9YvBW77kX6puM5T_YHIq",
+      "drive_file_name": "ChatGPT Image 14 июн. 2026 г., 14_50_33 (6).png",
+      "drive_file_url": "https://drive.google.com/file/d/1OVAhVFSThV4f9YvBW77kX6puM5T_YHIq/view?usp=drivesdk",
+      "drive_fallback_reason": null,
+      "sha256": "39216ea34fd4f8bb7f858a03f5e50f61e1f25dfd84930d83c98fd1a10eae2e9a",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_28",
+      "attachment": "photo8314079_457240378"
     }
   ],
   "communities": {
@@ -366,6 +396,14 @@
       "fingerprint": "0cfc1ff9bc2a50cd",
       "title": "Заявка пришла. Что дальше?",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_86"
+    },
+    {
+      "ts": "2026-06-15T15:04:28.686456Z",
+      "community": "dikaya_kleshnya",
+      "text_key": "raki-evening-20260615-ponedelnik-zakonchilsya",
+      "fingerprint": "e6b6ef89afe09397",
+      "title": "Понедельник закончился. Дальше — только вкусное",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_28"
     }
   ]
 }
