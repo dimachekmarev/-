@@ -228,6 +228,21 @@
       "image_source": "generated_svg",
       "drive_file_id": null,
       "image_sha256": "9184b2dd38cf54cf23c64616806bd1798ffbdf70c745e578cb8a24480deab944"
+    },
+    {
+      "ts": "2026-06-15T07:07:24.757153Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "title": "Настоящие волжские: как отличить качество с первого взгляда",
+      "heading": "🔥 НАСТОЯЩИЕ ВОЛЖСКИЕ: КАК ОТЛИЧИТЬ КАЧЕСТВО С ПЕРВОГО ВЗГЛЯДА",
+      "text_key": "raki-morning-20250615-kak-otlichit-kachestvo",
+      "fingerprint": "c0cd60b8981e5270",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_27",
+      "attachment": "photo8314079_457240376",
+      "visual_key": "google_drive:19pqhYpcZYXIMB8PAYK--0sNUfHdcBTV7",
+      "image_source": "google_drive",
+      "drive_file_id": "19pqhYpcZYXIMB8PAYK--0sNUfHdcBTV7",
+      "image_sha256": "9d57253faa7502668aad505aba89cf5e691878e170f79df14d3205abd75054f2"
     }
   ],
   "recent_images": [
@@ -260,6 +275,21 @@
       "sha256": "9184b2dd38cf54cf23c64616806bd1798ffbdf70c745e578cb8a24480deab944",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_84",
       "attachment": "photo8314079_457240375"
+    },
+    {
+      "ts": "2026-06-15T07:07:24.757230Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "source": "google_drive",
+      "visual_key": "google_drive:19pqhYpcZYXIMB8PAYK--0sNUfHdcBTV7",
+      "variant": null,
+      "drive_file_id": "19pqhYpcZYXIMB8PAYK--0sNUfHdcBTV7",
+      "drive_file_name": "ChatGPT Image 14 июн. 2026 г., 15_07_02 (3).png",
+      "drive_file_url": "https://drive.google.com/file/d/19pqhYpcZYXIMB8PAYK--0sNUfHdcBTV7/view?usp=drivesdk",
+      "drive_fallback_reason": null,
+      "sha256": "9d57253faa7502668aad505aba89cf5e691878e170f79df14d3205abd75054f2",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_27",
+      "attachment": "photo8314079_457240376"
     }
   ],
   "communities": {
@@ -290,6 +320,14 @@
       "fingerprint": "6c18acf40a412213",
       "title": "Воскресный вечер без тревоги за понедельник",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_84"
+    },
+    {
+      "ts": "2026-06-15T07:07:24.757225Z",
+      "community": "dikaya_kleshnya",
+      "text_key": "raki-morning-20250615-kak-otlichit-kachestvo",
+      "fingerprint": "c0cd60b8981e5270",
+      "title": "Настоящие волжские: как отличить качество с первого взгляда",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_27"
     }
   ]
 }
