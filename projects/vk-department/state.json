@@ -243,6 +243,21 @@
       "image_source": "google_drive",
       "drive_file_id": "19pqhYpcZYXIMB8PAYK--0sNUfHdcBTV7",
       "image_sha256": "9d57253faa7502668aad505aba89cf5e691878e170f79df14d3205abd75054f2"
+    },
+    {
+      "ts": "2026-06-15T07:34:30.359918Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "title": "Заявка пришла. Что дальше?",
+      "heading": "🔥 ЗАЯВКА ПРИШЛА. ЧТО ДАЛЬШЕ?",
+      "text_key": "auto:0cfc1ff9bc2a50cd",
+      "fingerprint": "0cfc1ff9bc2a50cd",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_86",
+      "attachment": "photo8314079_457240377",
+      "visual_key": "ai:network-right",
+      "image_source": "generated_svg",
+      "drive_file_id": null,
+      "image_sha256": "13f2f6dfa455aadfb0f356dfc50081399ee22b6f09b49bc776c09fda41525525"
     }
   ],
   "recent_images": [
@@ -290,6 +305,21 @@
       "sha256": "9d57253faa7502668aad505aba89cf5e691878e170f79df14d3205abd75054f2",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_27",
       "attachment": "photo8314079_457240376"
+    },
+    {
+      "ts": "2026-06-15T07:34:30.359977Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "source": "generated_svg",
+      "visual_key": "ai:network-right",
+      "variant": "network-right",
+      "drive_file_id": null,
+      "drive_file_name": null,
+      "drive_file_url": null,
+      "drive_fallback_reason": "no_drive_pool_configured",
+      "sha256": "13f2f6dfa455aadfb0f356dfc50081399ee22b6f09b49bc776c09fda41525525",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_86",
+      "attachment": "photo8314079_457240377"
     }
   ],
   "communities": {
@@ -328,6 +358,14 @@
       "fingerprint": "c0cd60b8981e5270",
       "title": "Настоящие волжские: как отличить качество с первого взгляда",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_27"
+    },
+    {
+      "ts": "2026-06-15T07:34:30.359973Z",
+      "community": "smart_agent_ai",
+      "text_key": "auto:0cfc1ff9bc2a50cd",
+      "fingerprint": "0cfc1ff9bc2a50cd",
+      "title": "Заявка пришла. Что дальше?",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_86"
     }
   ]
 }
