@@ -273,6 +273,21 @@
       "image_source": "google_drive",
       "drive_file_id": "1OVAhVFSThV4f9YvBW77kX6puM5T_YHIq",
       "image_sha256": "39216ea34fd4f8bb7f858a03f5e50f61e1f25dfd84930d83c98fd1a10eae2e9a"
+    },
+    {
+      "ts": "2026-06-15T15:31:45.902165Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "title": "Итог дня за 30 секунд",
+      "heading": "🔥 ИТОГ ДНЯ ЗА 30 СЕКУНД",
+      "text_key": "auto:1d0370229f7a5338",
+      "fingerprint": "1d0370229f7a5338",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_87",
+      "attachment": "photo8314079_457240379",
+      "visual_key": "ai:dashboard-card",
+      "image_source": "generated_svg",
+      "drive_file_id": null,
+      "image_sha256": "9c6ca0dafecce2c59459dd20a6dc0a6421addc7aac6e1b21d392b71acd72c213"
     }
   ],
   "recent_images": [
@@ -350,6 +365,21 @@
       "sha256": "39216ea34fd4f8bb7f858a03f5e50f61e1f25dfd84930d83c98fd1a10eae2e9a",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_28",
       "attachment": "photo8314079_457240378"
+    },
+    {
+      "ts": "2026-06-15T15:31:45.902241Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "source": "generated_svg",
+      "visual_key": "ai:dashboard-card",
+      "variant": "dashboard-card",
+      "drive_file_id": null,
+      "drive_file_name": null,
+      "drive_file_url": null,
+      "drive_fallback_reason": "no_drive_pool_configured",
+      "sha256": "9c6ca0dafecce2c59459dd20a6dc0a6421addc7aac6e1b21d392b71acd72c213",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_87",
+      "attachment": "photo8314079_457240379"
     }
   ],
   "communities": {
@@ -404,6 +434,14 @@
       "fingerprint": "e6b6ef89afe09397",
       "title": "Понедельник закончился. Дальше — только вкусное",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_28"
+    },
+    {
+      "ts": "2026-06-15T15:31:45.902235Z",
+      "community": "smart_agent_ai",
+      "text_key": "auto:1d0370229f7a5338",
+      "fingerprint": "1d0370229f7a5338",
+      "title": "Итог дня за 30 секунд",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_87"
     }
   ]
 }
