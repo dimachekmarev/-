@@ -1,19 +1,19 @@
 {
-  "updated_at_utc": "2026-06-15T15:18:36.593541+00:00",
+  "updated_at_utc": "2026-06-15T16:19:30.292111+00:00",
   "obsidian": {
     "ok": true,
     "changed": true,
     "manifest": {
-      "updated_at_utc": "2026-06-15T15:18:36.577919+00:00",
+      "updated_at_utc": "2026-06-15T16:19:30.263184+00:00",
       "source": "/root/.hermes/memories",
       "files": {
         "MEMORY.md": {
-          "chars": 2134,
-          "sha256": "cb528282eefafe7bbcd25b1e082a0bbb1ff61827e01e538f48fc2f6f89dfd43f"
+          "chars": 1900,
+          "sha256": "f26aa95b0cec58c1c513b99f1555b2069ef779369a500aaa736c2d685c9c2718"
         },
         "USER.md": {
-          "chars": 1343,
-          "sha256": "a9774c0011cdbf2678f30a51257eb7d5dff220f5d4b187b5b5530f0b971c9757"
+          "chars": 1184,
+          "sha256": "edb4719879d901305fad2460d18d919160b118dc3114ce808865573efef7c7d8"
         }
       }
     }
