@@ -303,6 +303,21 @@
       "image_source": "google_drive",
       "drive_file_id": "1EuPSJwo2mT4i9TOAc-apDazsvI0pAMuU",
       "image_sha256": "d5f4317aef1c5a13e008a228adea0f02eb1425508f130488191da3214a7b52fb"
+    },
+    {
+      "ts": "2026-06-16T07:37:35.578080Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "title": "Один человек + AI-агент = целый отдел",
+      "heading": "🔥 ОДИН ЧЕЛОВЕК + AI-АГЕНТ = ЦЕЛЫЙ ОТДЕЛ",
+      "text_key": "auto:b8ddf4442dcbea66",
+      "fingerprint": "b8ddf4442dcbea66",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_89",
+      "attachment": "photo8314079_457240381",
+      "visual_key": "ai:radial-core",
+      "image_source": "generated_svg",
+      "drive_file_id": null,
+      "image_sha256": "e19331f2ff3fb06de40094d3e35c86a5600ece00f33bd1b2e3b892930736dfcc"
     }
   ],
   "recent_images": [
@@ -410,6 +425,21 @@
       "sha256": "d5f4317aef1c5a13e008a228adea0f02eb1425508f130488191da3214a7b52fb",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_29",
       "attachment": "photo8314079_457240380"
+    },
+    {
+      "ts": "2026-06-16T07:37:35.578161Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "source": "generated_svg",
+      "visual_key": "ai:radial-core",
+      "variant": "radial-core",
+      "drive_file_id": null,
+      "drive_file_name": null,
+      "drive_file_url": null,
+      "drive_fallback_reason": "no_drive_pool_configured",
+      "sha256": "e19331f2ff3fb06de40094d3e35c86a5600ece00f33bd1b2e3b892930736dfcc",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_89",
+      "attachment": "photo8314079_457240381"
     }
   ],
   "communities": {
@@ -480,6 +510,14 @@
       "fingerprint": "1f117b8df5419569",
       "title": "Не ждите пятницы",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_29"
+    },
+    {
+      "ts": "2026-06-16T07:37:35.578156Z",
+      "community": "smart_agent_ai",
+      "text_key": "auto:b8ddf4442dcbea66",
+      "fingerprint": "b8ddf4442dcbea66",
+      "title": "Один человек + AI-агент = целый отдел",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_89"
     }
   ]
 }
