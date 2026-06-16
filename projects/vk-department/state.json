@@ -318,6 +318,21 @@
       "image_source": "generated_svg",
       "drive_file_id": null,
       "image_sha256": "e19331f2ff3fb06de40094d3e35c86a5600ece00f33bd1b2e3b892930736dfcc"
+    },
+    {
+      "ts": "2026-06-16T15:01:42.416545Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "title": "Когда за столом свои",
+      "heading": "🔥 КОГДА ЗА СТОЛОМ СВОИ",
+      "text_key": "raki-evening-20260616-kogda-za-stolom-svoi",
+      "fingerprint": "fe94346849b30cd9",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_30",
+      "attachment": "photo8314079_457240382",
+      "visual_key": "google_drive:1KLN8qY_vp1l0w5Uyct4Tqi6nC9Gw-3FC",
+      "image_source": "google_drive",
+      "drive_file_id": "1KLN8qY_vp1l0w5Uyct4Tqi6nC9Gw-3FC",
+      "image_sha256": "ca0b270570ae2ea200f519dbfca0b564e85a60e39b0014d21b3977c56759ce1d"
     }
   ],
   "recent_images": [
@@ -440,6 +455,21 @@
       "sha256": "e19331f2ff3fb06de40094d3e35c86a5600ece00f33bd1b2e3b892930736dfcc",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_89",
       "attachment": "photo8314079_457240381"
+    },
+    {
+      "ts": "2026-06-16T15:01:42.416604Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "source": "google_drive",
+      "visual_key": "google_drive:1KLN8qY_vp1l0w5Uyct4Tqi6nC9Gw-3FC",
+      "variant": null,
+      "drive_file_id": "1KLN8qY_vp1l0w5Uyct4Tqi6nC9Gw-3FC",
+      "drive_file_name": "Gemini_Generated_Image_7ybodg7ybodg7ybo.png",
+      "drive_file_url": "https://drive.google.com/file/d/1KLN8qY_vp1l0w5Uyct4Tqi6nC9Gw-3FC/view?usp=drivesdk",
+      "drive_fallback_reason": null,
+      "sha256": "ca0b270570ae2ea200f519dbfca0b564e85a60e39b0014d21b3977c56759ce1d",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_30",
+      "attachment": "photo8314079_457240382"
     }
   ],
   "communities": {
@@ -518,6 +548,14 @@
       "fingerprint": "b8ddf4442dcbea66",
       "title": "Один человек + AI-агент = целый отдел",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_89"
+    },
+    {
+      "ts": "2026-06-16T15:01:42.416600Z",
+      "community": "dikaya_kleshnya",
+      "text_key": "raki-evening-20260616-kogda-za-stolom-svoi",
+      "fingerprint": "fe94346849b30cd9",
+      "title": "Когда за столом свои",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_30"
     }
   ]
 }
