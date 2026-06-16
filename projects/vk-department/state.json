@@ -333,6 +333,21 @@
       "image_source": "google_drive",
       "drive_file_id": "1KLN8qY_vp1l0w5Uyct4Tqi6nC9Gw-3FC",
       "image_sha256": "ca0b270570ae2ea200f519dbfca0b564e85a60e39b0014d21b3977c56759ce1d"
+    },
+    {
+      "ts": "2026-06-16T15:33:11.986689Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "title": "Что AI-агент делает, пока вы ужинаете",
+      "heading": "🔥 ЧТО AI-АГЕНТ ДЕЛАЕТ, ПОКА ВЫ УЖИНАЕТЕ",
+      "text_key": "auto:20d379e2b94946dc",
+      "fingerprint": "20d379e2b94946dc",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_90",
+      "attachment": null,
+      "visual_key": "ai:text-only-fallback",
+      "image_source": "none",
+      "drive_file_id": null,
+      "image_sha256": "0000000000000000"
     }
   ],
   "recent_images": [
@@ -556,6 +571,14 @@
       "fingerprint": "fe94346849b30cd9",
       "title": "Когда за столом свои",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_30"
+    },
+    {
+      "ts": "2026-06-16T15:33:11.986689Z",
+      "community": "smart_agent_ai",
+      "text_key": "auto:20d379e2b94946dc",
+      "fingerprint": "20d379e2b94946dc",
+      "title": "Что AI-агент делает, пока вы ужинаете",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_90"
     }
   ]
 }
