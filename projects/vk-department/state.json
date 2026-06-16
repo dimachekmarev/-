@@ -288,6 +288,21 @@
       "image_source": "generated_svg",
       "drive_file_id": null,
       "image_sha256": "9c6ca0dafecce2c59459dd20a6dc0a6421addc7aac6e1b21d392b71acd72c213"
+    },
+    {
+      "ts": "2026-06-16T07:04:55.215139Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "title": "Не ждите пятницы",
+      "heading": "🔥 НЕ ЖДИТЕ ПЯТНИЦЫ",
+      "text_key": "raki-morning-20260616-ne-zhdite-pyatnitsy",
+      "fingerprint": "1f117b8df5419569",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_29",
+      "attachment": "photo8314079_457240380",
+      "visual_key": "google_drive:1EuPSJwo2mT4i9TOAc-apDazsvI0pAMuU",
+      "image_source": "google_drive",
+      "drive_file_id": "1EuPSJwo2mT4i9TOAc-apDazsvI0pAMuU",
+      "image_sha256": "d5f4317aef1c5a13e008a228adea0f02eb1425508f130488191da3214a7b52fb"
     }
   ],
   "recent_images": [
@@ -380,6 +395,21 @@
       "sha256": "9c6ca0dafecce2c59459dd20a6dc0a6421addc7aac6e1b21d392b71acd72c213",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_87",
       "attachment": "photo8314079_457240379"
+    },
+    {
+      "ts": "2026-06-16T07:04:55.215206Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "source": "google_drive",
+      "visual_key": "google_drive:1EuPSJwo2mT4i9TOAc-apDazsvI0pAMuU",
+      "variant": null,
+      "drive_file_id": "1EuPSJwo2mT4i9TOAc-apDazsvI0pAMuU",
+      "drive_file_name": "ChatGPT Image 14 июн. 2026 г., 14_49_39 (1).png",
+      "drive_file_url": "https://drive.google.com/file/d/1EuPSJwo2mT4i9TOAc-apDazsvI0pAMuU/view?usp=drivesdk",
+      "drive_fallback_reason": null,
+      "sha256": "d5f4317aef1c5a13e008a228adea0f02eb1425508f130488191da3214a7b52fb",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_29",
+      "attachment": "photo8314079_457240380"
     }
   ],
   "communities": {
@@ -442,6 +472,14 @@
       "fingerprint": "1d0370229f7a5338",
       "title": "Итог дня за 30 секунд",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_87"
+    },
+    {
+      "ts": "2026-06-16T07:04:55.215201Z",
+      "community": "dikaya_kleshnya",
+      "text_key": "raki-morning-20260616-ne-zhdite-pyatnitsy",
+      "fingerprint": "1f117b8df5419569",
+      "title": "Не ждите пятницы",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_29"
     }
   ]
 }
