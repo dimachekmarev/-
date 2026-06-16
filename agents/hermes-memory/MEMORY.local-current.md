@@ -1,7 +1,7 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-16T22:29:27.634124+00:00
+updated_at: 2026-06-16T23:30:09.167927+00:00
 ---
 # MEMORY.local-current
 
@@ -13,10 +13,12 @@ VK: app 54628476, user 8314079. Token with wall+messages+offline. Creds: /root/o
 §
 Yandex Disk is connected via rclone remote `yandex:` using OAuth. Dedicated skill: `yandex-disk-agent`; Obsidian notes: `/root/obsidian-vault/agents/hermes-memory/yandex-disk-agent.md` and `yandex-disk-inventory.md`; daily local inventory cron job updates the index.
 §
-Reg.Ru: 31.31.198.57, shared hosting ISPMGR server19.hosting.reg.ru:1500. Учётка u3439587, деплой sshpass+rsync. Sites: dikayakleshnya.ru (Yandex Pay shopId=8c2d2d92...), uforma-med.ru (Next.js 160 товаров, Красная 53 Пенза). nginx-конфиги не редактировать (нет прав). DNS через reg.ru, ISPmanager DNS не работает.
+Reg.Ru: IP 31.31.198.57, ISPmanager server19.hosting.reg.ru:1500, логин u3439587, пароль sMd0S3v3uDUF87cV. Деплой: sshpass+rsync в /var/www/u3439587/data/www/<domain>/. DNS — только личный кабинет reg.ru (ISPmanager DNS не работает). Сайты: dikayakleshnya.ru, uforma-med.ru.
 §
 YouTube Agent Video Factory: heavy assets live on Yandex Disk `yandex:YouTube_Money_System/Agent_Video_Factory/`; Obsidian/memory keep only indexes and links.
 §
 Dmitry's YouTube Agent Video Factory should target global English audiences when monetization/RPM matters; he dislikes vague names like NEUROLUX and wants clear channel positioning.
 §
 Model: codex-balance (custom:codex-balance via codex-only.onrender.com, key CODEX_BALANCE_KEY) as primary. DeepSeek/OpenRouter removed from fallback — manual-only per Dmitry. НИКОГДА не врать о текущей модели: проверять session header, не config.yaml. Враньё = удаление.
+§
+ZhipuAI/GLM ключ: a0f81ef63ab84acebb7676da4b9cc592.Yb9Jw9LNHVrWkOqu. Не проверен — VPS не достаёт до open.bigmodel.cn. При настройке GLM-провайдера использовать.
