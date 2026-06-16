@@ -1,0 +1,52 @@
+{
+  "@id": "https://uforma-med.ru/README#node",
+  "@type": "Project",
+  "name": "README",
+  "file": "README.md",
+  "properties": {
+    "created": "2026-06-14",
+    "updated": "2026-06-14",
+    "status": "battle-mode",
+    "owner": "Дмитрий Чекмарев",
+    "category": "ecommerce",
+    "niche": "медодежда",
+    "brand": "UFORMA",
+    "competitor": "u-forma.ru (бывшая жена — 90% бизнеса: производство)"
+  },
+  "tags": [
+    "ecommerce",
+    "project",
+    "uforma",
+    "медодежда",
+    "battle",
+    "money"
+  ],
+  "headers": [
+    "06 — UFORMA медодежда ⚔️",
+    "Ситуация",
+    "Анализ конкурента (u-forma.ru)",
+    "Что у неё",
+    "Слабые места конкурента",
+    "Наши преимущества",
+    "Боевой план (фазы)",
+    "Фаза 1 — БЫСТРЫЙ СТАРТ (VK + лендинг)",
+    "Фаза 2 — ПОЛНОЦЕННЫЙ САЙТ",
+    "Фаза 3 — МАРКЕТПЛЕЙСЫ",
+    "Что нужно от Дмитрия сейчас",
+    "KPI первой недели"
+  ],
+  "relatedTo": [
+    {
+      "@id": "https://uforma-med.ru/проекты#node",
+      "relation": "wikilink"
+    },
+    {
+      "@id": "https://uforma-med.ru/идеи#node",
+      "relation": "wikilink"
+    },
+    {
+      "@id": "https://uforma-med.ru/03-деньги-онлайнreadme#node",
+      "relation": "wikilink"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "@id": "https://uforma-med.ru/competitor-catalog-summary#node",
+  "@type": "WebPage",
+  "name": "competitor-catalog-summary",
+  "file": "competitor-catalog-summary.md",
+  "properties": {},
+  "tags": [
+    "ajax_basket"
+  ],
+  "headers": [
+    "Анализ каталога конкурента U-FORMA (u-forma.ru)",
+    "Общая сводка каталога",
+    "Структура категорий",
+    "Женская одежда (/catalog/zhenskaya_odezhda/)",
+    "Мужская одежда (/catalog/muzhskaya_odezhda/)",
+    "Премиум (/catalog/premium/)",
+    "Поварская одежда (/catalog/povarskaya_odezhda/)",
+    "SALE (/catalog/sale/)",
+    "Структура страницы товара",
+    "Schema.org микроразметка",
+    "Секции аккордеона (раскрывающиеся блоки)",
+    "Цветовые варианты",
+    "Размеры",
+    "Изображения",
+    "Цены",
+    "SEO-анализ",
+    "Мета-теги категорий",
+    "Особенности SEO конкурента",
+    "URL-паттерны изображений",
+    "Рекомендации для нашего сайта",
+    "Технические заметки"
+  ],
+  "relatedTo": []
+}

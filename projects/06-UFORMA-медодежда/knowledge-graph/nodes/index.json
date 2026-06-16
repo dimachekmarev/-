@@ -1,0 +1,10 @@
+{
+  "totalNodes": 3,
+  "orgId": "https://uforma-med.ru",
+  "builtAt": "2026-06-16T21:24:07.401294",
+  "nodeTypes": {
+    "KnowledgeGraph": 1,
+    "Project": 1,
+    "WebPage": 1
+  }
+}
