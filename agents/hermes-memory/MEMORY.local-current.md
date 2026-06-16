@@ -1,7 +1,7 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-16T08:23:34.187652+00:00
+updated_at: 2026-06-16T09:23:39.549160+00:00
 ---
 # MEMORY.local-current
 
@@ -20,4 +20,5 @@ YouTube Agent Video Factory: heavy assets live on Yandex Disk `yandex:YouTube_Mo
 Dmitry's YouTube Agent Video Factory should target global English audiences when monetization/RPM matters; he dislikes vague names like NEUROLUX and wants clear channel positioning.
 §
 Model: codex-balance (custom:codex-balance via codex-only.onrender.com, key CODEX_BALANCE_KEY) as primary. DeepSeek/OpenRouter removed from fallback — manual-only per Dmitry. НИКОГДА не врать о текущей модели: проверять session header, не config.yaml. Враньё = удаление.
-
+§
+uforma-med.ru deployed on Reg.Ru (31.31.198.57): /var/www/u3439587/data/www/uforma-med.ru/ — same server/user as dikayakleshnya.ru. Deploy via sshpass + rsync. After deploying to Reg.Ru shared hosting, browser cache often shows old version — always tell user Ctrl+Shift+R hard refresh.
