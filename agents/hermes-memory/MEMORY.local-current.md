@@ -1,7 +1,7 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-17T10:34:20.913939+00:00
+updated_at: 2026-06-17T11:34:21.930100+00:00
 ---
 # MEMORY.local-current
 
@@ -22,4 +22,5 @@ Dmitry's YouTube Agent Video Factory should target global English audiences when
 Model: codex-balance (custom:codex-balance via codex-only.onrender.com, key CODEX_BALANCE_KEY) as primary. DeepSeek/OpenRouter removed from fallback — manual-only per Dmitry. НИКОГДА не врать о текущей модели: проверять session header, не config.yaml. Враньё = удаление.
 §
 ZhipuAI/GLM ключ: a0f81ef63ab84acebb7676da4b9cc592.Yb9Jw9LNHVrWkOqu. Не проверен — VPS не достаёт до open.bigmodel.cn. При настройке GLM-провайдера использовать.
-
+§
+VK messages: НИКАКОГО markdown. Ни **жирного**, ни *курсива*, ни `кода`. Только эмодзи + обычный текст. VK не рендерит markdown — звёздочки выглядят как мусор.
