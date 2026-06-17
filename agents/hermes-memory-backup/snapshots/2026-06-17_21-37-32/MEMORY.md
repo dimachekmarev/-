@@ -1,10 +1,3 @@
----
-type: hermes-memory-local-current
-target: memory
-updated_at: 2026-06-17T21:37:32.387053+00:00
----
-# MEMORY.local-current
-
 Obsidian vault: /root/obsidian-vault; reports/briefs → Obsidian. Hermes reports Telegram group: -1002143793106 “Отчеты по проектам” (invite t.me/+R7mjRLI-4GA1Zjcy).
 §
 Hermes VPS: 2 CPU, 1.9 GB RAM, 29 GB disk, 2 GB swap enabled at /swapfile. Keep concurrency low: one heavy code/build task plus light watchdogs.
