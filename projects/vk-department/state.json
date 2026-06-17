@@ -393,6 +393,21 @@
       "image_source": "google_drive",
       "drive_file_id": "1Lj5XuVTi3GC9_DMom0miUtc_4yV8YGBx",
       "image_sha256": "6af851f3e2cce4af1f2d83fb212e68e4caf7cac657cd0a2bb9311f1ceec4f67f"
+    },
+    {
+      "ts": "2026-06-17T15:31:15.525007Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "title": "Кто отвечает клиенту, когда вы не у телефона",
+      "heading": "🔥 КТО ОТВЕЧАЕТ КЛИЕНТУ, КОГДА ВЫ НЕ У ТЕЛЕФОНА",
+      "text_key": "auto:aeaa621fa6a2ea58",
+      "fingerprint": "aeaa621fa6a2ea58",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_93",
+      "attachment": "photo8314079_457240387",
+      "visual_key": "ai:dark-banner",
+      "image_source": "generated_svg",
+      "drive_file_id": null,
+      "image_sha256": "0719e984b478e95765c91d7b2273bc1c55c99868786e7f34118764d2aba9433b"
     }
   ],
   "recent_images": [
@@ -575,6 +590,21 @@
       "sha256": "6af851f3e2cce4af1f2d83fb212e68e4caf7cac657cd0a2bb9311f1ceec4f67f",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_32",
       "attachment": "photo8314079_457240386"
+    },
+    {
+      "ts": "2026-06-17T15:31:15.525065Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "source": "generated_svg",
+      "visual_key": "ai:dark-banner",
+      "variant": "dark-banner",
+      "drive_file_id": null,
+      "drive_file_name": null,
+      "drive_file_url": null,
+      "drive_fallback_reason": "no_drive_pool_configured",
+      "sha256": "0719e984b478e95765c91d7b2273bc1c55c99868786e7f34118764d2aba9433b",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_93",
+      "attachment": "photo8314079_457240387"
     }
   ],
   "communities": {
@@ -693,6 +723,14 @@
       "fingerprint": "0fc37d0b80286b68",
       "title": "Среда. Самое время замедлиться",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_32"
+    },
+    {
+      "ts": "2026-06-17T15:31:15.525060Z",
+      "community": "smart_agent_ai",
+      "text_key": "auto:aeaa621fa6a2ea58",
+      "fingerprint": "aeaa621fa6a2ea58",
+      "title": "Кто отвечает клиенту, когда вы не у телефона",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_93"
     }
   ]
 }
