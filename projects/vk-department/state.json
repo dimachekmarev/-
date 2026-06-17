@@ -363,6 +363,21 @@
       "image_source": "google_drive",
       "drive_file_id": "1rgJI-G-p0y07JqRmbQJnQi5lWTveu_RM",
       "image_sha256": "ad3debe38465e2026b2a6f279d2c65d6ef6e87abcc3e5df40b01d2e1f330298d"
+    },
+    {
+      "ts": "2026-06-17T07:32:10.823618Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "title": "С чего начинается автоматизация малого бизнеса",
+      "heading": "🔥 С ЧЕГО НАЧИНАЕТСЯ АВТОМАТИЗАЦИЯ МАЛОГО БИЗНЕСА",
+      "text_key": "smart-morning-20260617-s-chego-nachat",
+      "fingerprint": "3f1dc5851e1ae9dc",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_92",
+      "attachment": "photo8314079_457240385",
+      "visual_key": "ai:process-bars",
+      "image_source": "generated_svg",
+      "drive_file_id": null,
+      "image_sha256": "fbd2cac7c96c3e3e7e4a1ed93a4919d59f092ce876bf38f4986e989e0f9fff29"
     }
   ],
   "recent_images": [
@@ -515,6 +530,21 @@
       "sha256": "ad3debe38465e2026b2a6f279d2c65d6ef6e87abcc3e5df40b01d2e1f330298d",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_31",
       "attachment": "photo8314079_457240384"
+    },
+    {
+      "ts": "2026-06-17T07:32:10.823786Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "source": "generated_svg",
+      "visual_key": "ai:process-bars",
+      "variant": "process-bars",
+      "drive_file_id": null,
+      "drive_file_name": null,
+      "drive_file_url": null,
+      "drive_fallback_reason": "no_drive_pool_configured",
+      "sha256": "fbd2cac7c96c3e3e7e4a1ed93a4919d59f092ce876bf38f4986e989e0f9fff29",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_92",
+      "attachment": "photo8314079_457240385"
     }
   ],
   "communities": {
@@ -617,6 +647,14 @@
       "fingerprint": "f1594e4e205747fe",
       "title": "Отбор, который чувствуется на вкус",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_31"
+    },
+    {
+      "ts": "2026-06-17T07:32:10.823781Z",
+      "community": "smart_agent_ai",
+      "text_key": "smart-morning-20260617-s-chego-nachat",
+      "fingerprint": "3f1dc5851e1ae9dc",
+      "title": "С чего начинается автоматизация малого бизнеса",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_92"
     }
   ]
 }
