@@ -348,6 +348,21 @@
       "image_source": "none",
       "drive_file_id": null,
       "image_sha256": "0000000000000000"
+    },
+    {
+      "ts": "2026-06-17T07:02:15.049615Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "title": "Отбор, который чувствуется на вкус",
+      "heading": "🔥 ОТБОР, КОТОРЫЙ ЧУВСТВУЕТСЯ НА ВКУС",
+      "text_key": "raki-morning-20260617-otbor-na-vkus",
+      "fingerprint": "f1594e4e205747fe",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_31",
+      "attachment": "photo8314079_457240384",
+      "visual_key": "google_drive:1rgJI-G-p0y07JqRmbQJnQi5lWTveu_RM",
+      "image_source": "google_drive",
+      "drive_file_id": "1rgJI-G-p0y07JqRmbQJnQi5lWTveu_RM",
+      "image_sha256": "ad3debe38465e2026b2a6f279d2c65d6ef6e87abcc3e5df40b01d2e1f330298d"
     }
   ],
   "recent_images": [
@@ -485,6 +500,21 @@
       "sha256": "ca0b270570ae2ea200f519dbfca0b564e85a60e39b0014d21b3977c56759ce1d",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_30",
       "attachment": "photo8314079_457240382"
+    },
+    {
+      "ts": "2026-06-17T07:02:15.049690Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "source": "google_drive",
+      "visual_key": "google_drive:1rgJI-G-p0y07JqRmbQJnQi5lWTveu_RM",
+      "variant": null,
+      "drive_file_id": "1rgJI-G-p0y07JqRmbQJnQi5lWTveu_RM",
+      "drive_file_name": "Gemini_Generated_Image_yhea5qyhea5qyhea.png",
+      "drive_file_url": "https://drive.google.com/file/d/1rgJI-G-p0y07JqRmbQJnQi5lWTveu_RM/view?usp=drivesdk",
+      "drive_fallback_reason": null,
+      "sha256": "ad3debe38465e2026b2a6f279d2c65d6ef6e87abcc3e5df40b01d2e1f330298d",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_31",
+      "attachment": "photo8314079_457240384"
     }
   ],
   "communities": {
@@ -579,6 +609,14 @@
       "fingerprint": "20d379e2b94946dc",
       "title": "Что AI-агент делает, пока вы ужинаете",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_90"
+    },
+    {
+      "ts": "2026-06-17T07:02:15.049684Z",
+      "community": "dikaya_kleshnya",
+      "text_key": "raki-morning-20260617-otbor-na-vkus",
+      "fingerprint": "f1594e4e205747fe",
+      "title": "Отбор, который чувствуется на вкус",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_31"
     }
   ]
 }
