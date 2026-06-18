@@ -453,6 +453,21 @@
       "image_source": "google_drive",
       "drive_file_id": "1PLpTvY1qsTktTgaZ1KBHlpbVnzvQ7qwc",
       "image_sha256": "e56706de9938ea17df45dd71af3925e8ef59114823910376c0064a8042f595bf"
+    },
+    {
+      "ts": "2026-06-18T15:31:54.706791Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "title": "Что происходит с заявкой в 20:15",
+      "heading": "🔥 ЧТО ПРОИСХОДИТ С ЗАЯВКОЙ В 20:15",
+      "text_key": "auto:c652046e4a1ae61a",
+      "fingerprint": "c652046e4a1ae61a",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_96",
+      "attachment": null,
+      "visual_key": "ai:text-only-fallback",
+      "image_source": "text_only_fallback",
+      "drive_file_id": null,
+      "image_sha256": "bc7f2f733eff95db8a0d45cdeaed58c2f3bddd67fd046dfa5d1b20158571e087"
     }
   ],
   "recent_images": [
@@ -845,6 +860,14 @@
       "fingerprint": "1159c45ddd842f40",
       "title": "Когда хочется настоящего",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_34"
+    },
+    {
+      "ts": "2026-06-18T15:31:54.706843Z",
+      "community": "smart_agent_ai",
+      "text_key": "auto:c652046e4a1ae61a",
+      "fingerprint": "c652046e4a1ae61a",
+      "title": "Что происходит с заявкой в 20:15",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_96"
     }
   ]
 }
