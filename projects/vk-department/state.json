@@ -408,6 +408,21 @@
       "image_source": "generated_svg",
       "drive_file_id": null,
       "image_sha256": "0719e984b478e95765c91d7b2273bc1c55c99868786e7f34118764d2aba9433b"
+    },
+    {
+      "ts": "2026-06-18T07:05:05.558392Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "title": "С Волги — к вашему столу",
+      "heading": "🔥 С ВОЛГИ — К ВАШЕМУ СТОЛУ",
+      "text_key": "raki-morning-20260618-s-volgi-k-stolu",
+      "fingerprint": "a512d9243140babe",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_33",
+      "attachment": "photo8314079_457240388",
+      "visual_key": "google_drive:19S_FkbI3c36Ji2971BmBlecfjvOSkfLD",
+      "image_source": "google_drive",
+      "drive_file_id": "19S_FkbI3c36Ji2971BmBlecfjvOSkfLD",
+      "image_sha256": "58053cf8743a3fc9c396e26261dd7a27bcba4119da0376757a03295ccad6738a"
     }
   ],
   "recent_images": [
@@ -605,6 +620,21 @@
       "sha256": "0719e984b478e95765c91d7b2273bc1c55c99868786e7f34118764d2aba9433b",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_93",
       "attachment": "photo8314079_457240387"
+    },
+    {
+      "ts": "2026-06-18T07:05:05.558457Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "source": "google_drive",
+      "visual_key": "google_drive:19S_FkbI3c36Ji2971BmBlecfjvOSkfLD",
+      "variant": null,
+      "drive_file_id": "19S_FkbI3c36Ji2971BmBlecfjvOSkfLD",
+      "drive_file_name": "ChatGPT Image 14 июн. 2026 г., 14_46_43 (2).png",
+      "drive_file_url": "https://drive.google.com/file/d/19S_FkbI3c36Ji2971BmBlecfjvOSkfLD/view?usp=drivesdk",
+      "drive_fallback_reason": null,
+      "sha256": "58053cf8743a3fc9c396e26261dd7a27bcba4119da0376757a03295ccad6738a",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_33",
+      "attachment": "photo8314079_457240388"
     }
   ],
   "communities": {
@@ -731,6 +761,14 @@
       "fingerprint": "aeaa621fa6a2ea58",
       "title": "Кто отвечает клиенту, когда вы не у телефона",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_93"
+    },
+    {
+      "ts": "2026-06-18T07:05:05.558452Z",
+      "community": "dikaya_kleshnya",
+      "text_key": "raki-morning-20260618-s-volgi-k-stolu",
+      "fingerprint": "a512d9243140babe",
+      "title": "С Волги — к вашему столу",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_33"
     }
   ]
 }
