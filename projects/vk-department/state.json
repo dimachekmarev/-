@@ -438,6 +438,21 @@
       "image_source": "generated_svg",
       "drive_file_id": null,
       "image_sha256": "d1d0b15b4fd3baeb1aa7f48f3137764a2d9f3beec8c679a3a52b9ade12fca986"
+    },
+    {
+      "ts": "2026-06-18T15:02:01.561878Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "title": "Когда хочется настоящего",
+      "heading": "🔥 КОГДА ХОЧЕТСЯ НАСТОЯЩЕГО",
+      "text_key": "raki-evening-20260618-kogda-hochetsya-nastoyaschego",
+      "fingerprint": "1159c45ddd842f40",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_34",
+      "attachment": "photo8314079_457240390",
+      "visual_key": "google_drive:1PLpTvY1qsTktTgaZ1KBHlpbVnzvQ7qwc",
+      "image_source": "google_drive",
+      "drive_file_id": "1PLpTvY1qsTktTgaZ1KBHlpbVnzvQ7qwc",
+      "image_sha256": "e56706de9938ea17df45dd71af3925e8ef59114823910376c0064a8042f595bf"
     }
   ],
   "recent_images": [
@@ -665,6 +680,21 @@
       "sha256": "d1d0b15b4fd3baeb1aa7f48f3137764a2d9f3beec8c679a3a52b9ade12fca986",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_95",
       "attachment": "photo8314079_457240389"
+    },
+    {
+      "ts": "2026-06-18T15:02:01.561936Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "source": "google_drive",
+      "visual_key": "google_drive:1PLpTvY1qsTktTgaZ1KBHlpbVnzvQ7qwc",
+      "variant": null,
+      "drive_file_id": "1PLpTvY1qsTktTgaZ1KBHlpbVnzvQ7qwc",
+      "drive_file_name": "ChatGPT Image 14 июн. 2026 г., 15_07_03 (6).png",
+      "drive_file_url": "https://drive.google.com/file/d/1PLpTvY1qsTktTgaZ1KBHlpbVnzvQ7qwc/view?usp=drivesdk",
+      "drive_fallback_reason": null,
+      "sha256": "e56706de9938ea17df45dd71af3925e8ef59114823910376c0064a8042f595bf",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_34",
+      "attachment": "photo8314079_457240390"
     }
   ],
   "communities": {
@@ -807,6 +837,14 @@
       "fingerprint": "37bc88bdad365189",
       "title": "Ваш ИИ-помощник просыпается раньше всех",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_95"
+    },
+    {
+      "ts": "2026-06-18T15:02:01.561931Z",
+      "community": "dikaya_kleshnya",
+      "text_key": "raki-evening-20260618-kogda-hochetsya-nastoyaschego",
+      "fingerprint": "1159c45ddd842f40",
+      "title": "Когда хочется настоящего",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_34"
     }
   ]
 }
