@@ -468,6 +468,21 @@
       "image_source": "text_only_fallback",
       "drive_file_id": null,
       "image_sha256": "bc7f2f733eff95db8a0d45cdeaed58c2f3bddd67fd046dfa5d1b20158571e087"
+    },
+    {
+      "ts": "2026-06-19T07:06:23.582674Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "title": "Лето. Вечер. Раки.",
+      "heading": "🔥 ЛЕТО. ВЕЧЕР. РАКИ.",
+      "text_key": "raki-morning-20260619-leto-vecher-raki",
+      "fingerprint": "b2c0eab705a0bb70",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_35",
+      "attachment": null,
+      "visual_key": "ai:text-only-fallback",
+      "image_source": "text_only_fallback",
+      "drive_file_id": "1hHbNozPOHwZy6OCUndS6cYXhyLxDRAIY",
+      "image_sha256": "5830fa0d9df63c478e7e61d755284b3cef4c316aba54b51edefd837707ab7402"
     }
   ],
   "recent_images": [
@@ -868,6 +883,14 @@
       "fingerprint": "c652046e4a1ae61a",
       "title": "Что происходит с заявкой в 20:15",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_96"
+    },
+    {
+      "ts": "2026-06-19T07:06:23.582767Z",
+      "community": "dikaya_kleshnya",
+      "text_key": "raki-morning-20260619-leto-vecher-raki",
+      "fingerprint": "b2c0eab705a0bb70",
+      "title": "Лето. Вечер. Раки.",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_35"
     }
   ]
 }
