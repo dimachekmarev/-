@@ -483,6 +483,21 @@
       "image_source": "text_only_fallback",
       "drive_file_id": "1hHbNozPOHwZy6OCUndS6cYXhyLxDRAIY",
       "image_sha256": "5830fa0d9df63c478e7e61d755284b3cef4c316aba54b51edefd837707ab7402"
+    },
+    {
+      "ts": "2026-06-19T07:31:16.677919Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "title": "Пятница. Время считать результаты, а не часы",
+      "heading": "🔥 ПЯТНИЦА. ВРЕМЯ СЧИТАТЬ РЕЗУЛЬТАТЫ, А НЕ ЧАСЫ",
+      "text_key": "auto:79edf5bdc92b523a",
+      "fingerprint": "79edf5bdc92b523a",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_98",
+      "attachment": "photo8314079_457240392",
+      "visual_key": "ai:chat-flow",
+      "image_source": "generated_svg",
+      "drive_file_id": null,
+      "image_sha256": "490e0c086943d8655d967d74d41f0a43d65340b84bfae825ac3ca093d9c30066"
     }
   ],
   "recent_images": [
@@ -725,6 +740,21 @@
       "sha256": "e56706de9938ea17df45dd71af3925e8ef59114823910376c0064a8042f595bf",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_34",
       "attachment": "photo8314079_457240390"
+    },
+    {
+      "ts": "2026-06-19T07:31:16.677988Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "source": "generated_svg",
+      "visual_key": "ai:chat-flow",
+      "variant": "chat-flow",
+      "drive_file_id": null,
+      "drive_file_name": null,
+      "drive_file_url": null,
+      "drive_fallback_reason": "no_drive_pool_configured",
+      "sha256": "490e0c086943d8655d967d74d41f0a43d65340b84bfae825ac3ca093d9c30066",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_98",
+      "attachment": "photo8314079_457240392"
     }
   ],
   "communities": {
@@ -891,6 +921,14 @@
       "fingerprint": "b2c0eab705a0bb70",
       "title": "Лето. Вечер. Раки.",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_35"
+    },
+    {
+      "ts": "2026-06-19T07:31:16.677982Z",
+      "community": "smart_agent_ai",
+      "text_key": "auto:79edf5bdc92b523a",
+      "fingerprint": "79edf5bdc92b523a",
+      "title": "Пятница. Время считать результаты, а не часы",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_98"
     }
   ]
 }
