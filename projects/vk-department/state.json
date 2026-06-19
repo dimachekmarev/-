@@ -498,6 +498,21 @@
       "image_source": "generated_svg",
       "drive_file_id": null,
       "image_sha256": "490e0c086943d8655d967d74d41f0a43d65340b84bfae825ac3ca093d9c30066"
+    },
+    {
+      "ts": "2026-06-19T15:01:38.222737Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "title": "Первую клешню — за пятницу",
+      "heading": "🔥 ПЕРВУЮ КЛЕШНЮ — ЗА ПЯТНИЦУ",
+      "text_key": "raki-evening-20260619-pervuyu-kleshnyu-za-pyatnitsu",
+      "fingerprint": "b62d520709de78a8",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_36",
+      "attachment": "photo8314079_457240393",
+      "visual_key": "google_drive:1hHbNozPOHwZy6OCUndS6cYXhyLxDRAIY",
+      "image_source": "google_drive",
+      "drive_file_id": "1hHbNozPOHwZy6OCUndS6cYXhyLxDRAIY",
+      "image_sha256": "5830fa0d9df63c478e7e61d755284b3cef4c316aba54b51edefd837707ab7402"
     }
   ],
   "recent_images": [
@@ -755,6 +770,21 @@
       "sha256": "490e0c086943d8655d967d74d41f0a43d65340b84bfae825ac3ca093d9c30066",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_98",
       "attachment": "photo8314079_457240392"
+    },
+    {
+      "ts": "2026-06-19T15:01:38.222806Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "source": "google_drive",
+      "visual_key": "google_drive:1hHbNozPOHwZy6OCUndS6cYXhyLxDRAIY",
+      "variant": null,
+      "drive_file_id": "1hHbNozPOHwZy6OCUndS6cYXhyLxDRAIY",
+      "drive_file_name": "Gemini_Generated_Image_iaq24kiaq24kiaq2 (1).png",
+      "drive_file_url": "https://drive.google.com/file/d/1hHbNozPOHwZy6OCUndS6cYXhyLxDRAIY/view?usp=drivesdk",
+      "drive_fallback_reason": null,
+      "sha256": "5830fa0d9df63c478e7e61d755284b3cef4c316aba54b51edefd837707ab7402",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_36",
+      "attachment": "photo8314079_457240393"
     }
   ],
   "communities": {
@@ -929,6 +959,14 @@
       "fingerprint": "79edf5bdc92b523a",
       "title": "Пятница. Время считать результаты, а не часы",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_98"
+    },
+    {
+      "ts": "2026-06-19T15:01:38.222801Z",
+      "community": "dikaya_kleshnya",
+      "text_key": "raki-evening-20260619-pervuyu-kleshnyu-za-pyatnitsu",
+      "fingerprint": "b62d520709de78a8",
+      "title": "Первую клешню — за пятницу",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_36"
     }
   ]
 }
