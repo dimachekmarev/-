@@ -513,6 +513,21 @@
       "image_source": "google_drive",
       "drive_file_id": "1hHbNozPOHwZy6OCUndS6cYXhyLxDRAIY",
       "image_sha256": "5830fa0d9df63c478e7e61d755284b3cef4c316aba54b51edefd837707ab7402"
+    },
+    {
+      "ts": "2026-06-19T15:31:21.546728Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "title": "От пятницы до понедельника — 60 часов без вас",
+      "heading": "🔥 ОТ ПЯТНИЦЫ ДО ПОНЕДЕЛЬНИКА — 60 ЧАСОВ БЕЗ ВАС",
+      "text_key": "auto:65972c3a373eed5a",
+      "fingerprint": "65972c3a373eed5a",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_99",
+      "attachment": "photo8314079_457240394",
+      "visual_key": "ai:diagonal-system",
+      "image_source": "generated_svg",
+      "drive_file_id": null,
+      "image_sha256": "5853cee1d1e98b43f67066038159895659f66a5ff99c9a1ebfc3ce18ff576ae9"
     }
   ],
   "recent_images": [
@@ -785,6 +800,21 @@
       "sha256": "5830fa0d9df63c478e7e61d755284b3cef4c316aba54b51edefd837707ab7402",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_36",
       "attachment": "photo8314079_457240393"
+    },
+    {
+      "ts": "2026-06-19T15:31:21.546803Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "source": "generated_svg",
+      "visual_key": "ai:diagonal-system",
+      "variant": "diagonal-system",
+      "drive_file_id": null,
+      "drive_file_name": null,
+      "drive_file_url": null,
+      "drive_fallback_reason": "no_drive_pool_configured",
+      "sha256": "5853cee1d1e98b43f67066038159895659f66a5ff99c9a1ebfc3ce18ff576ae9",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_99",
+      "attachment": "photo8314079_457240394"
     }
   ],
   "communities": {
@@ -967,6 +997,14 @@
       "fingerprint": "b62d520709de78a8",
       "title": "Первую клешню — за пятницу",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_36"
+    },
+    {
+      "ts": "2026-06-19T15:31:21.546798Z",
+      "community": "smart_agent_ai",
+      "text_key": "auto:65972c3a373eed5a",
+      "fingerprint": "65972c3a373eed5a",
+      "title": "От пятницы до понедельника — 60 часов без вас",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_99"
     }
   ]
 }
