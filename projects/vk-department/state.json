@@ -558,6 +558,21 @@
       "image_source": "generated_svg",
       "drive_file_id": null,
       "image_sha256": "0f869efaa72d7fff7b0292aff837369d4d65dfa83b41515834eafbbc4ca960ec"
+    },
+    {
+      "ts": "2026-06-20T15:01:54.029718Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "title": "Вечер, который начинается с аромата",
+      "heading": "🔥 ВЕЧЕР, КОТОРЫЙ НАЧИНАЕТСЯ С АРОМАТА",
+      "text_key": "raki-evening-20260620-vecher-s-aromatom",
+      "fingerprint": "749008d1c4751ceb",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_38",
+      "attachment": "photo8314079_457240397",
+      "visual_key": "google_drive:1lVDH-QnPyEWI2hPsh0NpLK5xyPgMRRX6",
+      "image_source": "google_drive",
+      "drive_file_id": "1lVDH-QnPyEWI2hPsh0NpLK5xyPgMRRX6",
+      "image_sha256": "25a125130cbbf76296422c04947ad184606aab8f3c198743d4a7df3650226c18"
     }
   ],
   "recent_images": [
@@ -875,6 +890,21 @@
       "sha256": "0f869efaa72d7fff7b0292aff837369d4d65dfa83b41515834eafbbc4ca960ec",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_101",
       "attachment": "photo8314079_457240396"
+    },
+    {
+      "ts": "2026-06-20T15:01:54.029895Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "source": "google_drive",
+      "visual_key": "google_drive:1lVDH-QnPyEWI2hPsh0NpLK5xyPgMRRX6",
+      "variant": null,
+      "drive_file_id": "1lVDH-QnPyEWI2hPsh0NpLK5xyPgMRRX6",
+      "drive_file_name": "Gemini_Generated_Image_ck72d6ck72d6ck72.png",
+      "drive_file_url": "https://drive.google.com/file/d/1lVDH-QnPyEWI2hPsh0NpLK5xyPgMRRX6/view?usp=drivesdk",
+      "drive_fallback_reason": null,
+      "sha256": "25a125130cbbf76296422c04947ad184606aab8f3c198743d4a7df3650226c18",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_38",
+      "attachment": "photo8314079_457240397"
     }
   ],
   "communities": {
@@ -1081,6 +1111,14 @@
       "fingerprint": "e235b93fac315d32",
       "title": "Когда рутина уходит — приходит время для главного",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_101"
+    },
+    {
+      "ts": "2026-06-20T15:01:54.029889Z",
+      "community": "dikaya_kleshnya",
+      "text_key": "raki-evening-20260620-vecher-s-aromatom",
+      "fingerprint": "749008d1c4751ceb",
+      "title": "Вечер, который начинается с аромата",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_38"
     }
   ]
 }

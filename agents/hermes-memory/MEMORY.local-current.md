@@ -1,13 +1,13 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-20T14:02:51.004132+00:00
+updated_at: 2026-06-20T15:02:51.516862+00:00
 ---
 # MEMORY.local-current
 
 Obsidian vault: /root/obsidian-vault; reports/briefs → Obsidian. Hermes reports Telegram group: -1002143793106 “Отчеты по проектам” (invite t.me/+R7mjRLI-4GA1Zjcy).
 §
-Hermes VPS: 2 CPU, 1.9GB RAM, 29GB disk, 2GB swap. Keep concurrency low. BrowserAct: CLI+skills installed; use DISPLAY=:99/Xvfb and `/usr/local/bin/google-chrome` wrapper with `--no-sandbox --disable-dev-shm-usage` for root/headless Chrome.
+Hermes VPS: 2CPU/1.9GB RAM/29GB disk/2GB swap, low concurrency. BrowserAct: DISPLAY=:99, google-chrome --no-sandbox --disable-dev-shm-usage. Telegram: guard cron d1fef800c2c0; uforma_bot.py uses UFORMA_TELEGRAM_BOT_TOKEN only.
 §
 VK: app 54628476, user 8314079. Token with wall+messages+offline. Creds: /root/obsidian-vault/agents/hermes-memory/vk-credentials.md. POST 09:00-22:00 MSK ONLY. Delete by from_id==8314079, never text. Dept proj: /root/obsidian-vault/projects/vk-department. 2/day to dikaya_kleshnya+smart_agent_ai. Publisher: vk_department_publish.py
 §
@@ -22,4 +22,3 @@ Dmitry's YouTube Agent Video Factory should target global English audiences when
 Model: codex-balance (custom:codex-balance via codex-only.onrender.com, key CODEX_BALANCE_KEY) as primary. DeepSeek/OpenRouter removed from fallback — manual-only per Dmitry. НИКОГДА не врать о текущей модели: проверять session header, не config.yaml. Враньё = удаление.
 §
 НИКАКОГО markdown нигде: ни в VK, ни в ответах Дмитрию. Ни **жирного**, ни *курсива*, ни `кода`, ни ## заголовков. Только чистый человеческий язык. Humanizer skill обязателен перед каждым ответом. Эмодзи тоже убирать. Без звёздочек — это мусор.
-
