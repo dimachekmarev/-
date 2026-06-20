@@ -1,10 +1,3 @@
----
-type: hermes-memory-local-current
-target: memory
-updated_at: 2026-06-20T19:03:55.781760+00:00
----
-# MEMORY.local-current
-
 Obsidian vault: /root/obsidian-vault; reports/briefs → Obsidian. Hermes reports Telegram group: -1002143793106 “Отчеты по проектам” (invite t.me/+R7mjRLI-4GA1Zjcy).
 §
 Hermes VPS: 2CPU/1.9GB RAM/29GB disk/2GB swap, low concurrency. BrowserAct: DISPLAY=:99, google-chrome --no-sandbox --disable-dev-shm-usage. Telegram: guard cron d1fef800c2c0; uforma_bot.py uses UFORMA_TELEGRAM_BOT_TOKEN only.
