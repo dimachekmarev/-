@@ -543,6 +543,21 @@
       "image_source": "google_drive",
       "drive_file_id": "1H7Y7vJNhKA9UTM0ENAO_PL7Z5AbIWlpI",
       "image_sha256": "21007fbfc71c7a807e1d94fc7b99edfa16e8020f469da5ea9e773ca57fa2f651"
+    },
+    {
+      "ts": "2026-06-20T07:31:33.051283Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "title": "Когда рутина уходит — приходит время для главного",
+      "heading": "🔥 КОГДА РУТИНА УХОДИТ — ПРИХОДИТ ВРЕМЯ ДЛЯ ГЛАВНОГО",
+      "text_key": "auto:e235b93fac315d32",
+      "fingerprint": "e235b93fac315d32",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_101",
+      "attachment": "photo8314079_457240396",
+      "visual_key": "ai:network-right",
+      "image_source": "generated_svg",
+      "drive_file_id": null,
+      "image_sha256": "0f869efaa72d7fff7b0292aff837369d4d65dfa83b41515834eafbbc4ca960ec"
     }
   ],
   "recent_images": [
@@ -845,6 +860,21 @@
       "sha256": "21007fbfc71c7a807e1d94fc7b99edfa16e8020f469da5ea9e773ca57fa2f651",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_37",
       "attachment": "photo8314079_457240395"
+    },
+    {
+      "ts": "2026-06-20T07:31:33.053487Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "source": "generated_svg",
+      "visual_key": "ai:network-right",
+      "variant": "network-right",
+      "drive_file_id": null,
+      "drive_file_name": null,
+      "drive_file_url": null,
+      "drive_fallback_reason": "no_drive_pool_configured",
+      "sha256": "0f869efaa72d7fff7b0292aff837369d4d65dfa83b41515834eafbbc4ca960ec",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_101",
+      "attachment": "photo8314079_457240396"
     }
   ],
   "communities": {
@@ -1043,6 +1073,14 @@
       "fingerprint": "f4d228d6636e85a9",
       "title": "Есть руками — это нормально. Когда это раки.",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_37"
+    },
+    {
+      "ts": "2026-06-20T07:31:33.053480Z",
+      "community": "smart_agent_ai",
+      "text_key": "auto:e235b93fac315d32",
+      "fingerprint": "e235b93fac315d32",
+      "title": "Когда рутина уходит — приходит время для главного",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_101"
     }
   ]
 }
