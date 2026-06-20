@@ -573,6 +573,21 @@
       "image_source": "google_drive",
       "drive_file_id": "1lVDH-QnPyEWI2hPsh0NpLK5xyPgMRRX6",
       "image_sha256": "25a125130cbbf76296422c04947ad184606aab8f3c198743d4a7df3650226c18"
+    },
+    {
+      "ts": "2026-06-20T15:31:47.943254Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "title": "Субботний вечер — а заявки приняты",
+      "heading": "🔥 СУББОТНИЙ ВЕЧЕР — А ЗАЯВКИ ПРИНЯТЫ",
+      "text_key": "smart-evening-20260620-subbota-zayavki-prinyaty",
+      "fingerprint": "af9a1c71d50c6f11",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_102",
+      "attachment": "photo8314079_457240398",
+      "visual_key": "ai:dashboard-card",
+      "image_source": "generated_svg",
+      "drive_file_id": null,
+      "image_sha256": "dcd3b1de887821d80db500673b6c32a3ee2a36f74878e3ed82978cd0b078bb69"
     }
   ],
   "recent_images": [
@@ -905,6 +920,21 @@
       "sha256": "25a125130cbbf76296422c04947ad184606aab8f3c198743d4a7df3650226c18",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_38",
       "attachment": "photo8314079_457240397"
+    },
+    {
+      "ts": "2026-06-20T15:31:47.943312Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "source": "generated_svg",
+      "visual_key": "ai:dashboard-card",
+      "variant": "dashboard-card",
+      "drive_file_id": null,
+      "drive_file_name": null,
+      "drive_file_url": null,
+      "drive_fallback_reason": "no_drive_pool_configured",
+      "sha256": "dcd3b1de887821d80db500673b6c32a3ee2a36f74878e3ed82978cd0b078bb69",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_102",
+      "attachment": "photo8314079_457240398"
     }
   ],
   "communities": {
@@ -1119,6 +1149,14 @@
       "fingerprint": "749008d1c4751ceb",
       "title": "Вечер, который начинается с аромата",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_38"
+    },
+    {
+      "ts": "2026-06-20T15:31:47.943307Z",
+      "community": "smart_agent_ai",
+      "text_key": "smart-evening-20260620-subbota-zayavki-prinyaty",
+      "fingerprint": "af9a1c71d50c6f11",
+      "title": "Субботний вечер — а заявки приняты",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_102"
     }
   ]
 }
