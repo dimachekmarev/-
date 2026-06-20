@@ -1,19 +1,19 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-20T21:03:57.194981+00:00
+updated_at: 2026-06-20T22:03:58.116408+00:00
 ---
 # MEMORY.local-current
 
 Obsidian vault: /root/obsidian-vault; reports/briefs → Obsidian. Hermes reports Telegram group: -1002143793106 “Отчеты по проектам” (invite t.me/+R7mjRLI-4GA1Zjcy).
 §
-Hermes VPS: 2CPU/1.9GB RAM/29GB disk/2GB swap, low concurrency. BrowserAct: DISPLAY=:99, google-chrome --no-sandbox --disable-dev-shm-usage. Telegram: guard cron d1fef800c2c0; uforma_bot.py uses UFORMA_TELEGRAM_BOT_TOKEN only.
+BrowserAct: API key configured; browser-act v0.1.30, skill_compat ok, browseract-demo chrome profile exists. DISPLAY=:99, google-chrome --no-sandbox --disable-dev-shm-usage.
 §
 VK: app 54628476, user 8314079. Token with wall+messages+offline. Creds: /root/obsidian-vault/agents/hermes-memory/vk-credentials.md. POST 09:00-22:00 MSK ONLY. Delete by from_id==8314079, never text. Dept proj: /root/obsidian-vault/projects/vk-department. 2/day to dikaya_kleshnya+smart_agent_ai. Publisher: vk_department_publish.py
 §
 Yandex Disk is connected via rclone remote `yandex:` using OAuth. Dedicated skill: `yandex-disk-agent`; Obsidian notes: `/root/obsidian-vault/agents/hermes-memory/yandex-disk-agent.md` and `yandex-disk-inventory.md`; daily local inventory cron job updates the index.
 §
-Reg.Ru: IP 31.31.198.57, ISPmanager server19.hosting.reg.ru:1500, логин u3439587, пароль sMd0S3v3uDUF87cV. Деплой: sshpass+rsync в /var/www/u3439587/data/www/<domain>/. DNS — только личный кабинет reg.ru (ISPmanager DNS не работает). Сайты: dikayakleshnya.ru, uforma-med.ru.
+Reg.Ru: IP 31.31.198.57, ISPmanager server19.hosting.reg.ru:1500, логин u3439587, пароль sMd0S3v3uDUF87cV. Деплой: sshpass+rsync в /var/www/u3439587/data/www/<domain>/. DNS — только ЛК reg.ru; BrowserAct browseract-demo вошёл как 79172123344@yandex.ru. Сайты: dikayakleshnya.ru, uforma-med.ru.
 §
 YouTube Agent Video Factory: heavy assets live on Yandex Disk `yandex:YouTube_Money_System/Agent_Video_Factory/`; Obsidian/memory keep only indexes and links.
 §
