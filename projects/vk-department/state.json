@@ -528,6 +528,21 @@
       "image_source": "generated_svg",
       "drive_file_id": null,
       "image_sha256": "5853cee1d1e98b43f67066038159895659f66a5ff99c9a1ebfc3ce18ff576ae9"
+    },
+    {
+      "ts": "2026-06-20T07:05:01.943211Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "title": "Есть руками — это нормально. Когда это раки.",
+      "heading": "🔥 ЕСТЬ РУКАМИ — ЭТО НОРМАЛЬНО. КОГДА ЭТО РАКИ.",
+      "text_key": "raki-morning-20260620-est-rukami",
+      "fingerprint": "f4d228d6636e85a9",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_37",
+      "attachment": "photo8314079_457240395",
+      "visual_key": "google_drive:1H7Y7vJNhKA9UTM0ENAO_PL7Z5AbIWlpI",
+      "image_source": "google_drive",
+      "drive_file_id": "1H7Y7vJNhKA9UTM0ENAO_PL7Z5AbIWlpI",
+      "image_sha256": "21007fbfc71c7a807e1d94fc7b99edfa16e8020f469da5ea9e773ca57fa2f651"
     }
   ],
   "recent_images": [
@@ -815,6 +830,21 @@
       "sha256": "5853cee1d1e98b43f67066038159895659f66a5ff99c9a1ebfc3ce18ff576ae9",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_99",
       "attachment": "photo8314079_457240394"
+    },
+    {
+      "ts": "2026-06-20T07:05:01.943356Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "source": "google_drive",
+      "visual_key": "google_drive:1H7Y7vJNhKA9UTM0ENAO_PL7Z5AbIWlpI",
+      "variant": null,
+      "drive_file_id": "1H7Y7vJNhKA9UTM0ENAO_PL7Z5AbIWlpI",
+      "drive_file_name": "ChatGPT Image 14 июн. 2026 г., 14_46_44 (4).png",
+      "drive_file_url": "https://drive.google.com/file/d/1H7Y7vJNhKA9UTM0ENAO_PL7Z5AbIWlpI/view?usp=drivesdk",
+      "drive_fallback_reason": null,
+      "sha256": "21007fbfc71c7a807e1d94fc7b99edfa16e8020f469da5ea9e773ca57fa2f651",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_37",
+      "attachment": "photo8314079_457240395"
     }
   ],
   "communities": {
@@ -1005,6 +1035,14 @@
       "fingerprint": "65972c3a373eed5a",
       "title": "От пятницы до понедельника — 60 часов без вас",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_99"
+    },
+    {
+      "ts": "2026-06-20T07:05:01.943349Z",
+      "community": "dikaya_kleshnya",
+      "text_key": "raki-morning-20260620-est-rukami",
+      "fingerprint": "f4d228d6636e85a9",
+      "title": "Есть руками — это нормально. Когда это раки.",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_37"
     }
   ]
 }
