@@ -1,11 +1,11 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-21T21:24:16.807066+00:00
+updated_at: 2026-06-21T22:24:17.655285+00:00
 ---
 # MEMORY.local-current
 
-Obsidian vault: /root/obsidian-vault; reports/briefs → Obsidian. Local context-memory: agents/context-memory/agent_memory.db + scripts/memory_cli.py; use context-pack query for compact recall. Reports TG group: -1002143793106.
+Obsidian vault: /root/obsidian-vault; use context-pack for recall. Supabase sync DNS-unreachable. Reports TG: -1002143793106. IDEAS RULE: идея → save to Идеи.md, never execute. Binance bot: /root/crypto-scalp-bot, 8 sub-agents, pyramid entries 20x, awaiting testnet keys.
 §
 BrowserAct: API key configured; browser-act v0.1.30, skill_compat ok, browseract-demo chrome profile exists. DISPLAY=:99, google-chrome --no-sandbox --disable-dev-shm-usage.
 §
@@ -15,10 +15,8 @@ Yandex Disk: rclone remote `yandex:` works. Use `yandex-disk-agent`. Index notes
 §
 Reg.Ru: IP 31.31.198.57, ISPmanager server19.hosting.reg.ru:1500, логин u3439587, пароль sMd0S3v3uDUF87cV. Деплой: sshpass+rsync в /var/www/u3439587/data/www/<domain>/. DNS — только ЛК reg.ru; BrowserAct browseract-demo вошёл как 79172123344@yandex.ru. Сайты: dikayakleshnya.ru, uforma-med.ru.
 §
-YouTube Agent Video Factory: heavy assets live on Yandex Disk `yandex:YouTube_Money_System/Agent_Video_Factory/`; Obsidian/memory keep only indexes and links.
-§
-Dmitry's YouTube Agent Video Factory should target global English audiences when monetization/RPM matters; he dislikes vague names like NEUROLUX and wants clear channel positioning.
+YouTube Agent Video Factory: assets on Yandex Disk `yandex:YouTube_Money_System/Agent_Video_Factory/`. Target global English audience for RPM; avoid vague names like NEUROLUX.
 §
 Model: codex-balance (custom:codex-balance via codex-only.onrender.com, key CODEX_BALANCE_KEY) as primary. DeepSeek/OpenRouter removed from fallback — manual-only per Dmitry. НИКОГДА не врать о текущей модели: проверять session header, не config.yaml. Враньё = удаление.
 §
-Строго без markdown и эмодзи в ответах Дмитрию: чистый текст, коротко, без звёздочек/заголовков/таблиц. Humanizer перед финалом. Не называть непроверенное готовым.
+Строго без markdown и эмодзи в ответах Дмитрию: чистый текст, коротко. Humanizer перед финалом. Не называть непроверенное готовым.
