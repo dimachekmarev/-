@@ -1,10 +1,3 @@
----
-type: hermes-memory-local-current
-target: memory
-updated_at: 2026-06-21T21:24:16.807066+00:00
----
-# MEMORY.local-current
-
 Obsidian vault: /root/obsidian-vault; reports/briefs → Obsidian. Local context-memory: agents/context-memory/agent_memory.db + scripts/memory_cli.py; use context-pack query for compact recall. Reports TG group: -1002143793106.
 §
 BrowserAct: API key configured; browser-act v0.1.30, skill_compat ok, browseract-demo chrome profile exists. DISPLAY=:99, google-chrome --no-sandbox --disable-dev-shm-usage.
