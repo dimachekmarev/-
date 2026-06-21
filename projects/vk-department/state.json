@@ -588,6 +588,21 @@
       "image_source": "generated_svg",
       "drive_file_id": null,
       "image_sha256": "dcd3b1de887821d80db500673b6c32a3ee2a36f74878e3ed82978cd0b078bb69"
+    },
+    {
+      "ts": "2026-06-21T07:04:05.098719Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "title": "Воскресенье без планов. Кроме одного.",
+      "heading": "🔥 ВОСКРЕСЕНЬЕ БЕЗ ПЛАНОВ. КРОМЕ ОДНОГО.",
+      "text_key": "raki-morning-20260621-voskresenye-bez-planov",
+      "fingerprint": "d44886b31d9c94bb",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_39",
+      "attachment": "photo8314079_457240399",
+      "visual_key": "raki:menu-card",
+      "image_source": "generated_svg",
+      "drive_file_id": null,
+      "image_sha256": "43ebfe907a2183c04c2fa9f3b7fd1f71a55646045c516dc866120027255c7827"
     }
   ],
   "recent_images": [
@@ -935,6 +950,21 @@
       "sha256": "dcd3b1de887821d80db500673b6c32a3ee2a36f74878e3ed82978cd0b078bb69",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_102",
       "attachment": "photo8314079_457240398"
+    },
+    {
+      "ts": "2026-06-21T07:04:05.098790Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "source": "generated_svg",
+      "visual_key": "raki:menu-card",
+      "variant": "menu-card",
+      "drive_file_id": null,
+      "drive_file_name": null,
+      "drive_file_url": null,
+      "drive_fallback_reason": "drive_error: RefreshError: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})",
+      "sha256": "43ebfe907a2183c04c2fa9f3b7fd1f71a55646045c516dc866120027255c7827",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_39",
+      "attachment": "photo8314079_457240399"
     }
   ],
   "communities": {
@@ -1157,6 +1187,14 @@
       "fingerprint": "af9a1c71d50c6f11",
       "title": "Субботний вечер — а заявки приняты",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_102"
+    },
+    {
+      "ts": "2026-06-21T07:04:05.098784Z",
+      "community": "dikaya_kleshnya",
+      "text_key": "raki-morning-20260621-voskresenye-bez-planov",
+      "fingerprint": "d44886b31d9c94bb",
+      "title": "Воскресенье без планов. Кроме одного.",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_39"
     }
   ]
 }
