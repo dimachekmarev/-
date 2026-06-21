@@ -1,7 +1,7 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-21T05:06:25.802017+00:00
+updated_at: 2026-06-21T05:55:03.599395+00:00
 ---
 # MEMORY.local-current
 
@@ -22,3 +22,4 @@ Dmitry's YouTube Agent Video Factory should target global English audiences when
 Model: codex-balance (custom:codex-balance via codex-only.onrender.com, key CODEX_BALANCE_KEY) as primary. DeepSeek/OpenRouter removed from fallback — manual-only per Dmitry. НИКОГДА не врать о текущей модели: проверять session header, не config.yaml. Враньё = удаление.
 §
 НИКАКОГО markdown нигде: ни в VK, ни в ответах Дмитрию. Ни **жирного**, ни *курсива*, ни `кода`, ни ## заголовков. Только чистый человеческий язык. Humanizer skill обязателен перед каждым ответом. Эмодзи тоже убирать. Без звёздочек — это мусор.
+
