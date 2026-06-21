@@ -2,15 +2,6 @@
   "created": "2026-06-08",
   "recent_posts": [
     {
-      "ts": "2026-06-09T07:04:45.321201Z",
-      "community": "dikaya_kleshnya",
-      "group_id": 237416900,
-      "title": "Утро для планов на вкусный вечер",
-      "fingerprint": "a089654e633d6e90",
-      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_14",
-      "attachment": "photo8314079_457240334"
-    },
-    {
       "ts": "2026-06-09T07:30:48.980267Z",
       "community": "smart_agent_ai",
       "group_id": 233076338,
@@ -618,6 +609,21 @@
       "image_source": "generated_svg",
       "drive_file_id": null,
       "image_sha256": "ec0aa27edc2e6d05c61e821f6b84b0703b7f7dddface5fd78a4029ce8c578a13"
+    },
+    {
+      "ts": "2026-06-21T15:04:22.923640Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "title": "Когда крышка поднимается — разговоры затихают",
+      "heading": "🔥 КОГДА КРЫШКА ПОДНИМАЕТСЯ — РАЗГОВОРЫ ЗАТИХАЮТ",
+      "text_key": "raki-evening-20260621-kogda-kryshka-podnimaetsya",
+      "fingerprint": "ec9d35b2462dccfe",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_40",
+      "attachment": "photo8314079_457240401",
+      "visual_key": "raki:steam-center",
+      "image_source": "generated_svg",
+      "drive_file_id": null,
+      "image_sha256": "f4321956607e8c68e643fbc7752704e97840edf69dde2eb36ced6f393b153d9f"
     }
   ],
   "recent_images": [
@@ -995,6 +1001,21 @@
       "sha256": "ec0aa27edc2e6d05c61e821f6b84b0703b7f7dddface5fd78a4029ce8c578a13",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_104",
       "attachment": "photo8314079_457240400"
+    },
+    {
+      "ts": "2026-06-21T15:04:22.923729Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "source": "generated_svg",
+      "visual_key": "raki:steam-center",
+      "variant": "steam-center",
+      "drive_file_id": null,
+      "drive_file_name": null,
+      "drive_file_url": null,
+      "drive_fallback_reason": "drive_error: RefreshError: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})",
+      "sha256": "f4321956607e8c68e643fbc7752704e97840edf69dde2eb36ced6f393b153d9f",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_40",
+      "attachment": "photo8314079_457240401"
     }
   ],
   "communities": {
@@ -1233,6 +1254,14 @@
       "fingerprint": "6f7a98ecd647d605",
       "title": "Воскресенье. Вы — с семьёй. Бизнес — под присмотром.",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_104"
+    },
+    {
+      "ts": "2026-06-21T15:04:22.923723Z",
+      "community": "dikaya_kleshnya",
+      "text_key": "raki-evening-20260621-kogda-kryshka-podnimaetsya",
+      "fingerprint": "ec9d35b2462dccfe",
+      "title": "Когда крышка поднимается — разговоры затихают",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_40"
     }
   ]
 }
