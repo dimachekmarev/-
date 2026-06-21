@@ -2,15 +2,6 @@
   "created": "2026-06-08",
   "recent_posts": [
     {
-      "ts": "2026-06-09T07:30:48.980267Z",
-      "community": "smart_agent_ai",
-      "group_id": 233076338,
-      "title": "Утро без ручной рутины",
-      "fingerprint": "72035c0aafe1074e",
-      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_66",
-      "attachment": "photo8314079_457240335"
-    },
-    {
       "ts": "2026-06-09T15:10:51.984691Z",
       "community": "dikaya_kleshnya",
       "group_id": 237416900,
@@ -624,6 +615,21 @@
       "image_source": "generated_svg",
       "drive_file_id": null,
       "image_sha256": "f4321956607e8c68e643fbc7752704e97840edf69dde2eb36ced6f393b153d9f"
+    },
+    {
+      "ts": "2026-06-21T15:30:52.238405Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "title": "Завтра понедельник. Кто встретит его раньше вас?",
+      "heading": "🔥 ЗАВТРА ПОНЕДЕЛЬНИК. КТО ВСТРЕТИТ ЕГО РАНЬШЕ ВАС?",
+      "text_key": "auto:c6c0927ef92f18c6",
+      "fingerprint": "c6c0927ef92f18c6",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_105",
+      "attachment": "photo8314079_457240402",
+      "visual_key": "ai:process-bars",
+      "image_source": "generated_svg",
+      "drive_file_id": null,
+      "image_sha256": "a0968378336ab797e9d7ba6973324d4c21ed3cd344698a0be6dc7e3a3b20dcc9"
     }
   ],
   "recent_images": [
@@ -1016,6 +1022,21 @@
       "sha256": "f4321956607e8c68e643fbc7752704e97840edf69dde2eb36ced6f393b153d9f",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_40",
       "attachment": "photo8314079_457240401"
+    },
+    {
+      "ts": "2026-06-21T15:30:52.238503Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "source": "generated_svg",
+      "visual_key": "ai:process-bars",
+      "variant": "process-bars",
+      "drive_file_id": null,
+      "drive_file_name": null,
+      "drive_file_url": null,
+      "drive_fallback_reason": "no_drive_pool_configured",
+      "sha256": "a0968378336ab797e9d7ba6973324d4c21ed3cd344698a0be6dc7e3a3b20dcc9",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_105",
+      "attachment": "photo8314079_457240402"
     }
   ],
   "communities": {
@@ -1262,6 +1283,14 @@
       "fingerprint": "ec9d35b2462dccfe",
       "title": "Когда крышка поднимается — разговоры затихают",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_40"
+    },
+    {
+      "ts": "2026-06-21T15:30:52.238496Z",
+      "community": "smart_agent_ai",
+      "text_key": "auto:c6c0927ef92f18c6",
+      "fingerprint": "c6c0927ef92f18c6",
+      "title": "Завтра понедельник. Кто встретит его раньше вас?",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_105"
     }
   ]
 }
