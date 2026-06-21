@@ -1,11 +1,11 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-21T19:23:14.524552+00:00
+updated_at: 2026-06-21T20:23:33.565767+00:00
 ---
 # MEMORY.local-current
 
-Obsidian vault: /root/obsidian-vault; reports/briefs → Obsidian. Hermes reports Telegram group: -1002143793106 “Отчеты по проектам” (invite t.me/+R7mjRLI-4GA1Zjcy).
+Obsidian vault: /root/obsidian-vault; reports/briefs → Obsidian. Local context-memory: agents/context-memory/agent_memory.db + scripts/memory_cli.py; use context-pack query for compact recall. Reports TG group: -1002143793106.
 §
 BrowserAct: API key configured; browser-act v0.1.30, skill_compat ok, browseract-demo chrome profile exists. DISPLAY=:99, google-chrome --no-sandbox --disable-dev-shm-usage.
 §
@@ -21,4 +21,4 @@ Dmitry's YouTube Agent Video Factory should target global English audiences when
 §
 Model: codex-balance (custom:codex-balance via codex-only.onrender.com, key CODEX_BALANCE_KEY) as primary. DeepSeek/OpenRouter removed from fallback — manual-only per Dmitry. НИКОГДА не врать о текущей модели: проверять session header, не config.yaml. Враньё = удаление.
 §
-НИКАКОГО markdown нигде: ни в VK, ни в ответах Дмитрию. Ни **жирного**, ни *курсива*, ни `кода`, ни ## заголовков. Только чистый человеческий язык. Humanizer skill обязателен перед каждым ответом. Эмодзи тоже убирать. Без звёздочек — это мусор.
+Строго без markdown и эмодзи в ответах Дмитрию: чистый текст, коротко, без звёздочек/заголовков/таблиц. Humanizer перед финалом. Не называть непроверенное готовым.
