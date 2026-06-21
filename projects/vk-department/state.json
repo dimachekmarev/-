@@ -603,6 +603,21 @@
       "image_source": "generated_svg",
       "drive_file_id": null,
       "image_sha256": "43ebfe907a2183c04c2fa9f3b7fd1f71a55646045c516dc866120027255c7827"
+    },
+    {
+      "ts": "2026-06-21T07:31:09.433943Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "title": "Воскресенье. Вы — с семьёй. Бизнес — под присмотром.",
+      "heading": "🔥 ВОСКРЕСЕНЬЕ. ВЫ — С СЕМЬЁЙ. БИЗНЕС — ПОД ПРИСМОТРОМ.",
+      "text_key": "smart-morning-20260621-voskresenye-s-semyoy",
+      "fingerprint": "6f7a98ecd647d605",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_104",
+      "attachment": "photo8314079_457240400",
+      "visual_key": "ai:radial-core",
+      "image_source": "generated_svg",
+      "drive_file_id": null,
+      "image_sha256": "ec0aa27edc2e6d05c61e821f6b84b0703b7f7dddface5fd78a4029ce8c578a13"
     }
   ],
   "recent_images": [
@@ -965,6 +980,21 @@
       "sha256": "43ebfe907a2183c04c2fa9f3b7fd1f71a55646045c516dc866120027255c7827",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_39",
       "attachment": "photo8314079_457240399"
+    },
+    {
+      "ts": "2026-06-21T07:31:09.434021Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "source": "generated_svg",
+      "visual_key": "ai:radial-core",
+      "variant": "radial-core",
+      "drive_file_id": null,
+      "drive_file_name": null,
+      "drive_file_url": null,
+      "drive_fallback_reason": "no_drive_pool_configured",
+      "sha256": "ec0aa27edc2e6d05c61e821f6b84b0703b7f7dddface5fd78a4029ce8c578a13",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_104",
+      "attachment": "photo8314079_457240400"
     }
   ],
   "communities": {
@@ -1195,6 +1225,14 @@
       "fingerprint": "d44886b31d9c94bb",
       "title": "Воскресенье без планов. Кроме одного.",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_39"
+    },
+    {
+      "ts": "2026-06-21T07:31:09.434016Z",
+      "community": "smart_agent_ai",
+      "text_key": "smart-morning-20260621-voskresenye-s-semyoy",
+      "fingerprint": "6f7a98ecd647d605",
+      "title": "Воскресенье. Вы — с семьёй. Бизнес — под присмотром.",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_104"
     }
   ]
 }
