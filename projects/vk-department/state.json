@@ -2,15 +2,6 @@
   "created": "2026-06-08",
   "recent_posts": [
     {
-      "ts": "2026-06-10T07:31:55.455666Z",
-      "community": "smart_agent_ai",
-      "group_id": 233076338,
-      "title": "Сотрудник, который не просит зарплату",
-      "fingerprint": "4b7381cbb7a35c2a",
-      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_71",
-      "attachment": "photo8314079_457240339"
-    },
-    {
       "ts": "2026-06-10T15:03:58.478105Z",
       "community": "dikaya_kleshnya",
       "group_id": 237416900,
@@ -648,6 +639,21 @@
       "image_source": "generated_svg",
       "drive_file_id": null,
       "image_sha256": "e9f67bbe938a80d3b69a7853b83b708d8a478884247d4969291c5e8885ffa7b0"
+    },
+    {
+      "ts": "2026-06-22T15:32:11.407662Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "title": "Выключили ноутбук — и ничего не потеряли",
+      "heading": "🔥 ВЫКЛЮЧИЛИ НОУТБУК — И НИЧЕГО НЕ ПОТЕРЯЛИ",
+      "text_key": "auto:1dbf8d29981a834d",
+      "fingerprint": "1dbf8d29981a834d",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_108",
+      "attachment": "photo8314079_457240405",
+      "visual_key": "ai:network-left",
+      "image_source": "generated_svg",
+      "drive_file_id": null,
+      "image_sha256": "060a3f0a3e579a8cbe2600a8b205f83d043a8bd5cf027dc546f5fa240f5ebe25"
     }
   ],
   "recent_images": [
@@ -1085,6 +1091,21 @@
       "sha256": "e9f67bbe938a80d3b69a7853b83b708d8a478884247d4969291c5e8885ffa7b0",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_42",
       "attachment": "photo8314079_457240404"
+    },
+    {
+      "ts": "2026-06-22T15:32:11.407803Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "source": "generated_svg",
+      "visual_key": "ai:network-left",
+      "variant": "network-left",
+      "drive_file_id": null,
+      "drive_file_name": null,
+      "drive_file_url": null,
+      "drive_fallback_reason": "no_drive_pool_configured",
+      "sha256": "060a3f0a3e579a8cbe2600a8b205f83d043a8bd5cf027dc546f5fa240f5ebe25",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_108",
+      "attachment": "photo8314079_457240405"
     }
   ],
   "communities": {
@@ -1363,6 +1384,14 @@
       "fingerprint": "0f490a2afb428a08",
       "title": "Вскрыть клешню. Обмакнуть в соус. Замереть.",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_42"
+    },
+    {
+      "ts": "2026-06-22T15:32:11.407799Z",
+      "community": "smart_agent_ai",
+      "text_key": "auto:1dbf8d29981a834d",
+      "fingerprint": "1dbf8d29981a834d",
+      "title": "Выключили ноутбук — и ничего не потеряли",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_108"
     }
   ]
 }
