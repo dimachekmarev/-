@@ -1,7 +1,7 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-22T04:27:22.060294+00:00
+updated_at: 2026-06-22T05:40:22.948239+00:00
 ---
 # MEMORY.local-current
 
@@ -20,3 +20,4 @@ YouTube Agent Video Factory: assets on Yandex Disk `yandex:YouTube_Money_System/
 Model: codex-balance (custom:codex-balance via codex-only.onrender.com, key CODEX_BALANCE_KEY) as primary. DeepSeek/OpenRouter removed from fallback — manual-only per Dmitry. НИКОГДА не врать о текущей модели: проверять session header, не config.yaml. Враньё = удаление.
 §
 Строго без markdown и эмодзи в ответах Дмитрию: чистый текст, коротко. Humanizer перед финалом. Не называть непроверенное готовым.
+
