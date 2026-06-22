@@ -2,15 +2,6 @@
   "created": "2026-06-08",
   "recent_posts": [
     {
-      "ts": "2026-06-10T07:01:49.029685Z",
-      "community": "dikaya_kleshnya",
-      "group_id": 237416900,
-      "title": "Среда — повод собраться без повода",
-      "fingerprint": "0bbd422ff6581b7b",
-      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_16",
-      "attachment": "photo8314079_457240338"
-    },
-    {
       "ts": "2026-06-10T07:31:55.455666Z",
       "community": "smart_agent_ai",
       "group_id": 233076338,
@@ -642,6 +633,21 @@
       "image_source": "generated_svg",
       "drive_file_id": null,
       "image_sha256": "71a0ca5e8b76052da47f3e8b9f0109abee1f3bf224d218421f14e71b81785857"
+    },
+    {
+      "ts": "2026-06-22T15:01:41.126796Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "title": "Вскрыть клешню. Обмакнуть в соус. Замереть.",
+      "heading": "🔥 ВСКРЫТЬ КЛЕШНЮ. ОБМАКНУТЬ В СОУС. ЗАМЕРЕТЬ.",
+      "text_key": "raki-evening-20260622-ritual-medlennoy-edy",
+      "fingerprint": "0f490a2afb428a08",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_42",
+      "attachment": "photo8314079_457240404",
+      "visual_key": "raki:diagonal-feast",
+      "image_source": "generated_svg",
+      "drive_file_id": null,
+      "image_sha256": "e9f67bbe938a80d3b69a7853b83b708d8a478884247d4969291c5e8885ffa7b0"
     }
   ],
   "recent_images": [
@@ -1064,6 +1070,21 @@
       "sha256": "71a0ca5e8b76052da47f3e8b9f0109abee1f3bf224d218421f14e71b81785857",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_107",
       "attachment": "photo8314079_457240403"
+    },
+    {
+      "ts": "2026-06-22T15:01:41.126871Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "source": "generated_svg",
+      "visual_key": "raki:diagonal-feast",
+      "variant": "diagonal-feast",
+      "drive_file_id": null,
+      "drive_file_name": null,
+      "drive_file_url": null,
+      "drive_fallback_reason": "drive_error: RefreshError: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})",
+      "sha256": "e9f67bbe938a80d3b69a7853b83b708d8a478884247d4969291c5e8885ffa7b0",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_42",
+      "attachment": "photo8314079_457240404"
     }
   ],
   "communities": {
@@ -1334,6 +1355,14 @@
       "fingerprint": "38ab79336edf1c83",
       "title": "Понедельник. Вы — за кофе. Агент — уже в работе",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_107"
+    },
+    {
+      "ts": "2026-06-22T15:01:41.126863Z",
+      "community": "dikaya_kleshnya",
+      "text_key": "raki-evening-20260622-ritual-medlennoy-edy",
+      "fingerprint": "0f490a2afb428a08",
+      "title": "Вскрыть клешню. Обмакнуть в соус. Замереть.",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_42"
     }
   ]
 }
