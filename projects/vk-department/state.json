@@ -2,15 +2,6 @@
   "created": "2026-06-08",
   "recent_posts": [
     {
-      "ts": "2026-06-09T15:10:51.984691Z",
-      "community": "dikaya_kleshnya",
-      "group_id": 237416900,
-      "title": "Вечер. Стол накрыт. Раки дымятся",
-      "fingerprint": "869a8f3d7d0ae547",
-      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_15",
-      "attachment": "photo8314079_457240336"
-    },
-    {
       "ts": "2026-06-09T15:31:03.514985Z",
       "community": "smart_agent_ai",
       "group_id": 233076338,
@@ -630,6 +621,21 @@
       "image_source": "generated_svg",
       "drive_file_id": null,
       "image_sha256": "a0968378336ab797e9d7ba6973324d4c21ed3cd344698a0be6dc7e3a3b20dcc9"
+    },
+    {
+      "ts": "2026-06-22T07:07:43.375470Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "title": "На одного не варят",
+      "heading": "🔥 НА ОДНОГО НЕ ВАРЯТ",
+      "text_key": "raki-morning-20260622-na-odnogo-ne-varyat",
+      "fingerprint": "457fc0fd0f70ab13",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_41",
+      "attachment": null,
+      "visual_key": "ai:text-only-fallback",
+      "image_source": "text_only_fallback",
+      "drive_file_id": null,
+      "image_sha256": "125c3a6c47b0e6474cdb50c19c4f5ce4e75321a6ab6c083e88df31867342ad09"
     }
   ],
   "recent_images": [
@@ -1291,6 +1297,14 @@
       "fingerprint": "c6c0927ef92f18c6",
       "title": "Завтра понедельник. Кто встретит его раньше вас?",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_105"
+    },
+    {
+      "ts": "2026-06-22T07:07:43.375539Z",
+      "community": "dikaya_kleshnya",
+      "text_key": "raki-morning-20260622-na-odnogo-ne-varyat",
+      "fingerprint": "457fc0fd0f70ab13",
+      "title": "На одного не варят",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_41"
     }
   ]
 }
