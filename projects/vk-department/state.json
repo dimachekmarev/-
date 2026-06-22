@@ -2,15 +2,6 @@
   "created": "2026-06-08",
   "recent_posts": [
     {
-      "ts": "2026-06-09T15:31:03.514985Z",
-      "community": "smart_agent_ai",
-      "group_id": 233076338,
-      "title": "Пока бизнес спит — заявки уходят",
-      "fingerprint": "069b2b5d29357063",
-      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_67",
-      "attachment": "photo8314079_457240337"
-    },
-    {
       "ts": "2026-06-10T07:01:49.029685Z",
       "community": "dikaya_kleshnya",
       "group_id": 237416900,
@@ -636,6 +627,21 @@
       "image_source": "text_only_fallback",
       "drive_file_id": null,
       "image_sha256": "125c3a6c47b0e6474cdb50c19c4f5ce4e75321a6ab6c083e88df31867342ad09"
+    },
+    {
+      "ts": "2026-06-22T07:31:20.174709Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "title": "Понедельник. Вы — за кофе. Агент — уже в работе",
+      "heading": "🔥 ПОНЕДЕЛЬНИК. ВЫ — ЗА КОФЕ. АГЕНТ — УЖЕ В РАБОТЕ",
+      "text_key": "smart-morning-20260622-ponedelnik-agent-razbiraet",
+      "fingerprint": "38ab79336edf1c83",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_107",
+      "attachment": "photo8314079_457240403",
+      "visual_key": "ai:dark-banner",
+      "image_source": "generated_svg",
+      "drive_file_id": null,
+      "image_sha256": "71a0ca5e8b76052da47f3e8b9f0109abee1f3bf224d218421f14e71b81785857"
     }
   ],
   "recent_images": [
@@ -1043,6 +1049,21 @@
       "sha256": "a0968378336ab797e9d7ba6973324d4c21ed3cd344698a0be6dc7e3a3b20dcc9",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_105",
       "attachment": "photo8314079_457240402"
+    },
+    {
+      "ts": "2026-06-22T07:31:20.174792Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "source": "generated_svg",
+      "visual_key": "ai:dark-banner",
+      "variant": "dark-banner",
+      "drive_file_id": null,
+      "drive_file_name": null,
+      "drive_file_url": null,
+      "drive_fallback_reason": "no_drive_pool_configured",
+      "sha256": "71a0ca5e8b76052da47f3e8b9f0109abee1f3bf224d218421f14e71b81785857",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_107",
+      "attachment": "photo8314079_457240403"
     }
   ],
   "communities": {
@@ -1305,6 +1326,14 @@
       "fingerprint": "457fc0fd0f70ab13",
       "title": "На одного не варят",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_41"
+    },
+    {
+      "ts": "2026-06-22T07:31:20.174788Z",
+      "community": "smart_agent_ai",
+      "text_key": "smart-morning-20260622-ponedelnik-agent-razbiraet",
+      "fingerprint": "38ab79336edf1c83",
+      "title": "Понедельник. Вы — за кофе. Агент — уже в работе",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_107"
     }
   ]
 }
