@@ -1,7 +1,7 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-22T17:31:00.626769+00:00
+updated_at: 2026-06-22T18:31:45.961879+00:00
 ---
 # MEMORY.local-current
 
@@ -13,11 +13,12 @@ VK: app 54628476, user 8314079. Token with wall+messages+offline. Creds: /root/o
 §
 Yandex Disk: rclone remote `yandex:` works. Use `yandex-disk-agent`. Index notes live in Obsidian under `agents/hermes-memory/yandex-disk-*`.
 §
-Reg.Ru: IP 31.31.198.57, ISPmanager server19.hosting.reg.ru:1500, логин u3439587, пароль sMd0S3v3uDUF87cV. Деплой: sshpass+rsync в /var/www/u3439587/data/www/<domain>/. DNS — только ЛК reg.ru; BrowserAct browseract-demo вошёл как 79172123344@yandex.ru. Сайты: dikayakleshnya.ru, uforma-med.ru.
+Reg.Ru: IP 31.31.198.57, ISPmanager server19.hosting.reg.ru:1500, логин u3439587, пароль sMd0S3v3uDUF87cV. Деплой: sshpass+rsync в /var/www/u3439587/data/www/<domain>/. DNS — только ЛК reg.ru; BrowserAct browseract-demo вошёл как 79172123344@yandex.ru. Сайты: dikayakleshnya.ru, uforma-med.ru (исходники /root/web-projects/uforma-med, Next.js 16 статика, картинки в images/products/).
 §
 YouTube Agent Video Factory: assets on Yandex Disk `yandex:YouTube_Money_System/Agent_Video_Factory/`. Target global English audience for RPM; avoid vague names like NEUROLUX.
 §
 Model: codex-balance (custom:codex-balance via codex-only.onrender.com, key CODEX_BALANCE_KEY) as primary. DeepSeek/OpenRouter removed from fallback — manual-only per Dmitry. НИКОГДА не врать о текущей модели: проверять session header, не config.yaml. Враньё = удаление.
 §
 Строго без markdown и эмодзи в ответах Дмитрию: чистый текст, коротко. Humanizer перед финалом. Не называть непроверенное готовым.
-
+§
+Изображения: макс. бесплатно по лимитам. Google Flow заблокирован. Google AI Studio доступен (нужен Google-акк). Альтернатива: Pollinations.ai без регистрации.
