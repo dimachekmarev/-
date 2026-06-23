@@ -2,15 +2,6 @@
   "created": "2026-06-08",
   "recent_posts": [
     {
-      "ts": "2026-06-10T15:03:58.478105Z",
-      "community": "dikaya_kleshnya",
-      "group_id": 237416900,
-      "title": "Запах, который не спутаешь",
-      "fingerprint": "cd5ec81198f7fcdf",
-      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_17",
-      "attachment": "photo8314079_457240340"
-    },
-    {
       "ts": "2026-06-10T15:30:56.408022Z",
       "community": "smart_agent_ai",
       "group_id": 233076338,
@@ -654,6 +645,21 @@
       "image_source": "generated_svg",
       "drive_file_id": null,
       "image_sha256": "060a3f0a3e579a8cbe2600a8b205f83d043a8bd5cf027dc546f5fa240f5ebe25"
+    },
+    {
+      "ts": "2026-06-23T07:05:08.682899Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "title": "Вкусный вечер не спрашивает, какой сегодня день",
+      "heading": "🔥 ВКУСНЫЙ ВЕЧЕР НЕ СПРАШИВАЕТ, КАКОЙ СЕГОДНЯ ДЕНЬ",
+      "text_key": "raki-morning-20260623-vtornik-ne-povod-otkazyvat",
+      "fingerprint": "fe3031951a98d4bc",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_43",
+      "attachment": "photo8314079_457240406",
+      "visual_key": "raki:round-stamp",
+      "image_source": "generated_svg",
+      "drive_file_id": null,
+      "image_sha256": "d16192753d1f048f729558efbceedfd320b9a7a113f746201ef6f0cafdebc9a2"
     }
   ],
   "recent_images": [
@@ -1106,6 +1112,21 @@
       "sha256": "060a3f0a3e579a8cbe2600a8b205f83d043a8bd5cf027dc546f5fa240f5ebe25",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_108",
       "attachment": "photo8314079_457240405"
+    },
+    {
+      "ts": "2026-06-23T07:05:08.682967Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "source": "generated_svg",
+      "visual_key": "raki:round-stamp",
+      "variant": "round-stamp",
+      "drive_file_id": null,
+      "drive_file_name": null,
+      "drive_file_url": null,
+      "drive_fallback_reason": "drive_error: RefreshError: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})",
+      "sha256": "d16192753d1f048f729558efbceedfd320b9a7a113f746201ef6f0cafdebc9a2",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_43",
+      "attachment": "photo8314079_457240406"
     }
   ],
   "communities": {
@@ -1392,6 +1413,14 @@
       "fingerprint": "1dbf8d29981a834d",
       "title": "Выключили ноутбук — и ничего не потеряли",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_108"
+    },
+    {
+      "ts": "2026-06-23T07:05:08.682961Z",
+      "community": "dikaya_kleshnya",
+      "text_key": "raki-morning-20260623-vtornik-ne-povod-otkazyvat",
+      "fingerprint": "fe3031951a98d4bc",
+      "title": "Вкусный вечер не спрашивает, какой сегодня день",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_43"
     }
   ]
 }
