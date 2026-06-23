@@ -2,15 +2,6 @@
   "created": "2026-06-08",
   "recent_posts": [
     {
-      "ts": "2026-06-11T07:05:27.115260Z",
-      "community": "dikaya_kleshnya",
-      "group_id": 237416900,
-      "title": "Четверг — почти пятница. Пора выбрать главное блюдо",
-      "fingerprint": "a2c03404ae3ecf04",
-      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_18",
-      "attachment": "photo8314079_457240342"
-    },
-    {
       "ts": "2026-06-11T07:31:17.288202Z",
       "community": "smart_agent_ai",
       "group_id": 233076338,
@@ -666,6 +657,21 @@
       "image_source": "generated_svg",
       "drive_file_id": null,
       "image_sha256": "7d93fb74fa8535afaef2f733f17fa9fe8d0b24559652c5b7f6bd4ae99c3ed709"
+    },
+    {
+      "ts": "2026-06-23T08:56:17.894756Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "title": "Раки и футбол: матчи ЧМ-2026 на неделю",
+      "heading": "🔥 РАКИ И ФУТБОЛ: МАТЧИ ЧМ-2026 НА НЕДЕЛЮ",
+      "text_key": "raki-worldcup-schedule-20260623",
+      "fingerprint": "51e7e520ce987ab6",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_44",
+      "attachment": "photo8314079_457240408",
+      "visual_key": "local:raki_06.jpg",
+      "image_source": "local_pool",
+      "drive_file_id": null,
+      "image_sha256": "df0b4b95da2fd9460eca6ca804f368c052a646e0a55fcc53464149295c15c489"
     }
   ],
   "recent_images": [
@@ -1148,6 +1154,21 @@
       "sha256": "7d93fb74fa8535afaef2f733f17fa9fe8d0b24559652c5b7f6bd4ae99c3ed709",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_110",
       "attachment": "photo8314079_457240407"
+    },
+    {
+      "ts": "2026-06-23T08:56:17.894821Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "source": "local_pool",
+      "visual_key": "local:raki_06.jpg",
+      "variant": null,
+      "drive_file_id": null,
+      "drive_file_name": null,
+      "drive_file_url": null,
+      "drive_fallback_reason": null,
+      "sha256": "df0b4b95da2fd9460eca6ca804f368c052a646e0a55fcc53464149295c15c489",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_44",
+      "attachment": "photo8314079_457240408"
     }
   ],
   "communities": {
@@ -1450,6 +1471,14 @@
       "fingerprint": "68b13e737e11137e",
       "title": "3 часа в день, которые вы теряете на сообщения",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_110"
+    },
+    {
+      "ts": "2026-06-23T08:56:17.894815Z",
+      "community": "dikaya_kleshnya",
+      "text_key": "raki-worldcup-schedule-20260623",
+      "fingerprint": "51e7e520ce987ab6",
+      "title": "Раки и футбол: матчи ЧМ-2026 на неделю",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_44"
     }
   ]
 }
