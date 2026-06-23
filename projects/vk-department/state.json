@@ -2,15 +2,6 @@
   "created": "2026-06-08",
   "recent_posts": [
     {
-      "ts": "2026-06-11T07:31:17.288202Z",
-      "community": "smart_agent_ai",
-      "group_id": 233076338,
-      "title": "Что меняется, когда рутина уходит к агенту",
-      "fingerprint": "954238a56aca8ce2",
-      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_74",
-      "attachment": "photo8314079_457240343"
-    },
-    {
       "ts": "2026-06-11T15:07:04.321249Z",
       "community": "dikaya_kleshnya",
       "group_id": 237416900,
@@ -672,6 +663,21 @@
       "image_source": "local_pool",
       "drive_file_id": null,
       "image_sha256": "df0b4b95da2fd9460eca6ca804f368c052a646e0a55fcc53464149295c15c489"
+    },
+    {
+      "ts": "2026-06-23T15:04:17.186078Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "title": "Когда спешить некуда",
+      "heading": "🔥 КОГДА СПЕШИТЬ НЕКУДА",
+      "text_key": "raki-evening-20260623-medlennaya-eda-v-bystrom-mire",
+      "fingerprint": "33b773d02ea98872",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_45",
+      "attachment": "photo8314079_457240409",
+      "visual_key": "local:raki_13.jpg",
+      "image_source": "local_pool",
+      "drive_file_id": null,
+      "image_sha256": "3acf346998236b0b6578bb6f367c8989a0addf9e5ac27c8584ae0c3ef5bdee63"
     }
   ],
   "recent_images": [
@@ -1169,6 +1175,21 @@
       "sha256": "df0b4b95da2fd9460eca6ca804f368c052a646e0a55fcc53464149295c15c489",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_44",
       "attachment": "photo8314079_457240408"
+    },
+    {
+      "ts": "2026-06-23T15:04:17.186139Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "source": "local_pool",
+      "visual_key": "local:raki_13.jpg",
+      "variant": null,
+      "drive_file_id": null,
+      "drive_file_name": null,
+      "drive_file_url": null,
+      "drive_fallback_reason": null,
+      "sha256": "3acf346998236b0b6578bb6f367c8989a0addf9e5ac27c8584ae0c3ef5bdee63",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_45",
+      "attachment": "photo8314079_457240409"
     }
   ],
   "communities": {
@@ -1479,6 +1500,14 @@
       "fingerprint": "51e7e520ce987ab6",
       "title": "Раки и футбол: матчи ЧМ-2026 на неделю",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_44"
+    },
+    {
+      "ts": "2026-06-23T15:04:17.186133Z",
+      "community": "dikaya_kleshnya",
+      "text_key": "raki-evening-20260623-medlennaya-eda-v-bystrom-mire",
+      "fingerprint": "33b773d02ea98872",
+      "title": "Когда спешить некуда",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_45"
     }
   ]
 }
