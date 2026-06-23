@@ -1,7 +1,7 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-23T17:39:22.251837+00:00
+updated_at: 2026-06-23T18:40:06.933102+00:00
 ---
 # MEMORY.local-current
 
@@ -21,5 +21,4 @@ Model: codex-balance (custom:codex-balance via codex-only.onrender.com, key CODE
 §
 Строго без markdown и эмодзи в ответах Дмитрию: чистый текст, коротко. Humanizer перед финалом. Не называть непроверенное готовым.
 §
-Изображения: макс. бесплатно по лимитам. Google Flow заблокирован. Google AI Studio доступен (нужен Google-акк). Альтернатива: Pollinations.ai без регистрации.
-
+Изображения: макс. бесплатно. Pollinations.ai без регистрации. Видео: HyperFrames (бесплатный), modern-video-factory skill, модерн-дизайн, AI-аватар.
