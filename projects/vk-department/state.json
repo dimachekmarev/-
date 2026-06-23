@@ -2,15 +2,6 @@
   "created": "2026-06-08",
   "recent_posts": [
     {
-      "ts": "2026-06-10T15:30:56.408022Z",
-      "community": "smart_agent_ai",
-      "group_id": 233076338,
-      "title": "Клиент написал вечером — и не дождался",
-      "fingerprint": "e78d07354d3551a2",
-      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_72",
-      "attachment": "photo8314079_457240341"
-    },
-    {
       "ts": "2026-06-11T07:05:27.115260Z",
       "community": "dikaya_kleshnya",
       "group_id": 237416900,
@@ -660,6 +651,21 @@
       "image_source": "generated_svg",
       "drive_file_id": null,
       "image_sha256": "d16192753d1f048f729558efbceedfd320b9a7a113f746201ef6f0cafdebc9a2"
+    },
+    {
+      "ts": "2026-06-23T07:35:00.560607Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "title": "3 часа в день, которые вы теряете на сообщения",
+      "heading": "🔥 3 ЧАСА В ДЕНЬ, КОТОРЫЕ ВЫ ТЕРЯЕТЕ НА СООБЩЕНИЯ",
+      "text_key": "auto:68b13e737e11137e",
+      "fingerprint": "68b13e737e11137e",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_110",
+      "attachment": "photo8314079_457240407",
+      "visual_key": "ai:chat-flow",
+      "image_source": "generated_svg",
+      "drive_file_id": null,
+      "image_sha256": "7d93fb74fa8535afaef2f733f17fa9fe8d0b24559652c5b7f6bd4ae99c3ed709"
     }
   ],
   "recent_images": [
@@ -1127,6 +1133,21 @@
       "sha256": "d16192753d1f048f729558efbceedfd320b9a7a113f746201ef6f0cafdebc9a2",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_43",
       "attachment": "photo8314079_457240406"
+    },
+    {
+      "ts": "2026-06-23T07:35:00.560681Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "source": "generated_svg",
+      "visual_key": "ai:chat-flow",
+      "variant": "chat-flow",
+      "drive_file_id": null,
+      "drive_file_name": null,
+      "drive_file_url": null,
+      "drive_fallback_reason": "no_drive_pool_configured",
+      "sha256": "7d93fb74fa8535afaef2f733f17fa9fe8d0b24559652c5b7f6bd4ae99c3ed709",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_110",
+      "attachment": "photo8314079_457240407"
     }
   ],
   "communities": {
@@ -1421,6 +1442,14 @@
       "fingerprint": "fe3031951a98d4bc",
       "title": "Вкусный вечер не спрашивает, какой сегодня день",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_43"
+    },
+    {
+      "ts": "2026-06-23T07:35:00.560676Z",
+      "community": "smart_agent_ai",
+      "text_key": "auto:68b13e737e11137e",
+      "fingerprint": "68b13e737e11137e",
+      "title": "3 часа в день, которые вы теряете на сообщения",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_110"
     }
   ]
 }
