@@ -1,7 +1,7 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-23T21:41:11.073754+00:00
+updated_at: 2026-06-23T22:41:12.203262+00:00
 ---
 # MEMORY.local-current
 
@@ -13,7 +13,7 @@ VK: app 54628476, user 8314079. Token w/ wall+messages+offline. Creds: /root/obs
 §
 Yandex Disk: rclone remote `yandex:` works. Use `yandex-disk-agent`. Index notes live in Obsidian under `agents/hermes-memory/yandex-disk-*`.
 §
-Reg.Ru: IP 31.31.198.57, ISPmanager server19.hosting.reg.ru:1500, логин u3439587, пароль sMd0S3v3uDUF87cV. Деплой: sshpass+rsync в /var/www/u3439587/data/www/<domain>/. DNS — только ЛК reg.ru; BrowserAct browseract-demo вошёл как 79172123344@yandex.ru. Сайты: dikayakleshnya.ru, uforma-med.ru (исходники /root/web-projects/uforma-med, Next.js 16 статика, картинки в images/products/).
+Reg.Ru #1: IP 31.31.198.57, ISPm server19:1500, u3439587 / sMd0S3v3uDUF87cV. Деплой sshpass+rsync. Сайты: dikayakleshnya.ru, uforma-med.ru. #2: IP 31.31.196.218, ISPm server240:1500, u3547515 / 3M1ccE6P335esd. FTP u3547515 / V01H2lGcSPw2uCg9. MySQL u3547515_default / RsWc3Jh7HHcD62mT.
 §
 YouTube: NEUROLUX / @neurolux-studio / UC3f037joMq9pnD708qhFsKg (0 видео, 3 подписчика). OAuth не подключен — блокер #1. Content Factory заливает на yandex:/Content_Factory/. Английский контент для RPM. Аккаунты: /root/obsidian-vault/projects/account-inventory.md.
 §
