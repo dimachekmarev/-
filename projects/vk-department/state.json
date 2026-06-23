@@ -2,15 +2,6 @@
   "created": "2026-06-08",
   "recent_posts": [
     {
-      "ts": "2026-06-11T15:07:04.321249Z",
-      "community": "dikaya_kleshnya",
-      "group_id": 237416900,
-      "title": "Вечер четверга создан для долгих посиделок",
-      "fingerprint": "410362d595bab94e",
-      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_20",
-      "attachment": null
-    },
-    {
       "ts": "2026-06-11T15:31:21.522342Z",
       "community": "smart_agent_ai",
       "group_id": 233076338,
@@ -678,6 +669,21 @@
       "image_source": "local_pool",
       "drive_file_id": null,
       "image_sha256": "3acf346998236b0b6578bb6f367c8989a0addf9e5ac27c8584ae0c3ef5bdee63"
+    },
+    {
+      "ts": "2026-06-23T15:31:01.448880Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "title": "Сколько стоит пропущенный вопрос вечером",
+      "heading": "🔥 СКОЛЬКО СТОИТ ПРОПУЩЕННЫЙ ВОПРОС ВЕЧЕРОМ",
+      "text_key": "auto:5b9e6e00747066eb",
+      "fingerprint": "5b9e6e00747066eb",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_111",
+      "attachment": "photo8314079_457240410",
+      "visual_key": "local:smart_ai_04.png",
+      "image_source": "local_pool",
+      "drive_file_id": null,
+      "image_sha256": "1ec20d5f7df5cd71481da4b1980ad37e85d0c874a62fc6fe07b7c2c42f0df433"
     }
   ],
   "recent_images": [
@@ -1190,6 +1196,21 @@
       "sha256": "3acf346998236b0b6578bb6f367c8989a0addf9e5ac27c8584ae0c3ef5bdee63",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_45",
       "attachment": "photo8314079_457240409"
+    },
+    {
+      "ts": "2026-06-23T15:31:01.448953Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "source": "local_pool",
+      "visual_key": "local:smart_ai_04.png",
+      "variant": null,
+      "drive_file_id": null,
+      "drive_file_name": null,
+      "drive_file_url": null,
+      "drive_fallback_reason": null,
+      "sha256": "1ec20d5f7df5cd71481da4b1980ad37e85d0c874a62fc6fe07b7c2c42f0df433",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_111",
+      "attachment": "photo8314079_457240410"
     }
   ],
   "communities": {
@@ -1508,6 +1529,14 @@
       "fingerprint": "33b773d02ea98872",
       "title": "Когда спешить некуда",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_45"
+    },
+    {
+      "ts": "2026-06-23T15:31:01.448947Z",
+      "community": "smart_agent_ai",
+      "text_key": "auto:5b9e6e00747066eb",
+      "fingerprint": "5b9e6e00747066eb",
+      "title": "Сколько стоит пропущенный вопрос вечером",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_111"
     }
   ]
 }
