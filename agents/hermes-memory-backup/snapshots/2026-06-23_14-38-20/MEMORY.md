@@ -1,10 +1,3 @@
----
-type: hermes-memory-local-current
-target: memory
-updated_at: 2026-06-23T14:38:20.634859+00:00
----
-# MEMORY.local-current
-
 Obsidian vault: /root/obsidian-vault; use context-pack for recall. Supabase sync DNS-unreachable. Reports TG: -1002143793106. IDEAS RULE: идея → save to Идеи.md, never execute. Binance bot: /root/crypto-scalp-bot, 8 sub-agents, pyramid entries 20x, awaiting testnet keys.
 §
 BrowserAct: API key configured; browser-act v0.1.30, skill_compat ok, browseract-demo chrome profile exists. DISPLAY=:99, google-chrome --no-sandbox --disable-dev-shm-usage.
@@ -22,4 +15,3 @@ Model: codex-balance (custom:codex-balance via codex-only.onrender.com, key CODE
 Строго без markdown и эмодзи в ответах Дмитрию: чистый текст, коротко. Humanizer перед финалом. Не называть непроверенное готовым.
 §
 Изображения: макс. бесплатно по лимитам. Google Flow заблокирован. Google AI Studio доступен (нужен Google-акк). Альтернатива: Pollinations.ai без регистрации.
-
