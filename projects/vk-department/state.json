@@ -2,15 +2,6 @@
   "created": "2026-06-08",
   "recent_posts": [
     {
-      "ts": "2026-06-11T15:31:21.522342Z",
-      "community": "smart_agent_ai",
-      "group_id": 233076338,
-      "title": "Один вечер между лидом и потерей",
-      "fingerprint": "287a32b6e769feaf",
-      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_75",
-      "attachment": "photo8314079_457240354"
-    },
-    {
       "ts": "2026-06-12T07:06:22.550500Z",
       "community": "dikaya_kleshnya",
       "group_id": 237416900,
@@ -684,6 +675,21 @@
       "image_source": "local_pool",
       "drive_file_id": null,
       "image_sha256": "1ec20d5f7df5cd71481da4b1980ad37e85d0c874a62fc6fe07b7c2c42f0df433"
+    },
+    {
+      "ts": "2026-06-24T07:04:52.331500Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "title": "Середина недели. Самое время для маленького пира.",
+      "heading": "🔥 СЕРЕДИНА НЕДЕЛИ. САМОЕ ВРЕМЯ ДЛЯ МАЛЕНЬКОГО ПИРА.",
+      "text_key": "raki-morning-20260624-seredina-nedeli-malenkiy-pir",
+      "fingerprint": "fd1ce273bf6ab508",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_46",
+      "attachment": "photo8314079_457240411",
+      "visual_key": "local:raki_08.jpg",
+      "image_source": "local_pool",
+      "drive_file_id": null,
+      "image_sha256": "c1aaf035f4fb5a4d44821ef4d412f32e424bd09c1b04a0486908aa36e41eec9a"
     }
   ],
   "recent_images": [
@@ -1211,6 +1217,21 @@
       "sha256": "1ec20d5f7df5cd71481da4b1980ad37e85d0c874a62fc6fe07b7c2c42f0df433",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_111",
       "attachment": "photo8314079_457240410"
+    },
+    {
+      "ts": "2026-06-24T07:04:52.331714Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "source": "local_pool",
+      "visual_key": "local:raki_08.jpg",
+      "variant": null,
+      "drive_file_id": null,
+      "drive_file_name": null,
+      "drive_file_url": null,
+      "drive_fallback_reason": null,
+      "sha256": "c1aaf035f4fb5a4d44821ef4d412f32e424bd09c1b04a0486908aa36e41eec9a",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_46",
+      "attachment": "photo8314079_457240411"
     }
   ],
   "communities": {
@@ -1537,6 +1558,14 @@
       "fingerprint": "5b9e6e00747066eb",
       "title": "Сколько стоит пропущенный вопрос вечером",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_111"
+    },
+    {
+      "ts": "2026-06-24T07:04:52.331705Z",
+      "community": "dikaya_kleshnya",
+      "text_key": "raki-morning-20260624-seredina-nedeli-malenkiy-pir",
+      "fingerprint": "fd1ce273bf6ab508",
+      "title": "Середина недели. Самое время для маленького пира.",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_46"
     }
   ]
 }
