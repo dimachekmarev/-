@@ -1,6 +1,6 @@
 ---
 type: hermes-daily-context-booster
-updated_at: 2026-06-23T05:55:58.091829+00:00
+updated_at: 2026-06-24T05:55:29.396812+00:00
 status: active
 ---
 # Daily Context Booster — Hermes/Yana
@@ -18,21 +18,21 @@ status: active
 
 ```json
 {
-  "updated_at_utc": "2026-06-23T05:55:58.076395+00:00",
+  "updated_at_utc": "2026-06-24T05:55:29.373482+00:00",
   "obsidian": {
     "ok": true,
     "changed": true,
     "manifest": {
-      "updated_at_utc": "2026-06-23T05:55:58.061892+00:00",
+      "updated_at_utc": "2026-06-24T05:55:29.337245+00:00",
       "source": "/root/.hermes/memories",
       "files": {
         "MEMORY.md": {
-          "chars": 2061,
-          "sha256": "998c8a4c04c67577b434b909558b4a6b8cfa16881a61d36b970370a3470e5cb3"
+          "chars": 2088,
+          "sha256": "87493c8fe9d4e1ac44e6850d9553b19d61609c84adb4d818834d191105c08f56"
         },
         "USER.md": {
-          "chars": 1186,
-          "sha256": "f4dd293e50e20b02e6ca81fca2d2794931aa79e4ae702e1c7749e35db3e9ccdd"
+          "chars": 1092,
+          "sha256": "82a2891c0e2eaca9c4ffc2e5ebc04f815d22dd13cbc3a7b8351de664238d4192"
         }
       }
     }
@@ -46,21 +46,21 @@ status: active
 
 ## Свежие заметки Obsidian
 
-- `agents/hermes-memory-backup/snapshots/2026-06-23_05-55-58/USER.md`
-- `agents/hermes-memory-backup/snapshots/2026-06-23_05-55-58/MEMORY.md`
+- `agents/hermes-memory-backup/snapshots/2026-06-24_05-55-29/USER.md`
+- `agents/hermes-memory-backup/snapshots/2026-06-24_05-55-29/MEMORY.md`
 - `agents/hermes-memory-backup/latest/USER.md`
-- `agents/hermes-memory-backup/latest/MEMORY.md`
 - `agents/hermes-memory/context-bootstrap.md`
 - `agents/hermes-memory/USER.local-current.md`
+- `agents/hermes-memory-backup/latest/MEMORY.md`
 - `agents/hermes-memory/MEMORY.local-current.md`
+- `agents/hermes-memory-backup/snapshots/2026-06-24_05-43-52/USER.md`
+- `agents/hermes-memory-backup/snapshots/2026-06-24_05-43-52/MEMORY.md`
 - `agents/hermes-memory/memory-hygiene-log.md`
-- `agents/hermes-memory-backup/snapshots/2026-06-23_05-41-05/USER.md`
-- `agents/hermes-memory-backup/snapshots/2026-06-23_05-41-05/MEMORY.md`
-- `agents/hermes-memory/yandex-disk-inventory.md`
-- `agents/hermes-memory-backup/snapshots/2026-06-23_05-35-16/USER.md`
-- `agents/hermes-memory-backup/snapshots/2026-06-23_05-35-16/MEMORY.md`
+- `agents/hermes-memory-backup/snapshots/2026-06-24_05-40-29/USER.md`
+- `agents/hermes-memory-backup/snapshots/2026-06-24_05-40-29/MEMORY.md`
 - `agents/hermes-memory/memory-steward-status.md`
-- `agents/hermes-memory-backup/snapshots/2026-06-23_04-34-55/USER.md`
+- `agents/hermes-memory/yandex-disk-inventory.md`
+- `agents/hermes-memory-backup/snapshots/2026-06-24_04-43-27/USER.md`
 
 ## Хвост единого дневника операций
 
