@@ -2,15 +2,6 @@
   "created": "2026-06-08",
   "recent_posts": [
     {
-      "ts": "2026-06-12T07:06:22.550500Z",
-      "community": "dikaya_kleshnya",
-      "group_id": 237416900,
-      "title": "Пятница. Выходные начинаются с правильного стола",
-      "fingerprint": "2b961ac2f8b5ea42",
-      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_21",
-      "attachment": "photo8314079_457240355"
-    },
-    {
       "ts": "2026-06-12T07:31:46.620517Z",
       "community": "smart_agent_ai",
       "group_id": 233076338,
@@ -690,6 +681,21 @@
       "image_source": "local_pool",
       "drive_file_id": null,
       "image_sha256": "c1aaf035f4fb5a4d44821ef4d412f32e424bd09c1b04a0486908aa36e41eec9a"
+    },
+    {
+      "ts": "2026-06-24T07:35:01.403888Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "title": "Среда. Когда задачи находят свой порядок сами",
+      "heading": "🔥 СРЕДА. КОГДА ЗАДАЧИ НАХОДЯТ СВОЙ ПОРЯДОК САМИ",
+      "text_key": "auto:59b95de575c58459",
+      "fingerprint": "59b95de575c58459",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_113",
+      "attachment": "photo8314079_457240412",
+      "visual_key": "local:smart_ai_01.png",
+      "image_source": "local_pool",
+      "drive_file_id": null,
+      "image_sha256": "afaa35dd1e1cb1321fcac87e9805fe4e56697243f019b4a6c04967ea41d18d0d"
     }
   ],
   "recent_images": [
@@ -1232,6 +1238,21 @@
       "sha256": "c1aaf035f4fb5a4d44821ef4d412f32e424bd09c1b04a0486908aa36e41eec9a",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_46",
       "attachment": "photo8314079_457240411"
+    },
+    {
+      "ts": "2026-06-24T07:35:01.403966Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "source": "local_pool",
+      "visual_key": "local:smart_ai_01.png",
+      "variant": null,
+      "drive_file_id": null,
+      "drive_file_name": null,
+      "drive_file_url": null,
+      "drive_fallback_reason": null,
+      "sha256": "afaa35dd1e1cb1321fcac87e9805fe4e56697243f019b4a6c04967ea41d18d0d",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_113",
+      "attachment": "photo8314079_457240412"
     }
   ],
   "communities": {
@@ -1566,6 +1587,14 @@
       "fingerprint": "fd1ce273bf6ab508",
       "title": "Середина недели. Самое время для маленького пира.",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_46"
+    },
+    {
+      "ts": "2026-06-24T07:35:01.403958Z",
+      "community": "smart_agent_ai",
+      "text_key": "auto:59b95de575c58459",
+      "fingerprint": "59b95de575c58459",
+      "title": "Среда. Когда задачи находят свой порядок сами",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_113"
     }
   ]
 }
