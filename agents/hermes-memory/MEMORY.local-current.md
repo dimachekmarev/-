@@ -1,7 +1,7 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-06-24T04:43:27.791092+00:00
+updated_at: 2026-06-24T05:40:29.101404+00:00
 ---
 # MEMORY.local-current
 
@@ -22,3 +22,4 @@ Model: codex-balance (custom:codex-balance via codex-only.onrender.com, key CODE
 Строго без markdown и эмодзи в ответах Дмитрию: чистый текст, коротко. Humanizer перед финалом. Не называть непроверенное готовым.
 §
 Видео: HyperFrames бесплатный. Модерн-стиль v2 (Bebas Neue, 1.5-3.5s сцены, кинетик-анимации: punch/glitch/counter). Content Factory: /root/.hermes/scripts/content_factory.py, cron 02:00 МСК.
+
