@@ -1,10 +1,3 @@
----
-type: hermes-memory-local-current
-target: memory
-updated_at: 2026-06-24T04:43:27.791092+00:00
----
-# MEMORY.local-current
-
 Obsidian vault: /root/obsidian-vault; use context-pack for recall. Supabase sync DNS-unreachable. Reports TG: -1002143793106. IDEAS RULE: идея → save to Идеи.md, never execute. Binance bot: /root/crypto-scalp-bot, 8 sub-agents, pyramid entries 20x, awaiting testnet keys.
 §
 BrowserAct: API key configured; browser-act v0.1.30, skill_compat ok, browseract-demo chrome profile exists. DISPLAY=:99, google-chrome --no-sandbox --disable-dev-shm-usage.
