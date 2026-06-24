@@ -2,15 +2,6 @@
   "created": "2026-06-08",
   "recent_posts": [
     {
-      "ts": "2026-06-12T15:02:06.033609Z",
-      "community": "dikaya_kleshnya",
-      "group_id": 237416900,
-      "title": "Момент, ради которого ждали всю неделю",
-      "fingerprint": "2002f91464cc3ca1",
-      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_22",
-      "attachment": "photo8314079_457240357"
-    },
-    {
       "ts": "2026-06-12T15:31:09.374884Z",
       "community": "smart_agent_ai",
       "group_id": 233076338,
@@ -702,6 +693,21 @@
       "image_source": "local_pool",
       "drive_file_id": null,
       "image_sha256": "ee936e1a3a407b1267ccdcf1465b8e23f598af73fba7a30c9c9cb4959c9dc030"
+    },
+    {
+      "ts": "2026-06-24T15:32:10.063651Z",
+      "community": "smart_agent_ai",
+      "group_id": 233076338,
+      "title": "Вы не ленитесь. Вы просто переключаетесь 40 раз в день.",
+      "heading": "🔥 ВЫ НЕ ЛЕНИТЕСЬ. ВЫ ПРОСТО ПЕРЕКЛЮЧАЕТЕСЬ 40 РАЗ В ДЕНЬ.",
+      "text_key": "auto:5247ac450dc9bbaa",
+      "fingerprint": "5247ac450dc9bbaa",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_114",
+      "attachment": null,
+      "visual_key": "ai:text-only-fallback",
+      "image_source": "text_only_fallback",
+      "drive_file_id": null,
+      "image_sha256": "7ac585c6c9a0bb8dff7b4454e59914a99ba0e69115daf9639413cebaafe8393c"
     }
   ],
   "recent_images": [
@@ -1624,6 +1630,14 @@
       "fingerprint": "0469f0017d94b85d",
       "title": "Один звонок. И вечер становится вкусным.",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_47"
+    },
+    {
+      "ts": "2026-06-24T15:32:10.063711Z",
+      "community": "smart_agent_ai",
+      "text_key": "auto:5247ac450dc9bbaa",
+      "fingerprint": "5247ac450dc9bbaa",
+      "title": "Вы не ленитесь. Вы просто переключаетесь 40 раз в день.",
+      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_114"
     }
   ]
 }
