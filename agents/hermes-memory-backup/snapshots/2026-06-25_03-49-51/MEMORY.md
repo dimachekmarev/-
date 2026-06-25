@@ -1,10 +1,3 @@
----
-type: hermes-memory-local-current
-target: memory
-updated_at: 2026-06-25T03:49:51.448367+00:00
----
-# MEMORY.local-current
-
 Obsidian vault: /root/obsidian-vault; use context-pack for recall. Supabase sync DNS-unreachable. Reports TG: -1002143793106. IDEAS RULE: идея → save to Идеи.md, never execute. Binance bot: /root/crypto-scalp-bot, 8 sub-agents, pyramid entries 20x, awaiting testnet keys.
 §
 VK: app 54628476, user 8314079. Token w/ wall+messages+offline. Creds: /root/obsidian-vault/agents/hermes-memory/vk-credentials.md. POST 09:00-22:00 MSK ONLY. Publisher: vk_department_publish.py. Local photo pools: /root/vk-photos/{dikaya_kleshnya,smart_agent_ai,numerologic}/ (15+6+6). Google Drive token expired — local pool is primary.
