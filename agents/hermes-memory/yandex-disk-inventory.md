@@ -1,35 +1,36 @@
 # Яндекс Диск — индекс для агента
 
-Обновлено: 2026-07-04T05:35:23+00:00
+Обновлено: 2026-07-05T05:35:19+00:00
 
 ## Статус
 
 - Remote: `yandex:`
 - Доступ: работает
 - Изменения с прошлого снимка: да
-- Контрольная метка: `f5734528dd4cf107`
+- Контрольная метка: `9f5fa3211dc2f5cf`
 
 ## Объём
 
 ```text
 Total:   10 GiB
-Used:    7.124 GiB
-Free:    2.876 GiB
+Used:    7.125 GiB
+Free:    2.875 GiB
 ```
 
 ## Быстрая статистика глубиной до 3
 
-- Путей всего: 2892
-- Файлов: 2823
-- Папок: 69
+- Путей всего: 2896
+- Файлов: 2826
+- Папок: 70
 
 ## Основные верхние разделы по количеству файлов
 
 - Фотокамера: 2765
 - Загрузки: 29
 - Проект. Как заработать много денег в интернете без лица но со своим аватаром: 16
-- Content_Factory: 5
+- Content_Factory: 6
 - Почтовые вложения: 4
+- Investor_Deck: 2
 - SEO.xlsx: 1
 - договор чек.docx: 1
 - расход за август.xlsx: 1
@@ -42,23 +43,24 @@ Free:    2.876 GiB
 - .jpg: 482
 - .md: 12
 - .json: 10
+- .pdf: 8
 - .docx: 7
-- .pdf: 6
-- .mp4: 4
+- .mp4: 5
 - .webp: 4
 - .xlsx: 3
 - .py: 3
-- .txt: 2
 - .pptx: 2
-- .gz: 1
+- .txt: 2
+- .zip: 1
 - .csv: 1
 - .sgn: 1
-- .zip: 1
 - .html: 1
+- .gz: 1
 
 ## Пример структуры
 
 - `Content_Factory/`
+- `Investor_Deck/`
 - `SEO.xlsx`
 - `Smart_Agent_AI/`
 - `YouTube_Money_System/`
@@ -71,7 +73,18 @@ Free:    2.876 GiB
 - `договор чек.docx`
 - `расход за август.xlsx`
 - `YouTube_Money_System/Agent_Video_Factory/`
-- `uforma-med/uforma-med-site.tar.gz`
+- `Investor_Deck/Smart_Agent_AI_Calculations_Roadmap.pdf`
+- `Investor_Deck/Smart_Agent_AI_Investor_Deck.pdf`
+- `Почтовые вложения/Smart-Agent-AI.pdf`
+- `Почтовые вложения/Smart_Agent_AI_investor_deck.pptx`
+- `Почтовые вложения/Smart_Agent_AI_premium_investor_magazine_deck.pptx`
+- `Почтовые вложения/наклейки_раки.zip`
+- `Content_Factory/20260623_1843_001_новая-жизнь.mp4`
+- `Content_Factory/20260623_1849_001_новая-жизнь.mp4`
+- `Content_Factory/20260623_1948_002_время-деньги.mp4`
+- `Content_Factory/20260623_2323_003_страх-начать.mp4`
+- `Content_Factory/20260704_2300_004_ai-революция.mp4`
+- `Content_Factory/account-inventory.md`
 - `Загрузки/1111DIKAYA_KLESHNYA_MASTER_ROLL_1000x2300mm (1).pdf`
 - `Загрузки/2 модель Презентации.docx`
 - `Загрузки/2021-07-28_11-43-42.png`
@@ -101,12 +114,28 @@ Free:    2.876 GiB
 - `Проект. Как заработать много денег в интернете без лица но со своим аватаром/06_Автоматизации/`
 - `Проект. Как заработать много денег в интернете без лица но со своим аватаром/07_Материалы_и_исходники/`
 - `Проект. Как заработать много денег в интернете без лица но со своим аватаром/08_Отчёты_и_аналитика/`
-- `Content_Factory/20260623_1843_001_новая-жизнь.mp4`
-- `Content_Factory/20260623_1849_001_новая-жизнь.mp4`
-- `Content_Factory/20260623_1948_002_время-деньги.mp4`
-- `Content_Factory/20260623_2323_003_страх-начать.mp4`
-- `Content_Factory/account-inventory.md`
+- `YouTube_Money_System/Agent_Video_Factory/00_Index/`
+- `YouTube_Money_System/Agent_Video_Factory/01_Donors/`
+- `YouTube_Money_System/Agent_Video_Factory/02_Scripts/`
+- `YouTube_Money_System/Agent_Video_Factory/03_Voiceover/`
+- `YouTube_Money_System/Agent_Video_Factory/04_Frames/`
+- `YouTube_Money_System/Agent_Video_Factory/05_Animations/`
+- `YouTube_Money_System/Agent_Video_Factory/06_Renders/`
+- `YouTube_Money_System/Agent_Video_Factory/07_Thumbnails/`
+- `YouTube_Money_System/Agent_Video_Factory/08_Publish_Logs/`
+- `YouTube_Money_System/Agent_Video_Factory/09_Analytics/`
+- `YouTube_Money_System/Agent_Video_Factory/10_Archive/`
 - `Загрузки/Материалы от Гребенюка 2025/Как поднять средний чек и цену, не потеряв клиентов.pdf`
+- `Загрузки/Make (3).com (схемы)/Grok Imagine/`
+- `Загрузки/Make (3).com (схемы)/MCP "Всё включено"/`
+- `Загрузки/Make (3).com (схемы)/Threads+ Модули/`
+- `Загрузки/Make (3).com (схемы)/Veo 3 pro/`
+- `Загрузки/Make (3).com (схемы)/Z-Image модуль/`
+- `Загрузки/Make (3).com (схемы)/Модуль Uploader/`
+- `Загрузки/Make (3).com (схемы)/От подписчиков /`
+- `Загрузки/Make (3).com (схемы)/Подарочек/`
+- `Загрузки/Make (3).com (схемы)/Эфиры/`
+- `Загрузки/Make (3).com (схемы)/Яндекс диск /`
 - `Загрузки/Make (1).com (схемы)/GPT image модуль 2026/`
 - `Загрузки/Make (1).com (схемы)/Grok Imagine/`
 - `Загрузки/Make (1).com (схемы)/MCP "Всё включено"/`
@@ -117,12 +146,6 @@ Free:    2.876 GiB
 - `Загрузки/Make (1).com (схемы)/От подписчиков /`
 - `Загрузки/Make (1).com (схемы)/Эфиры/`
 - `Загрузки/Make (1).com (схемы)/Яндекс диск /`
-- `Загрузки/Шаблоны n8n и промпты/#10 Собираю супер AI-агента/`
-- `Загрузки/Шаблоны n8n и промпты/#11 Создаем AI-агента контент-маркетолога в n8n /`
-- `Загрузки/Шаблоны n8n и промпты/#6 AI-агент вместо помощника!/`
-- `Загрузки/Шаблоны n8n и промпты/#7 Собираю AI-агента с RAG в N8N/`
-- `Загрузки/Шаблоны n8n и промпты/#9 Manus AI/`
-- `Загрузки/Шаблоны n8n и промпты/Прочитай меня.docx`
 - `Загрузки/Make.com (схемы)/Cоцсети NEW.json`
 - `Загрузки/Make.com (схемы)/GPT VOICE BOT (phyton)/`
 - `Загрузки/Make.com (схемы)/Kling AI/`
@@ -142,21 +165,12 @@ Free:    2.876 GiB
 - `Загрузки/Make.com (схемы)/Яндекс диск /`
 - `Загрузки/Make.com (схемы)/автоответ на комментарии в инстаграм.json`
 - `Загрузки/Make.com (схемы)/блог (2 версия) с картиками с логотипом и надписями.json`
-- `YouTube_Money_System/Agent_Video_Factory/00_Index/`
-- `YouTube_Money_System/Agent_Video_Factory/01_Donors/`
-- `YouTube_Money_System/Agent_Video_Factory/02_Scripts/`
-- `YouTube_Money_System/Agent_Video_Factory/03_Voiceover/`
-- `YouTube_Money_System/Agent_Video_Factory/04_Frames/`
-- `YouTube_Money_System/Agent_Video_Factory/05_Animations/`
-- `YouTube_Money_System/Agent_Video_Factory/06_Renders/`
-- `YouTube_Money_System/Agent_Video_Factory/07_Thumbnails/`
-- `YouTube_Money_System/Agent_Video_Factory/08_Publish_Logs/`
-- `YouTube_Money_System/Agent_Video_Factory/09_Analytics/`
-- `YouTube_Money_System/Agent_Video_Factory/10_Archive/`
-- `Почтовые вложения/Smart-Agent-AI.pdf`
-- `Почтовые вложения/Smart_Agent_AI_investor_deck.pptx`
-- `Почтовые вложения/Smart_Agent_AI_premium_investor_magazine_deck.pptx`
-- `Почтовые вложения/наклейки_раки.zip`
+- `Загрузки/Шаблоны n8n и промпты/#10 Собираю супер AI-агента/`
+- `Загрузки/Шаблоны n8n и промпты/#11 Создаем AI-агента контент-маркетолога в n8n /`
+- `Загрузки/Шаблоны n8n и промпты/#6 AI-агент вместо помощника!/`
+- `Загрузки/Шаблоны n8n и промпты/#7 Собираю AI-агента с RAG в N8N/`
+- `Загрузки/Шаблоны n8n и промпты/#9 Manus AI/`
+- `Загрузки/Шаблоны n8n и промпты/Прочитай меня.docx`
 - `Проект. Как заработать много денег в интернете без лица но со своим аватаром/03_Контент_план/14-day-relaunch-money-sprint.md`
 - `Проект. Как заработать много денег в интернете без лица но со своим аватаром/03_Контент_план/avito_ads.txt`
 - `Проект. Как заработать много денег в интернете без лица но со своим аватаром/01_Стратегия_и_ниша/README.md`
@@ -165,19 +179,6 @@ Free:    2.876 GiB
 - `Проект. Как заработать много денег в интернете без лица но со своим аватаром/01_Стратегия_и_ниша/Проекты.md`
 - `Проект. Как заработать много денег в интернете без лица но со своим аватаром/05_Воронки_и_монетизация/2026-06-09-sales-sprint.md`
 - `Проект. Как заработать много денег в интернете без лица но со своим аватаром/05_Воронки_и_монетизация/7-day-pdf-offer-sprint-validated.md`
-- `Проект. Как заработать много денег в интернете без лица но со своим аватаром/05_Воронки_и_монетизация/makecom-showcase.md`
-- `Проект. Как заработать много денег в интернете без лица но со своим аватаром/08_Отчёты_и_аналитика/smart-agent-cron-guide.md`
-- `Проект. Как заработать много денег в интернете без лица но со своим аватаром/06_Автоматизации/SEO-Site-Publisher-Agent.md`
-- `Проект. Как заработать много денег в интернете без лица но со своим аватаром/06_Автоматизации/audit_bot.py`
-- `Проект. Как заработать много денег в интернете без лица но со своим аватаром/06_Автоматизации/content-factory-mac-guide.md`
-- `Проект. Как заработать много денег в интернете без лица но со своим аватаром/06_Автоматизации/landing.html`
-- `Проект. Как заработать много денег в интернете без лица но со своим аватаром/06_Автоматизации/n8n_Dmitry_Chekmarev/`
-- `Проект. Как заработать много денег в интернете без лица но со своим аватаром/06_Автоматизации/sales_outreach.py`
-- `Проект. Как заработать много денег в интернете без лица но со своим аватаром/06_Автоматизации/voice_sales_bot.py`
-- `Проект. Как заработать много денег в интернете без лица но со своим аватаром/07_Материалы_и_исходники/makecom-blueprints/`
-- `Загрузки/Make (3).com (схемы)/Grok Imagine/`
-- `Загрузки/Make (3).com (схемы)/MCP "Всё включено"/`
-- `Загрузки/Make (3).com (схемы)/Threads+ Модули/`
 
 ## Правила работы
 
