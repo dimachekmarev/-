@@ -1,15 +1,15 @@
 {
-  "updated_at_utc": "2026-07-10T19:31:55.345421+00:00",
+  "updated_at_utc": "2026-07-10T20:32:07.014496+00:00",
   "obsidian": {
     "ok": true,
     "changed": true,
     "manifest": {
-      "updated_at_utc": "2026-07-10T19:31:55.269220+00:00",
+      "updated_at_utc": "2026-07-10T20:32:07.010472+00:00",
       "source": "/root/.hermes/memories",
       "files": {
         "MEMORY.md": {
-          "chars": 2128,
-          "sha256": "6a3d367776ecbe847ee515e73151de762404392707182be2b881dc50c3e3f96a"
+          "chars": 2103,
+          "sha256": "9af72975aba4b2479007ec6e144b057de716066234743bd68c9d201b0e50d2cb"
         },
         "USER.md": {
           "chars": 1368,
@@ -20,6 +20,6 @@
   },
   "supabase": {
     "ok": false,
-    "reason": "dns_unavailable: hagmwnadcvdravmhedcd.supabase.co: gaierror"
+    "reason": "missing SUPABASE_URL or service key"
   }
 }

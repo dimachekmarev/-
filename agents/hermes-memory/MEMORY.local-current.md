@@ -1,7 +1,7 @@
 ---
 type: hermes-memory-local-current
 target: memory
-updated_at: 2026-07-10T19:31:55.269220+00:00
+updated_at: 2026-07-10T20:32:07.010472+00:00
 ---
 # MEMORY.local-current
 
@@ -17,9 +17,6 @@ YouTube: NEUROLUX / @neurolux-studio / UC3f037joMq9pnD708qhFsKg (0 видео, 3
 §
 Model: codex-balance (custom:codex-balance via codex-only.onrender.com, key CODEX_BALANCE_KEY) as primary. DeepSeek/OpenRouter removed from fallback — manual-only per Dmitry. НИКОГДА не врать о текущей модели: проверять session header, не config.yaml. Враньё = удаление.
 §
-Строго без markdown и эмодзи в ответах Дмитрию: чистый текст, коротко. Humanizer перед финалом. Не называть непроверенное готовым.
+Строго без markdown и эмодзи в ответах Дмитрию: чистый текст, коротко. Humanizer перед финалом. Не называть непроверенное готовым. Пользователь хочет почти полную автоматизацию контентных и публикационных процессов, включая хранение артефактов в Google Drive и использование browser automation для всего, где это возможно.
 §
 Видео: HyperFrames бесплатный. Модерн-стиль v2 (Bebas Neue, 1.5-3.5s сцены, кинетик-анимации: punch/glitch/counter). Content Factory: /root/.hermes/scripts/content_factory.py, cron 02:00 МСК.
-§
-24.06.2026: Phase-1 Money Room полностью удалён (Яна). 120 лидов + outreach-скрипты + 7 агентов. Не утверждены 11 дней, бесталковые. Блокер снят. Осталось: agent-skill-structure.md, company-agent-operating-map.md.
-
