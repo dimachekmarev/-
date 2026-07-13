@@ -1,10 +1,3 @@
----
-type: hermes-memory-local-current
-target: memory
-updated_at: 2026-07-13T17:33:09.250478+00:00
----
-# MEMORY.local-current
-
 Obsidian vault: /root/obsidian-vault; use context-pack for recall. Supabase sync DNS-unreachable. Reports TG: -1002143793106. IDEAS RULE: идея → save to Идеи.md, never execute. Binance bot: /root/crypto-scalp-bot, 8 sub-agents, pyramid entries 20x, awaiting testnet keys.
 §
 VK: app 54628476, user 8314079. Token w/ wall+messages+offline. Creds: /root/obsidian-vault/agents/hermes-memory/vk-credentials.md. POST 09:00-22:00 MSK ONLY. Publisher: vk_department_publish.py. Local photo pools: /root/vk-photos/{dikaya_kleshnya,smart_agent_ai,numerologic}/ (15+6+6). Google Drive token expired — local pool is primary.
@@ -20,4 +13,3 @@ Model: codex-balance (custom:codex-balance via codex-only.onrender.com, key CODE
 Строго без markdown и эмодзи в ответах Дмитрию: чистый текст, коротко. Humanizer перед финалом. Не называть непроверенное готовым. Пользователь хочет почти полную автоматизацию контентных и публикационных процессов, включая хранение артефактов в Google Drive и использование browser automation для всего, где это возможно.
 §
 Видео: HyperFrames бесплатный. Модерн-стиль v2 (Bebas Neue, 1.5-3.5s сцены, кинетик-анимации: punch/glitch/counter). Content Factory: /root/.hermes/scripts/content_factory.py, cron 02:00 МСК.
-
