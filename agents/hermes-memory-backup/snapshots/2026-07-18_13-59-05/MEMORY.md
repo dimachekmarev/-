@@ -1,10 +1,3 @@
----
-type: hermes-memory-local-current
-target: memory
-updated_at: 2026-07-18T13:59:05.687138+00:00
----
-# MEMORY.local-current
-
 Obsidian vault: /root/obsidian-vault; use context-pack for recall. Supabase sync DNS-unreachable. Reports TG: -1002143793106. IDEAS RULE: идея → save to Идеи.md, never execute. Binance bot: /root/crypto-scalp-bot, 8 sub-agents, pyramid entries 20x, awaiting testnet keys.
 §
 Model: codex-balance (custom:codex-balance via codex-only.onrender.com, key CODEX_BALANCE_KEY) as primary. DeepSeek/OpenRouter removed from fallback — manual-only per Dmitry. НИКОГДА не врать о текущей модели: проверять session header, не config.yaml. Враньё = удаление.
