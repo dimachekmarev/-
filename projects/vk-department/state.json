@@ -2,15 +2,6 @@
   "created": "2026-06-08",
   "recent_posts": [
     {
-      "ts": "2026-06-13T07:04:56.286590Z",
-      "community": "dikaya_kleshnya",
-      "group_id": 237416900,
-      "title": "Суббота. Не спешите — раки подождут ровно до пара",
-      "fingerprint": "7850c6692b1f3b95",
-      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_23",
-      "attachment": "photo8314079_457240359"
-    },
-    {
       "ts": "2026-06-13T07:31:09.923962Z",
       "community": "smart_agent_ai",
       "group_id": 233076338,
@@ -714,6 +705,21 @@
       "image_source": "text_only_fallback",
       "drive_file_id": null,
       "image_sha256": "f74c249fa556bb36c9fb14ab1caf5d14ef225c27908ee6da2b8b58f9ba26856b"
+    },
+    {
+      "ts": "2026-07-18T15:00:56.972767Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "title": "Суббота сама знает, зачем вы дома",
+      "heading": "🔥 СУББОТА САМА ЗНАЕТ, ЗАЧЕМ ВЫ ДОМА",
+      "text_key": "raki-evening-20260718-subbota-bez-planov-za-stolom",
+      "fingerprint": "677e9dd97fe7ff12",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_50",
+      "attachment": null,
+      "visual_key": "ai:text-only-fallback",
+      "image_source": "text_only_fallback",
+      "drive_file_id": null,
+      "image_sha256": "3b9c96249eafa612ae709c84494bd5fa7b911b186cc96ac11769bad05208e119"
     }
   ],
   "recent_images": [
@@ -1652,6 +1658,14 @@
       "fingerprint": "41747dae7aad6e90",
       "title": "За одним столом и разговоры теплее",
       "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_49"
+    },
+    {
+      "ts": "2026-07-18T15:00:56.972837Z",
+      "community": "dikaya_kleshnya",
+      "text_key": "raki-evening-20260718-subbota-bez-planov-za-stolom",
+      "fingerprint": "677e9dd97fe7ff12",
+      "title": "Суббота сама знает, зачем вы дома",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_50"
     }
   ]
 }
