@@ -2,15 +2,6 @@
   "created": "2026-06-08",
   "recent_posts": [
     {
-      "ts": "2026-06-12T15:31:09.374884Z",
-      "community": "smart_agent_ai",
-      "group_id": 233076338,
-      "title": "Вечер пятницы: вы на паузе — бизнес нет",
-      "fingerprint": "e8f018ed4b590359",
-      "url": "https://vk.com/smart_agent_ai?w=wall-233076338_78",
-      "attachment": "photo8314079_457240358"
-    },
-    {
       "ts": "2026-06-13T07:04:56.286590Z",
       "community": "dikaya_kleshnya",
       "group_id": 237416900,
@@ -708,6 +699,21 @@
       "image_source": "text_only_fallback",
       "drive_file_id": null,
       "image_sha256": "7ac585c6c9a0bb8dff7b4454e59914a99ba0e69115daf9639413cebaafe8393c"
+    },
+    {
+      "ts": "2026-07-18T11:32:48.701702Z",
+      "community": "dikaya_kleshnya",
+      "group_id": 237416900,
+      "title": "За одним столом и разговоры теплее",
+      "heading": "🔥 ЗА ОДНИМ СТОЛОМ И РАЗГОВОРЫ ТЕПЛЕЕ",
+      "text_key": "raki-morning-20260718-za-odnim-stolom",
+      "fingerprint": "41747dae7aad6e90",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_49",
+      "attachment": null,
+      "visual_key": "ai:text-only-fallback",
+      "image_source": "text_only_fallback",
+      "drive_file_id": null,
+      "image_sha256": "f74c249fa556bb36c9fb14ab1caf5d14ef225c27908ee6da2b8b58f9ba26856b"
     }
   ],
   "recent_images": [
@@ -1638,6 +1644,14 @@
       "fingerprint": "5247ac450dc9bbaa",
       "title": "Вы не ленитесь. Вы просто переключаетесь 40 раз в день.",
       "url": "https://vk.com/smart_agent_ai?w=wall-233076338_114"
+    },
+    {
+      "ts": "2026-07-18T11:32:48.701751Z",
+      "community": "dikaya_kleshnya",
+      "text_key": "raki-morning-20260718-za-odnim-stolom",
+      "fingerprint": "41747dae7aad6e90",
+      "title": "За одним столом и разговоры теплее",
+      "url": "https://vk.com/dikaya_kleshnya?w=wall-237416900_49"
     }
   ]
 }
