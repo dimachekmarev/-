@@ -268,7 +268,7 @@
           <div class="big"><span>В месяц</span><b class="c-month">0 ₽</b></div><div class="mid"><span>В год</span><b class="c-year">0 ₽</b></div>
           <div class="stack" aria-hidden="true"></div><ul class="stack-legend"></ul>
           <p class="hint">Цены оригиналов в долларах — ориентир на 2026 год. Через агрегатор часть сервисов дешевле: платите только за использование.</p></div></div></div>`;
-      const COL = ['var(--blue)', 'var(--red)', 'var(--blue-2)', 'var(--ink)', '#8EA2E8', '#F08A90', '#3C4A6B'];
+      const COL = ['var(--blue)', '#7FA0F5', 'var(--ink)', '#B9C6F8', '#5A6478', '#D5DCF2', '#2D3A5E'];
       const draw = () => {
         const groups = {}; let tot = 0;
         D.subs.forEach(s => { if (!sel[s.n]) return; const v = s.usd != null ? s.usd * rate : s.rub; tot += v; groups[s.g] = (groups[s.g] || 0) + v; });
@@ -284,7 +284,7 @@
 
     money(el, D) {
       let sort = 'weeks', dir = 1, model = 'Все', pick = 0;
-      const MCOL = { 'Услуга': 'var(--blue)', 'Внедрение': 'var(--red)', 'Продукт': 'var(--ink)' };
+      const MCOL = { 'Услуга': 'var(--blue)', 'Внедрение': '#7FA0F5', 'Продукт': 'var(--ink)' };
       el.innerHTML = `<div class="dash reveal"><div class="dash-head"><span class="eyebrow">Интерактивная панель</span><b>Карта заработка на ИИ</b><span class="dash-sub">Ориентиры рынка, 2026. Нажмите на точку или строку</span></div>
         <div class="chips" data-k="m">${['Все', 'Услуга', 'Внедрение', 'Продукт'].map(m => `<button type="button" class="fchip${m === 'Все' ? ' on' : ''}" data-v="${m}">${m === 'Все' ? 'Все модели' : m}</button>`).join('')}</div>
         <div class="money"><div class="scatter"></div><div class="m-detail"></div></div>
@@ -344,7 +344,7 @@
         const labor = s.hours * s.rate, toolsPer = s.tools / s.orders, base = labor + toolsPer, withM = base * (1 + s.margin / 100), price = Math.ceil(withM / (1 - s.tax / 100) / 100) * 100, tax = price * s.tax / 100;
         const net = (price - tax) * s.orders - s.tools;
         $('.p-rec', el).textContent = rub(price); $('.p-net', el).textContent = rub(net);
-        const parts = [['Работа', labor, 'var(--blue)'], ['Инструменты', toolsPer, 'var(--blue-2)'], ['Запас', withM - base, 'var(--ink)'], ['Налог', tax, 'var(--red)']];
+        const parts = [['Работа', labor, 'var(--blue)'], ['Инструменты', toolsPer, 'var(--blue-2)'], ['Запас', withM - base, 'var(--ink)'], ['Налог', tax, '#B9C6F8']];
         $('.p-bars', el).innerHTML = parts.map(([n, v, c]) => `<div class="pb"><span>${n}</span><div class="bar"><i style="width:${(v / price * 100).toFixed(1)}%;background:${c}"></i></div><b>${rub(v)}</b></div>`).join('');
         $('.p-hint', el).textContent = `Реальная ставка: ${rub(net / Math.max(1, s.hours * s.orders))} в час. Сравните цену с медианой рынка из урока 10.3: если вы сильно ниже — добавьте ценность в пакет, а не снижайте ставку.`;
         K.store.set('price', s);
