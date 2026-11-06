@@ -45,7 +45,7 @@ async function rpc(fn, args) {
   if (!E.SUPABASE_URL) return memRpc(fn, args);
   const r = await fetch(`${E.SUPABASE_URL}/rest/v1/rpc/${fn}`, {
     method: 'POST',
-    headers: { apikey: E.SUPABASE_KEY, Authorization: 'Bearer ' + E.SUPABASE_KEY, 'Content-Type': 'application/json' },
+    headers: { apikey: E.SUPABASE_KEY, 'Content-Type': 'application/json' },
     body: JSON.stringify({ p_secret: E.DB_SECRET, ...args })
   });
   const t = await r.text();
