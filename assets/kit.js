@@ -146,6 +146,69 @@
         ['Отклики на биржах', 8, 12], ['Первые заказы', 14, 7], ['Шаблоны и автоматизация', 21, 5], ['Подъём цены, итоги', 25, 3]].map(([t, s, d], i) =>
           `<div class="g-row" style="--i:${i}"><span>${t}</span><div class="g-track"><i style="left:${(s / 28 * 100).toFixed(1)}%;width:${(d / 28 * 100).toFixed(1)}%"></i></div></div>`).join('')}</div>`)
   };
+  // ---------- дополнительные инфографики ----------
+  const cards = (arr, cls = '') => `<div class="ig-cards ${cls}">${arr.map(([k, t, d], i) => `<div class="ig-card" style="--i:${i}"><span class="ig-k">${k}</span><b>${t}</b>${d ? `<p>${d}</p>` : ''}</div>`).join('')}</div>`;
+  const arrowRow = (arr) => `<div class="ig-flow">${arr.map(([t, d], i) => `${i ? '<i class="ig-arr" aria-hidden="true"></i>' : ''}<div class="ig-step" style="--i:${i}"><span>${String(i + 1).padStart(2, '0')}</span><b>${t}</b><p>${d}</p></div>`).join('')}</div>`;
+  Object.assign(FIG, {
+    checks3: () => figWrap('checks3', 'Правило трёх проверок', arrowRow([['Источник', 'Попросите ссылку и откройте её сами. Нет ссылки — нет факта'], ['Другая модель', 'Задайте тот же вопрос второму ассистенту. Расхождение — повод проверить'], ['Самопроверка', 'Попросите модель найти ошибки в своём ответе']]), 'Для всего, что уйдёт клиенту, руководителю или в публикацию.'),
+    assistants: () => figWrap('assistants', 'Стратегия «один платный и два бесплатных»',
+      `<div class="ig-stack"><div class="ig-main"><span class="ig-k">Платный · основная работа</span><b>Один сильный ассистент</b><p>ChatGPT, Claude или Gemini — под вашу главную задачу: тексты, анализ, код</p></div>
+       <div class="ig-side"><div><span class="ig-k">Бесплатно · второе мнение</span><b>DeepSeek или Qwen</b><p>Проверка и простые задачи</p></div><div><span class="ig-k">Бесплатно · Россия</span><b>ГигаЧат или Алиса AI</b><p>Российские реалии, поиск с источниками</p></div></div></div>`,
+      'Расширяйте набор, только когда упрётесь в лимиты.'),
+    apicost: () => figWrap('apicost', 'Сколько стоит бот: 1 000 диалогов в месяц',
+      `<div class="ig-calc"><div class="ig-eq"><span><b>1 000</b>диалогов</span><i>×</i><span><b>3 000</b>токенов в диалоге</span><i>=</i><span class="hl"><b>3 млн</b>токенов в месяц</span></div>
+       <div class="ig-bars"><div><span>Быстрая модель</span><div class="bar"><i style="--w:8%"></i></div><b>десятки–сотни ₽</b></div><div><span>Самая умная модель</span><div class="bar"><i style="--w:92%"></i></div><b>тысячи ₽</b></div></div></div>`,
+      'Порядок цен по тексту урока. Точные тарифы смотрите на сайте провайдера: цена указывается за миллион токенов отдельно для запроса и ответа.'),
+    techniques: () => figWrap('techniques', 'Девять приёмов на одной карточке', cards([['01', 'Вопросы', 'Пусть модель спросит, чего не хватает'], ['02', 'Образец', 'Пример вместо прилагательных'], ['03', 'Варианты', 'Выбирать проще, чем описывать'], ['04', 'Шаги', 'План, потом разделы'], ['05', 'Критика', 'Оценка и переписывание'], ['06', 'Роли', 'Взгляд скептичного клиента'], ['07', 'Метки', '### Задача, ### Данные'], ['08', 'Мерило', 'Критерий хорошего ответа'], ['09', 'Диалог', 'Первый ответ — черновик']], 'g3')),
+    chain: () => figWrap('chain', 'Цепочка промптов: контент-план на месяц', arrowRow([['Аудитория', '5 болей и 5 желаний'], ['Темы', '12 тем в разных форматах'], ['Календарь', 'Темы по 4 неделям'], ['Тексты', 'Посты первой недели'], ['Редактура', 'Проверка и улучшение']]), 'Выход каждого шага — вход следующего. Так длинная задача не превращается в поверхностный текст.'),
+    docflow: () => figWrap('docflow', 'Что можно достать из документа за минуту',
+      `<div class="ig-doc"><div class="ig-paper" aria-hidden="true"><i></i><i></i><i class="s"></i><i></i><i class="m"></i><i></i><i class="s"></i></div><i class="ig-arr" aria-hidden="true"></i>
+       ${cards([['', 'Краткое содержание', 'На одну страницу'], ['', 'Сроки и суммы', 'Все обязательства сторон'], ['', 'Риски', 'Штрафы, автопролонгация'], ['', 'Отличия версий', 'Что изменилось в редакции']], 'g2')}</div>`, 'Финальную проверку договора делает юрист: ИИ готовит черновой анализ.'),
+    learnloop: () => figWrap('learnloop', 'Цикл обучения с ИИ-репетитором', arrowRow([['Объясняю', 'Своими словами'], ['ИИ ищет пробелы', 'Где ошибка или неточность'], ['Вопрос', 'Одна проверка понимания'], ['Разбор', 'Объяснение по-другому']]), 'Повторяйте цикл, пока не сможете объяснить тему без подсказок.'),
+    imgformula: () => figWrap('imgformula', 'Формула кадра для генератора картинок',
+      `<div class="ig-frame"><div class="ig-shot"><span class="z z1">Объект</span><span class="z z2">Композиция</span><span class="z z3">Окружение</span><span class="z z4">Свет</span><span class="z z5">Стиль и камера</span><span class="z z6">Формат</span><i class="sun" aria-hidden="true"></i><i class="cup" aria-hidden="true"></i></div>
+       <ol class="ig-legend"><li><b>Объект</b> кто или что, с деталями</li><li><b>Композиция</b> вид, место в кадре</li><li><b>Окружение</b> фон и сцена</li><li><b>Свет</b> главный фактор «дорогой» картинки</li><li><b>Стиль и камера</b> фото, иллюстрация, объектив</li><li><b>Формат</b> соотношение сторон</li></ol></div>`),
+    ratios: () => figWrap('ratios', 'Форматы изображений в масштабе',
+      `<div class="ig-ratios">${[['1:1', 1, 1, 'Лента'], ['4:5', 4, 5, 'Instagram'], ['3:4', 3, 4, 'Маркетплейсы'], ['9:16', 9, 16, 'Сторис, Reels, Shorts'], ['16:9', 16, 9, 'Обложки, YouTube']].map(([n, w, h, d], i) => `<div class="ig-r" style="--i:${i}"><i style="aspect-ratio:${w}/${h};${w >= h ? 'width:100%' : 'height:100%'}"></i><b>${n}</b><small>${d}</small></div>`).join('')}</div>`),
+    camera: () => figWrap('camera', 'Словарь движений камеры',
+      `<div class="ig-cams">${[['Наезд', 'push in', 'M20 40 L60 40 M50 30 L60 40 L50 50', 'r'], ['Отъезд', 'pull out', 'M60 40 L20 40 M30 30 L20 40 L30 50', 'r'], ['Панорама', 'pan', 'M15 40 Q40 20 65 40 M57 33 L65 40 L56 46', ''], ['Облёт', 'orbit', 'M40 18 A22 22 0 1 1 18 40 M14 33 L18 40 L25 36', 'o'], ['С рук', 'handheld', 'M12 40 L22 34 L30 46 L40 32 L50 46 L58 36 L68 40', ''], ['Дрон', 'aerial', 'M40 15 L40 60 M30 50 L40 60 L50 50', '']].map(([t, e, d], i) => `<div class="ig-cam" style="--i:${i}"><svg viewBox="0 0 80 72" aria-hidden="true"><rect x="28" y="50" width="24" height="14" rx="3" class="cb"/><path d="${d}" class="cp"/></svg><b>${t}</b><small>${e}</small></div>`).join('')}</div>`, 'Эти слова понимают все видеомодели: пишите их в промпте на английском или по-русски.'),
+    ladder: () => figWrap('ladder', 'Уровни вайбкодинга',
+      `<div class="ig-ladder">${[['Конструкторы с ИИ', 'Tilda, Taplink', 'Без кода, шаблоны'], ['Сайт в чате', 'Claude, ChatGPT', 'Лендинг, калькулятор'], ['Сайт по описанию', 'Lovable, Bolt, v0, Replit', 'Приложение с публикацией'], ['Агенты в коде', 'Cursor, Claude Code, Codex', 'Сложные проекты']].map(([t, s, d], i) => `<div class="ig-rung" style="--i:${i};--h:${30 + i * 22}%"><span class="ig-k">Уровень ${i + 1}</span><b>${t}</b><small>${s}</small><p>${d}</p></div>`).join('')}</div>`, 'Начинайте снизу. Переходите выше, когда упираетесь в возможности уровня.'),
+    models3: () => figWrap('models3', 'Три модели заработка',
+      `<div class="ig-models">${[['Услуги', 'Быстро', 'Доход ограничен вашим временем', 1], ['Продукты', 'Медленно', 'Доход не привязан к часам', 2], ['Внедрение', 'Нужна экспертиза', 'Самый высокий чек', 3]].map(([t, a, b, k]) => `<div class="ig-model"><b>${t}</b><div class="ig-m"><span>Скорость до денег</span><em>${[1, 2, 3].map(q => `<i class="${q <= 4 - k ? 'on' : ''}"></i>`).join('')}</em></div><div class="ig-m"><span>Потолок дохода</span><em>${[1, 2, 3].map(q => `<i class="${q <= k ? 'on' : ''}"></i>`).join('')}</em></div><p>${a}. ${b}</p></div>`).join('')}</div>
+       <p class="ig-path">Путь, который работает чаще всего: <b>услуга</b> → 5–10 кейсов → <b>пакет внедрения</b> или <b>продукт</b></p>`),
+    funnel: () => figWrap('funnel', 'Воронка первых клиентов',
+      `<div class="ig-funnel">${[['30', 'сообщений знакомым и бизнесам', 100], ['2–5', 'ответов (5–15% для холодных сообщений)', 62], ['1–2', 'созвона или переписки по делу', 38], ['1', 'первый оплаченный заказ', 20]].map(([n, t, w], i) => `<div class="ig-fl" style="--i:${i};--w:${w}%"><b>${n}</b><span>${t}</span></div>`).join('')}</div>`, 'Цифры ориентировочные. Считайте свою конверсию в таблице и улучшайте слабый шаг.')
+  });
+
+  // иллюстрации для обложек модулей
+  const IL = {
+    '00': '<path d="M40 110 V30 L120 30 L105 50 L120 70 L40 70" class="il-b"/><path d="M40 110 V30" class="il-s"/><circle cx="150" cy="95" r="18" class="il-l"/><path d="M142 95 l6 6 l12 -12" class="il-s"/>',
+    '01': '<rect x="30" y="35" width="70" height="30" rx="12" class="il-l"/><rect x="100" y="75" width="70" height="30" rx="12" class="il-b"/><circle cx="50" cy="50" r="3" class="il-d"/><circle cx="62" cy="50" r="3" class="il-d"/><circle cx="74" cy="50" r="3" class="il-d"/><path d="M90 65 L95 75" class="il-s"/>',
+    '02': '<rect x="35" y="25" width="38" height="38" rx="8" class="il-b"/><rect x="81" y="25" width="38" height="38" rx="8" class="il-l"/><rect x="127" y="25" width="38" height="38" rx="8" class="il-l"/><rect x="35" y="71" width="38" height="38" rx="8" class="il-l"/><rect x="81" y="71" width="38" height="38" rx="8" class="il-l"/><rect x="127" y="71" width="38" height="38" rx="8" class="il-w"/>',
+    '03': '<circle cx="70" cy="70" r="26" class="il-l"/><circle cx="70" cy="70" r="9" class="il-w"/><path d="M96 70 H160 M140 70 V88 M152 70 V84" class="il-st"/>',
+    '04': '<rect x="30" y="30" width="140" height="80" rx="10" class="il-w"/><rect x="42" y="44" width="40" height="8" rx="4" class="il-b"/><rect x="88" y="44" width="70" height="8" rx="4" class="il-l"/><rect x="42" y="60" width="90" height="8" rx="4" class="il-l"/><rect x="42" y="76" width="60" height="8" rx="4" class="il-l"/><rect x="108" y="76" width="30" height="8" rx="4" class="il-b"/><path d="M150 92 v12" class="il-s"/>',
+    '05': '<rect x="40" y="25" width="60" height="85" rx="6" class="il-w"/><path d="M52 45 H88 M52 57 H88 M52 69 H76" class="il-s"/><rect x="110" y="50" width="55" height="60" rx="6" class="il-l"/><rect x="120" y="85" width="8" height="15" class="il-b"/><rect x="133" y="72" width="8" height="28" class="il-b"/><rect x="146" y="62" width="8" height="38" class="il-b"/>',
+    '06': '<rect x="35" y="25" width="130" height="90" rx="8" class="il-l"/><circle cx="135" cy="50" r="12" class="il-w"/><path d="M35 105 L80 60 L110 90 L125 78 L165 112" class="il-bf"/>',
+    '07': '<rect x="35" y="35" width="90" height="70" rx="8" class="il-b"/><path d="M70 55 L92 70 L70 85 Z" class="il-wf"/><path d="M140 55 v30 M150 45 v50 M160 60 v20" class="il-st"/>',
+    '08': '<rect x="30" y="28" width="140" height="88" rx="8" class="il-w"/><path d="M30 46 H170" class="il-s"/><circle cx="42" cy="37" r="3" class="il-d"/><circle cx="52" cy="37" r="3" class="il-d"/><rect x="44" y="58" width="60" height="10" rx="4" class="il-b"/><rect x="44" y="74" width="90" height="6" rx="3" class="il-l"/><rect x="44" y="86" width="70" height="6" rx="3" class="il-l"/><rect x="128" y="96" width="30" height="12" rx="4" class="il-b"/>',
+    '09': '<rect x="25" y="55" width="36" height="30" rx="6" class="il-b"/><rect x="82" y="55" width="36" height="30" rx="6" class="il-l"/><rect x="139" y="55" width="36" height="30" rx="6" class="il-w"/><path d="M61 70 H82 M118 70 H139" class="il-s"/><circle cx="100" cy="35" r="10" class="il-l"/><path d="M100 45 V55" class="il-s"/>',
+    '10': '<path d="M35 105 H170" class="il-s"/><rect x="45" y="80" width="20" height="25" rx="3" class="il-l"/><rect x="75" y="65" width="20" height="40" rx="3" class="il-l"/><rect x="105" y="50" width="20" height="55" rx="3" class="il-b"/><rect x="135" y="30" width="20" height="75" rx="3" class="il-b"/><path d="M48 70 L80 55 L110 42 L150 22" class="il-s"/>',
+    '11': '<rect x="35" y="30" width="130" height="82" rx="8" class="il-w"/><path d="M35 50 H165" class="il-s"/>' + Array.from({ length: 28 }, (_, i) => `<rect x="${44 + (i % 7) * 17}" y="${58 + Math.floor(i / 7) * 13}" width="12" height="8" rx="2" class="${i < 18 ? 'il-b' : 'il-l'}"/>`).join('')
+  };
+  K.modCover = (m, opts = {}) => `<div class="mod-cover reveal"><div class="mc-txt"><span class="eyebrow">Модуль ${m.num}</span><h2>${esc(m.title)}</h2><p>${esc(m.sub)}</p>
+    <ul class="mc-meta"><li><b>${m.lessons.length}</b> ${m.lessons.length < 5 ? 'урока' : 'уроков'}</li><li><b>${m.lessons.reduce((s, l) => s + l.min, 0)}</b> мин</li>${m.quizCount ? `<li><b>${m.quizCount}</b> вопросов в тесте</li>` : ''}</ul>
+    ${opts.list ? `<ol class="mc-ls">${m.lessons.map(l => `<li><span>${l.id}</span>${esc(l.title)}</li>`).join('')}</ol>` : ''}</div>
+    <svg class="mc-il" viewBox="0 0 200 140" aria-hidden="true">${IL[m.num] || ''}</svg></div>`;
+
+  // ссылки урока: собираются из текста автоматически
+  K.lessonLinks = md => {
+    const seen = new Set(), out = [];
+    md.replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g, (_, t, u) => { if (!seen.has(u)) { seen.add(u); out.push([t, u]); } });
+    if (!out.length) return '';
+    return `<aside class="ll-box reveal"><span class="eyebrow">Ссылки урока</span><div class="ll-grid">${out.map(([t, u]) => `<a href="${u}" target="_blank" rel="noopener" class="ll-a"><i>${esc(u.replace(/^https?:\/\/(www\.)?/, '')[0].toUpperCase())}</i><span><b>${esc(t.replace(/^@/, ''))}</b><small>${esc(u.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, ''))}</small></span></a>`).join('')}</div></aside>`;
+  };
+
   K.fig = name => (FIG[name] ? FIG[name]() : '');
 
   // анимации схем — запускаются, когда схема видна

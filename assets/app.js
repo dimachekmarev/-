@@ -80,7 +80,7 @@
     }
     const done = prog();
     const last = idx === m.lessons.length - 1;
-    const v = setView(`${head}<article class="prose">${K.md(l.md)}</article>
+    const v = setView(`${idx === 0 ? K.modCover({ ...m, quizCount: m.quiz.length }) : ''}${head}<article class="prose">${K.md(l.md)}</article>${K.lessonLinks(l.md)}
       ${last && m.quiz.length ? `<section class="quiz-sec"><h3><span class="eyebrow">Тест</span> Проверьте себя по модулю ${m.num}</h3><div class="quiz" id="quiz"></div></section>` : ''}
       <div class="l-foot">${prev ? `<a class="btn btn-ghost" href="#l-${prev.id}">← ${prev.id}</a>` : ''}<span class="sp"></span>
         <button class="btn btn-done${done[l.id] ? ' is' : ''}" type="button" id="done">${done[l.id] ? 'Урок пройден' : 'Отметить пройденным'}</button>
@@ -179,12 +179,12 @@
         <ol class="bc-toc">${D.modules.map(m => `<li><span>${m.num}</span>${esc(m.title)}</li>`).join('')}</ol>
         <dl class="bc-stats"><div><dt>модулей</dt><dd>${D.stats.modules}</dd></div><div><dt>уроков</dt><dd>${D.stats.lessons}</dd></div><div><dt>часов</dt><dd>${Math.round(D.stats.minutes / 60)}</dd></div><div><dt>промптов</dt><dd>${D.stats.prompts}</dd></div></dl>
         <p class="bc-foot">${D.paid ? 'Полная версия' : 'Пробная версия: модули 00 и 01'} · Автор — Дмитрий Чекмарёв, Smart Agent AI</p></div>
-      ${mods.map(m => `<section class="book-mod"><span class="eyebrow">Модуль ${m.num}</span><h2>${esc(m.title)}</h2><p class="sec-lead">${esc(m.sub)}</p>
-        ${m.lessons.map(l => `<div class="book-l"><h3 class="bl-t">${l.id}. ${esc(l.title)}</h3><div class="prose">${K.md(l.md)}</div></div>`).join('')}
+      ${mods.map(m => `<section class="book-mod">${K.modCover({ ...m, quizCount: m.quiz.length }, { list: true })}
+        ${m.lessons.map(l => `<div class="book-l"><h3 class="bl-t">${l.id}. ${esc(l.title)}</h3><div class="prose">${K.md(l.md)}</div>${K.lessonLinks(l.md)}</div>`).join('')}
         ${m.quiz.length ? `<div class="book-l"><h3 class="bl-t">Вопросы для самопроверки</h3><ol class="steps">${m.quiz.map(q => `<li><b>${esc(q.q)}</b><br>Ответ: ${esc(q.a[q.c])}. ${esc(q.e)}</li>`).join('')}</ol></div>` : ''}</section>`).join('')}
       <section class="book-mod"><span class="eyebrow">Приложение</span><h2>Глоссарий</h2><div class="gl">${D.glossary.map(([t, d]) => `<div><b>${esc(t)}</b><p>${esc(d)}</p></div>`).join('')}</div></section></div>`, true);
     $('#print').addEventListener('click', () => window.print());
-    K.mountHowto(v, D); $$('.reveal', v).forEach(x => x.classList.add('in')); K.still(v);
+    K.mountHowto(v, D); K.mountDash(v, D); $$('.reveal', v).forEach(x => x.classList.add('in')); K.still(v);
   }
 
   load();

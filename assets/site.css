@@ -255,7 +255,7 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 @media print {
   @page { size: A4; margin: 16mm 14mm 18mm }
   body { background: #fff; font-size: 11pt }
-  header.top, .side, .m-top, .no-print, .l-foot, .dash-slot, .btn-copy { display: none !important }
+  header.top, .side, .m-top, .no-print, .l-foot, .btn-copy { display: none !important }
   .app { display: block }
   .main { padding: 0 }
   .view, .book { max-width: none; animation: none }
@@ -435,3 +435,125 @@ body { background: var(--bg) }
 @media print { .mk-cur { display: none } .howto, .ht-step { break-inside: avoid } }
 @media (max-width: 560px) { #pill, #login-top { display: none !important } .app-page .brand-t { display: none } }
 @media (max-width: 420px) { .top-act .btn { padding: .6em .85em; font-size: .82rem } }
+
+/* ---------- обложки модулей ---------- */
+.mod-cover { display: grid; grid-template-columns: 1fr minmax(160px, 260px); gap: 1.5em; align-items: center; background: linear-gradient(135deg, var(--blue-tint), var(--paper) 70%); border: 1px solid var(--line); border-radius: 22px; padding: clamp(18px, 3vw, 30px); margin-bottom: 2.2em; box-shadow: var(--sh) }
+.mc-txt { display: grid; gap: .6em; min-width: 0 }
+.mc-txt h2 { font-size: clamp(1.6rem, 3.4vw, 2.3rem) }
+.mc-txt p { color: var(--ink2) }
+.mc-meta { list-style: none; padding: 0; margin: .3em 0 0; display: flex; flex-wrap: wrap; gap: .5em }
+.mc-meta li { background: var(--paper); border: 1px solid var(--line); border-radius: 99px; padding: .35em .8em; font-size: .85rem; color: var(--ink2) }
+.mc-meta b { color: var(--ink); font-variant-numeric: tabular-nums }
+.mc-ls { list-style: none; margin: .6em 0 0; padding: 0; display: grid; gap: .3em; font-size: .92rem }
+.mc-ls span { font: .78rem var(--f-m); color: var(--blue); margin-right: .6em }
+.mc-il { width: 100%; height: auto; max-width: 260px; justify-self: end }
+.il-s { fill: none; stroke: var(--ink); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round }
+.il-st { fill: none; stroke: var(--blue); stroke-width: 5; stroke-linecap: round }
+.il-b { fill: var(--blue) } .il-l { fill: #DCE3FC } .il-d { fill: var(--ink) }
+.il-w { fill: var(--paper); stroke: var(--ink); stroke-width: 2.5 }
+.il-wf { fill: var(--paper) }
+.il-bf { fill: var(--blue); opacity: .85 }
+.in .mc-il > * { animation: ilIn .6s both; animation-delay: calc(var(--n, 0) * 1ms + .15s) }
+.in .mc-il > *:nth-child(2n) { animation-delay: .3s } .in .mc-il > *:nth-child(3n) { animation-delay: .45s }
+@keyframes ilIn { from { opacity: 0; transform: translateY(8px) } }
+@media (max-width: 640px) { .mod-cover { grid-template-columns: 1fr } .mc-il { max-width: 180px; justify-self: start; order: -1 } }
+
+/* ---------- ссылки ---------- */
+.prose a.ext { color: var(--blue); text-decoration: none; background: var(--blue-soft); padding: .05em .35em; border-radius: 6px; font-weight: 500; transition: background .15s }
+.prose a.ext:hover { background: #DCE3FC; color: var(--blue-ink) }
+.ll-box { margin-top: 2.2em; border: 1px solid var(--line); border-radius: 18px; background: var(--paper); padding: 1.1em 1.2em 1.2em; display: grid; gap: .8em; box-shadow: var(--sh) }
+.ll-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 230px), 1fr)); gap: 8px }
+.ll-a { display: grid; grid-template-columns: 2.2em 1fr; gap: .7em; align-items: center; padding: .65em .75em; border: 1px solid var(--line); border-radius: 12px; text-decoration: none; color: var(--ink); transition: border-color .15s, transform .15s }
+.ll-a:hover { border-color: var(--blue); transform: translateY(-2px); color: var(--ink) }
+.ll-a i { width: 2.2em; height: 2.2em; border-radius: 9px; display: grid; place-items: center; background: var(--blue-soft); color: var(--blue); font: 600 .95rem var(--f-d); font-style: normal }
+.ll-a span { min-width: 0; display: grid }
+.ll-a b { font-weight: 600; font-size: .92rem }
+.ll-a small { color: var(--ink3); font: .75rem var(--f-m); overflow: hidden; text-overflow: ellipsis; white-space: nowrap }
+
+/* ---------- новые инфографики ---------- */
+.ig-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 170px), 1fr)); gap: 8px }
+.ig-cards.g3 { grid-template-columns: repeat(3, minmax(0, 1fr)) }
+.ig-cards.g2 { grid-template-columns: repeat(2, minmax(0, 1fr)) }
+@media (max-width: 560px) { .ig-cards.g3, .ig-cards.g2 { grid-template-columns: 1fr 1fr } }
+.ig-card { background: var(--blue-tint); border: 1px solid #DCE3FC; border-radius: 12px; padding: .8em .9em; display: grid; gap: .2em; align-content: start }
+.ig-card b { font-size: .95rem }
+.ig-card p { font-size: .82rem; color: var(--ink2); line-height: 1.4 }
+.ig-k { font: 500 .7rem var(--f-m); color: var(--blue); letter-spacing: .06em; text-transform: uppercase }
+.in .ig-card, .in .ig-step, .in .ig-r, .in .ig-cam, .in .ig-rung, .in .ig-fl { animation: rise .5s both; animation-delay: calc(var(--i) * 90ms) }
+.ig-flow { display: flex; align-items: stretch; gap: 0 }
+.ig-step { flex: 1 1 0; min-width: 0; background: var(--paper); border: 1px solid var(--line); border-radius: 12px; padding: .8em .9em; display: grid; gap: .25em; align-content: start }
+.ig-step span { font: 600 .74rem var(--f-m); color: var(--blue) }
+.ig-step b { font-size: .95rem }
+.ig-step p { font-size: .8rem; color: var(--ink2); line-height: 1.4 }
+.ig-arr { flex: 0 0 22px; position: relative; display: block }
+.ig-arr::before { content: ''; position: absolute; left: 4px; right: 6px; top: 50%; height: 2px; background: var(--blue-2) }
+.ig-arr::after { content: ''; position: absolute; right: 2px; top: calc(50% - 4px); border: 5px solid transparent; border-left: 6px solid var(--blue-2) }
+@media (max-width: 700px) { .ig-flow { flex-direction: column } .ig-flow .ig-arr { flex-basis: 20px } .ig-flow .ig-arr::before { left: 50%; right: auto; top: 3px; bottom: 6px; width: 2px; height: auto } .ig-flow .ig-arr::after { left: calc(50% - 4px); right: auto; top: auto; bottom: 0; border: 5px solid transparent; border-top: 6px solid var(--blue-2) } }
+.ig-stack { display: grid; grid-template-columns: 1.2fr 1fr; gap: 10px }
+.ig-main { background: var(--blue); color: #fff; border-radius: 14px; padding: 1.2em; display: grid; gap: .4em; align-content: center }
+.ig-main .ig-k { color: #C9D4FF } .ig-main b { font: 600 1.3rem var(--f-d) } .ig-main p { color: #DCE3FC; font-size: .9rem }
+.ig-side { display: grid; gap: 10px }
+.ig-side > div { background: var(--blue-tint); border: 1px solid #DCE3FC; border-radius: 14px; padding: .9em 1em; display: grid; gap: .2em }
+.ig-side p { font-size: .84rem; color: var(--ink2) }
+@media (max-width: 600px) { .ig-stack { grid-template-columns: 1fr } }
+.ig-calc { display: grid; gap: 1em }
+.ig-eq { display: flex; flex-wrap: wrap; align-items: center; gap: .5em }
+.ig-eq span { display: grid; background: var(--blue-tint); border: 1px solid #DCE3FC; border-radius: 12px; padding: .6em .9em; font-size: .82rem; color: var(--ink2) }
+.ig-eq span b { font: 600 1.4rem var(--f-d); color: var(--ink) }
+.ig-eq span.hl { background: var(--blue); border-color: var(--blue); color: #DCE3FC } .ig-eq span.hl b { color: #fff }
+.ig-eq i { font-style: normal; font-size: 1.3rem; color: var(--ink3) }
+.ig-bars { display: grid; gap: .6em }
+.ig-bars > div { display: grid; grid-template-columns: minmax(110px, 170px) 1fr minmax(110px, auto); gap: .8em; align-items: center; font-size: .88rem }
+.ig-bars .bar { height: 12px }
+.ig-bars .bar i { animation: grow 1s both }
+@media (max-width: 560px) { .ig-bars > div { grid-template-columns: 1fr; gap: .3em } }
+.ig-doc { display: grid; grid-template-columns: 90px 30px 1fr; align-items: center }
+.ig-paper { width: 80px; height: 104px; border: 1.5px solid var(--line2); border-radius: 6px; padding: 12px 10px; display: grid; gap: 7px; align-content: start; background: var(--paper) }
+.ig-paper i { height: 5px; border-radius: 3px; background: #DCE3FC } .ig-paper i.s { width: 60% } .ig-paper i.m { background: var(--blue); width: 80% }
+@media (max-width: 560px) { .ig-doc { grid-template-columns: 1fr } .ig-doc > .ig-arr, .ig-paper { display: none } }
+.ig-frame { display: grid; grid-template-columns: 1.1fr 1fr; gap: 1.2em; align-items: center }
+.ig-shot { position: relative; aspect-ratio: 4 / 3; max-width: 100%; border-radius: 14px; background: linear-gradient(160deg, #EEF1FE 0%, #DCE3FC 60%, #C9D3F7 100%); overflow: hidden; border: 1px solid #DCE3FC }
+.ig-shot .z { position: absolute; font-size: .72rem; font-weight: 600; background: var(--paper); border: 1px solid #CDD6FA; border-radius: 99px; padding: .25em .6em; white-space: nowrap; z-index: 2 }
+.z1 { left: 38%; top: 50% } .z2 { left: 6%; top: 8% } .z3 { right: 6%; top: 30% } .z4 { right: 8%; top: 6% } .z5 { left: 6%; bottom: 8% } .z6 { right: 6%; bottom: 8% }
+.ig-shot .sun { position: absolute; right: 16%; top: 14%; width: 46px; height: 46px; border-radius: 50%; background: radial-gradient(circle, #fff 0%, rgba(255, 255, 255, 0) 70%) }
+.ig-shot .cup { position: absolute; left: 34%; top: 38%; width: 70px; height: 62px; background: var(--blue); border-radius: 6px 6px 18px 18px; box-shadow: 18px 6px 0 -12px var(--blue), 0 22px 20px -14px rgba(18, 24, 38, .45) }
+.ig-legend { margin: 0; padding-left: 1.2em; display: grid; gap: .35em; font-size: .88rem; color: var(--ink2) }
+.ig-legend b { color: var(--ink); margin-right: .3em }
+@media (max-width: 640px) { .ig-frame { grid-template-columns: 1fr } }
+.ig-ratios { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; align-items: end }
+.ig-r { display: grid; gap: .3em; justify-items: center; text-align: center }
+.ig-r > i { display: block; max-width: 100%; height: auto; max-height: 120px; background: var(--blue-soft); border: 1.5px solid var(--blue); border-radius: 6px }
+.ig-r b { font: 600 .95rem var(--f-d) }
+.ig-r small { font-size: .74rem; color: var(--ink3); line-height: 1.3 }
+.ig-r:nth-child(1) > i { width: 70% } .ig-r:nth-child(2) > i { width: 64% } .ig-r:nth-child(3) > i { width: 66% } .ig-r:nth-child(4) > i { width: 50%; height: auto } .ig-r:nth-child(5) > i { width: 100% }
+@media (max-width: 560px) { .ig-ratios { grid-template-columns: repeat(3, minmax(0, 1fr)) } }
+.ig-cams { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 8px }
+.ig-cam { border: 1px solid var(--line); border-radius: 12px; padding: .6em .4em; display: grid; justify-items: center; text-align: center; gap: .1em; background: var(--paper) }
+.ig-cam svg { width: 100%; max-width: 80px; height: auto }
+.ig-cam .cb { fill: var(--ink) } .ig-cam .cp { fill: none; stroke: var(--blue); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round }
+.ig-cam b { font-size: .86rem } .ig-cam small { font: .7rem var(--f-m); color: var(--ink3) }
+@media (max-width: 700px) { .ig-cams { grid-template-columns: repeat(3, minmax(0, 1fr)) } }
+.ig-ladder { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; align-items: end; min-height: 250px }
+.ig-rung { min-height: var(--h); background: var(--blue-tint); border: 1px solid #DCE3FC; border-radius: 12px; padding: .8em; display: grid; gap: .2em; align-content: start }
+.ig-rung:last-child { background: var(--blue); border-color: var(--blue); color: #fff } .ig-rung:last-child .ig-k, .ig-rung:last-child small, .ig-rung:last-child p { color: #DCE3FC }
+.ig-rung small { color: var(--blue-ink); font-size: .78rem } .ig-rung p { font-size: .8rem; color: var(--ink2) }
+@media (max-width: 640px) { .ig-ladder { grid-template-columns: 1fr 1fr; min-height: 0 } .ig-rung { min-height: 0 } }
+.ig-models { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px }
+.ig-model { border: 1px solid var(--line); border-radius: 14px; padding: 1em; display: grid; gap: .5em; background: var(--paper) }
+.ig-model b { font: 600 1.15rem var(--f-d) }
+.ig-m { display: flex; justify-content: space-between; align-items: center; font-size: .8rem; color: var(--ink3) }
+.ig-m em { display: flex; gap: 3px } .ig-m i { width: 16px; height: 7px; border-radius: 4px; background: var(--line) } .ig-m i.on { background: var(--blue) }
+.ig-model p { font-size: .84rem; color: var(--ink2) }
+.ig-path { margin-top: .9em; font-size: .92rem; color: var(--ink2); background: var(--blue-tint); border-radius: 12px; padding: .7em .9em }
+@media (max-width: 640px) { .ig-models { grid-template-columns: 1fr } }
+.ig-funnel { display: grid; gap: 6px; justify-items: center }
+.ig-fl { width: var(--w); min-width: min(100%, 230px); max-width: 100%; display: grid; grid-template-columns: auto 1fr; gap: .8em; align-items: center; background: var(--blue); color: #fff; border-radius: 12px; padding: .7em 1em; opacity: calc(1 - var(--i) * .12) }
+.ig-fl b { font: 600 1.4rem var(--f-d) } .ig-fl span { font-size: .85rem; color: #E1E7FD }
+
+@media print {
+  .dash-slot { display: block !important }
+  .dash .filters, .dash .chips, .tick, .cost-sum .field { display: none !important }
+  .mod-cover, .ig-main, .ig-fl, .ig-rung:last-child, .ig-eq span.hl, .ll-a i, .il-b { -webkit-print-color-adjust: exact; print-color-adjust: exact }
+  .mod-cover, .ll-box, .dash { break-inside: avoid; box-shadow: none }
+  .tbl-tools { min-width: 0; font-size: 8.5pt }
+}
