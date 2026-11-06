@@ -289,3 +289,182 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .doc p + p { margin-top: .7em }
 .doc ol, .doc ul { padding-left: 1.3em; display: grid; gap: .35em }
 .adm { max-width: 1100px; margin: 0 auto; padding: 28px var(--gutr) 80px var(--gut); display: grid; gap: 1.2em }
+
+/* ================= Конструктивизм: острые углы, жёсткие линии, плакатная типографика ================= */
+:root {
+  --bg: #FFFFFF; --paper: #FFFFFF; --ink: #0E0F14; --ink2: #3A3D48; --ink3: #767A87;
+  --line: #E3E4E8; --line2: #0E0F14;
+  --blue: #1D3FD8; --blue-ink: #10279A; --blue-2: #6F8AF7; --blue-soft: #E8ECFD; --blue-tint: #F4F6FE;
+  --red: #E3262F; --red-ink: #A1121A; --red-soft: #FDE9EA;
+  --f-d: 'Oswald', 'Arial Narrow', 'Roboto Condensed', sans-serif;
+  --f-b: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --f-m: 'IBM Plex Mono', ui-monospace, Menlo, monospace;
+  --sh: none; --r: 0; --r-s: 0;
+}
+*, *::before, *::after { border-radius: 0 !important }
+.ring, .ring::before, .spinner, .dots i, .ok-mark, .legend i, .tk-caret, .ag-dot, .wire i, .stack-legend i { border-radius: 50% !important }
+body { background: var(--bg) }
+h1, h2, h3, h4 { font-family: var(--f-d); font-weight: 600; text-transform: uppercase; letter-spacing: .005em; line-height: 1.02 }
+h1 { font-size: clamp(2.8rem, 8vw, 6.4rem); font-weight: 700; letter-spacing: -.005em; line-height: .95 }
+h2 { font-size: clamp(2rem, 4.6vw, 3.6rem) }
+h3 { font-size: 1.3rem; letter-spacing: .01em }
+.prose h3 { font-size: 1.35rem }
+.prose h3::before { width: 12px; height: 12px; transform: none; align-self: center }
+.eyebrow { font: 600 .78rem/1 var(--f-b); letter-spacing: .14em; color: var(--red); display: inline-flex; align-items: center; gap: .6em }
+.eyebrow::before { content: ''; width: 10px; height: 10px; background: currentColor; flex: none }
+
+/* кнопки: прямоугольные, с жёсткой тенью */
+.btn { border-radius: 0; text-transform: uppercase; letter-spacing: .06em; font: 600 .9rem/1 var(--f-b); border-width: 2px; box-shadow: 4px 4px 0 var(--ink); transition: transform .12s, box-shadow .12s, background .15s }
+.btn:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--ink) }
+.btn:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--ink) }
+.btn-ghost { background: #fff; color: var(--ink); border-color: var(--ink) }
+.btn-ghost:hover { background: #fff; color: var(--blue); border-color: var(--ink) }
+.btn-sm { box-shadow: 3px 3px 0 var(--ink) }
+.btn-copy { border: 1.5px solid var(--ink); color: var(--ink); text-transform: uppercase; letter-spacing: .05em }
+.inp { border: 2px solid var(--ink); border-radius: 0 }
+.inp:focus { box-shadow: 4px 4px 0 var(--blue) }
+.fchip, .tab { border: 1.5px solid var(--ink); color: var(--ink); text-transform: uppercase; letter-spacing: .05em; font-size: .78rem; font-weight: 600 }
+.fchip.on, .tab.on { background: var(--blue); border-color: var(--blue); color: #fff }
+
+/* шапка */
+.top { background: #fff; backdrop-filter: none; border-bottom: 3px solid var(--ink) }
+.brand-mark { font-family: var(--f-d); font-size: 1.05rem; background: var(--red); padding: .38em .5em .34em }
+.brand-mark::after { display: none }
+.brand-t { font: 700 1.15rem var(--f-d); text-transform: uppercase; letter-spacing: .02em }
+.top-nav a { text-transform: uppercase; font-size: .8rem; font-weight: 600; letter-spacing: .08em; color: var(--ink) }
+.top-nav a:hover, .top-nav a.on { background: none; color: var(--red); box-shadow: inset 0 -3px 0 var(--red) }
+
+/* главный экран */
+.hero { background: #fff; border-bottom: 3px solid var(--ink); padding-block: clamp(32px, 6vw, 80px) 0 }
+.hero::after { display: none }
+.hero-in { grid-template-columns: 1.1fr 1fr; align-items: stretch }
+.hero h1 { color: var(--ink) }
+.mark { color: #fff; background: var(--red); padding: 0 .12em; white-space: nowrap; display: inline-block; transform: rotate(-2deg); box-shadow: .08em .08em 0 var(--ink) }
+.lead { color: var(--ink2); border-left: 6px solid var(--blue); padding-left: 1em }
+.hero-proof li::before { width: 8px; height: 8px; background: var(--blue) }
+.hero-vis { position: relative; padding: 28px 0 0 28px; align-self: center }
+.hero-vis .wedge { position: absolute; left: 0; top: 0; width: 46%; aspect-ratio: 1; background: var(--red); clip-path: polygon(0 0, 100% 0, 0 100%); z-index: 0 }
+.hero-vis .bar { position: absolute; right: -12px; bottom: -14px; width: 62%; height: 18px; background: var(--ink); transform: rotate(-8deg); transform-origin: right; z-index: 2 }
+.hero-panel { background: var(--blue); border-radius: 0; box-shadow: none; position: relative; z-index: 1; padding: clamp(14px, 2.2vw, 24px) }
+.hero-panel::before { content: 'ФОРМУЛА ПРОМПТА'; top: auto; bottom: 100%; right: 0; background: var(--ink); font: 600 .72rem var(--f-b); letter-spacing: .12em; padding: .5em .8em }
+.hero-panel .fig { border: 0 }
+.stats { border: 0; border-top: 3px solid var(--ink); box-shadow: none; margin-top: clamp(32px, 5vw, 64px); background: #fff }
+.stats div { border-right: 1.5px solid var(--ink); padding: 1.3em 1.2em 1.5em }
+.stats dd { font: 700 clamp(2.4rem, 5vw, 4rem)/.9 var(--f-d); color: var(--ink) }
+.stats div:nth-child(2n) dd { color: var(--blue) }
+.stats div:nth-child(3) dd { color: var(--red) }
+.stats dt { text-transform: uppercase; letter-spacing: .08em; font-size: .72rem; font-weight: 600; color: var(--ink2) }
+@media (max-width: 900px) { .stats div:nth-child(-n+3) { border-bottom: 1.5px solid var(--ink) } }
+
+/* секции */
+.sec-paper { background: #F3F4F7; border-block: 3px solid var(--ink) }
+.sec-head { border-top: 6px solid var(--ink); padding-top: 1.1em; max-width: none }
+.sec-head h2 { max-width: 18ch }
+.sec-lead { color: var(--ink2) }
+.outcomes { border-top: 0; gap: 0; grid-template-columns: repeat(3, 1fr) }
+.outcomes li { border: 1.5px solid var(--ink) !important; margin: 0 -1.5px -1.5px 0; padding: 1.4em !important; background: #fff; transition: background .2s, color .2s }
+.outcomes li::before { font: 700 2.6rem/1 var(--f-d); color: var(--red) }
+.outcomes li:hover { background: var(--blue); color: #fff }
+.outcomes li:hover p, .outcomes li:hover::before { color: #fff }
+.outcomes b { font: 600 1.35rem/1.1 var(--f-d); text-transform: uppercase }
+@media (max-width: 860px) { .outcomes { grid-template-columns: 1fr 1fr } }
+@media (max-width: 560px) { .outcomes { grid-template-columns: 1fr } }
+
+.program { gap: 0 }
+.mod { border: 0; border-bottom: 1.5px solid var(--ink); background: transparent }
+.program .mod:first-child { border-top: 1.5px solid var(--ink) }
+.mod[open] { box-shadow: none; background: #fff }
+.mod summary { grid-template-columns: 4.6em 1fr auto; padding: 1.1em .4em }
+.mod summary:hover .mod-n { color: var(--red) }
+.mod-n { font: 700 3rem/1 var(--f-d); color: var(--blue); transition: color .2s }
+.mod-t b { font: 600 1.35rem var(--f-d); text-transform: uppercase }
+.mod-ls { padding-left: 5.4em }
+.mod-ls li { border-top: 1px solid var(--line) }
+.free { background: var(--red); color: #fff }
+@media (max-width: 640px) { .mod summary { grid-template-columns: 3.2em 1fr } .mod-n { font-size: 2.2rem } }
+
+.author-mark { background: var(--red); font-family: var(--f-d); box-shadow: 10px 10px 0 var(--blue) }
+.author-mark::after { display: none }
+
+.sec-blue { background: var(--blue); border-block: 3px solid var(--ink) }
+.sec-blue .eyebrow { color: #fff }
+.sec-blue .sec-head { border-top-color: #fff }
+.sec-blue .sec-lead, .pay-note { color: #DDE3FF }
+.tariff { border: 2px solid var(--ink); box-shadow: 8px 8px 0 var(--ink) }
+.tariff.main { border-color: var(--ink); box-shadow: 8px 8px 0 var(--red) }
+.tariff-flag { border-radius: 0; background: var(--red); font-family: var(--f-b) }
+.t-price { font: 700 clamp(2.6rem, 5vw, 3.6rem)/1 var(--f-d); color: var(--ink) }
+.tariff.main .t-price { color: var(--red) }
+
+.faq details { border: 0; border-bottom: 1.5px solid var(--ink); padding: 0 .2em; background: transparent }
+.faq details:first-child { border-top: 1.5px solid var(--ink) }
+.faq summary { font: 600 1.2rem var(--f-d); text-transform: uppercase }
+.faq summary::after { color: var(--red); font-weight: 600 }
+.foot { border-top: 3px solid var(--ink) }
+
+/* общие компоненты: таблицы, схемы, панели */
+.tbl-wrap, .dash, .fig, .prompt, .quiz, .paywall, .card, .tile, .pr-mods, .gl div, .lk-item, .ll-item, .route, .eco-card, .node, .pipe li, .rm-stage, .pf-card, .pf-keys li, .qa, .modal-card, .tar-opt, .mod-detail, .m-detail, .cost-sum, .p-out { border-radius: 0 !important; box-shadow: none }
+.fig, .dash, .quiz, .card, .paywall { border: 2px solid var(--ink) }
+.fig::before { display: none }
+.fig-head b, .dash-head b { font: 600 1.35rem var(--f-d); text-transform: uppercase }
+.tbl-wrap { border: 2px solid var(--ink) }
+.tbl th { background: var(--ink); color: #fff; letter-spacing: .1em }
+.tbl td { border-bottom-color: var(--line) }
+.tbl tbody tr:hover { background: var(--blue-soft) }
+.prompt { border: 2px solid var(--ink) }
+.prompt-head { background: #fff; border-bottom: 2px solid var(--ink) }
+.prompt-tag { background: var(--red); border-radius: 0 }
+.prompt mark { background: var(--blue-soft); color: var(--blue-ink) }
+.note { background: #fff; border: 2px solid var(--red); border-left-width: 10px }
+.note-mark { border-radius: 0 }
+.note p { color: var(--ink) }
+.lk-item { border: 1.5px solid var(--ink) }
+.lk-item:hover { box-shadow: 5px 5px 0 var(--blue); transform: translate(-2px, -2px) }
+.tile { border: 2px solid var(--ink) }
+.tile b { font: 700 2.6rem/1 var(--f-d) }
+.rm-stage { border: 2px solid var(--ink); background: #fff }
+.rm-stage:nth-child(2) { background: var(--blue); color: #fff }
+.rm-stage:nth-child(2) p, .rm-stage:nth-child(2) .rm-n { color: #fff }
+.rm-stage:nth-child(3) { background: var(--red); color: #fff; border-color: var(--ink) }
+.rm-stage:nth-child(3) p, .rm-stage:nth-child(3) .rm-n { color: #fff }
+.rm-stage b { font-size: 1.6rem; text-transform: uppercase }
+.rm-line { background: rgba(14,15,20,.12) }
+.rm-stage:nth-child(n+2) .rm-line { background: rgba(255,255,255,.3) }
+.rm-stage:nth-child(n+2) .rm-line i { background: #fff }
+.route { border: 1.5px solid var(--ink) }
+.route:hover { box-shadow: 5px 5px 0 var(--red); transform: translate(-2px, -2px) }
+.route-n { font: 700 1.6rem/1 var(--f-d) }
+.route b { font: 600 1.15rem var(--f-d); text-transform: uppercase }
+.node { border: 2px solid var(--ink) }
+.node:nth-child(1) { background: var(--blue); color: #fff; border-color: var(--blue) }
+.node:nth-child(1) span { color: #DDE3FF !important }
+.node:nth-child(5) { background: var(--red); color: #fff; border-color: var(--red) }
+.node:nth-child(5) span { color: #fff !important }
+.eco-card { border: 1.5px solid var(--ink); background: #fff }
+.chip { border: 1.5px solid var(--ink) }
+.pipe li { border: 1.5px solid var(--ink) }
+.pf-keys li { border: 1.5px solid var(--line) }
+.pf-card { border: 2px solid var(--ink) }
+.tok { border-radius: 0 }
+.acc { border-radius: 0; font-weight: 600 }
+.m-model { border-radius: 0 }
+.cost-sum, .p-out, .m-detail { background: var(--blue-tint); border: 1.5px solid var(--ink) }
+.big b { font: 700 clamp(2.4rem, 5vw, 3.2rem)/1 var(--f-d) }
+.qa { border: 1.5px solid var(--ink) }
+.quiz-q { text-transform: none; font-family: var(--f-b); font-weight: 600 }
+
+/* платформа */
+.side { border-right: 3px solid var(--ink) }
+.s-mod > button { font-weight: 600 }
+.s-num { font: 700 1rem var(--f-d); color: var(--red) }
+.s-ls a.on { background: var(--blue) }
+.side-sec a.on { background: var(--ink) }
+.l-title { text-transform: uppercase }
+.l-eyebrow b { color: var(--red) }
+.l-foot { border-top: 3px solid var(--ink) }
+.book-cover { box-shadow: none }
+.bc-title h1 { font-size: 4rem }
+.keybox { border: 2px dashed var(--blue) }
+@media (max-width: 900px) { .hero-in { grid-template-columns: 1fr } .hero-vis { padding: 22px 0 0 16px } .hero-vis .bar { right: 0 } }
+.top-act .btn { white-space: nowrap }
+@media (max-width: 420px) { .brand-t { font-size: 1rem } .top-act .btn { padding: .6em .8em; font-size: .78rem } .pf-keys li { font-size: .74rem } h1 { font-size: 2.6rem } }
