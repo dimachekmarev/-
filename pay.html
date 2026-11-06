@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geologica:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Onest:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="/assets/base.css">
+<link rel="stylesheet" href="/assets/site.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%278%27 fill=%27%231F44D6%27/%3E%3Crect x=%279%27 y=%2724%27 width=%2717%27 height=%272%27 rx=%271%27 fill=%27%23E0303A%27/%3E%3C/svg%3E">
+<title>Оплата — ИИ. Полный доступ</title><meta name="robots" content="noindex">
+</head><body>
+<header class="top"><div class="wrap top-in"><a class="brand" href="/"><span class="brand-mark">ИИ</span><span class="brand-t">Полный доступ</span></a></div></header>
+<main class="center-page"><div class="card" id="card"><div class="spinner"></div><p>Проверяем заказ…</p></div></main>
+<script src="/assets/kit.js"></script>
+<script>
+(function(){
+  const {$, esc, rub} = K;
+  const qs = new URLSearchParams(location.search), id = qs.get('order'), card = $('#card');
+  const names = {base:'Полный доступ', pro:'Доступ + разбор проекта'};
+  let tries = 0;
+  const paid = o => {
+    K.store.set('token', o.token); K.store.set('key', o.key);
+    card.innerHTML = '<div class="ok-mark"></div><h2>Доступ открыт</h2><p>Это ваш ключ доступа. Сохраните его: по нему можно войти в курс с любого устройства.</p>'
+      + '<div class="keybox" data-copy-root><code class="copy-src">' + esc(o.key) + '</code><button class="btn-copy" data-copy type="button">Скопировать</button></div>'
+      + (o.tariff === 'pro' ? '<p class="note"><span class="note-mark">Разбор</span><span>Для записи на созвон с автором напишите на почту из раздела «Контакты», указав ключ.</span></p>' : '')
+      + '<a class="btn btn-lg" href="/app">Перейти к курсу</a>' + (o.demo ? '<p class="fine"><span class="test-badge">Тестовый режим</span> Деньги не списывались.</p>' : '');
+  };
+  const demo = o => {
+    card.innerHTML = '<span class="test-badge">Тестовый режим оплаты</span><h2>Оплата заказа</h2>'
+      + '<div><div class="sum-row"><span>Курс «ИИ. Полный доступ»</span><b>' + esc(names[o.tariff] || o.tariff) + '</b></div><div class="sum-row"><span>К оплате</span><b>' + rub(o.amount) + '</b></div></div>'
+      + '<div class="fake-card"><span>Тестовая карта</span><b>4242 4242 4242 4242</b><span>Деньги не списываются: так проверяется весь путь покупателя до подключения ЮKassa</span></div>'
+      + '<p class="err" id="e"></p><button class="btn btn-lg btn-red" id="go" type="button">Оплатить тестово</button><a class="fine" href="/#pricing">Отменить</a>';
+    $('#go').onclick = async () => { $('#go').disabled = true; try { await K.api('demo-pay', {body:{order:id}}); check(); } catch (x) { $('#e').textContent = x.message; $('#go').disabled = false; } };
+  };
+  async function check(){
+    if (!id) { card.innerHTML = '<h2>Заказ не найден</h2><a class="btn" href="/#pricing">К тарифам</a>'; return; }
+    try {
+      const o = await K.api('order?id=' + encodeURIComponent(id));
+      if (o.status === 'paid') return paid(o);
+      if (o.status === 'canceled') { card.innerHTML = '<h2>Платёж отменён</h2><p>Деньги не списаны. Можно попробовать ещё раз или выбрать другой способ оплаты.</p><a class="btn btn-lg" href="/#pricing">Оплатить снова</a>'; return; }
+      if (o.demo && o.mode === 'demo') return demo(o);
+      card.innerHTML = '<div class="spinner"></div><h2>Ждём подтверждение банка</h2><p>Обычно это занимает несколько секунд. Страница обновится сама.</p>';
+      if (++tries < 40) setTimeout(check, 3000); else card.innerHTML += '<p class="fine">Если оплата прошла, а доступ не открылся — напишите автору, указав номер заказа: <code>' + esc(id) + '</code></p>';
+    } catch (x) { card.innerHTML = '<p class="err">' + esc(x.message) + '</p><button class="btn" onclick="location.reload()">Обновить</button>'; }
+  }
+  check();
+})();
+</script>
+</body></html>

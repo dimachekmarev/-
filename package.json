@@ -1,0 +1,1 @@
+{ "name": "ai-polnyi-dostup", "private": true, "version": "1.0.0", "scripts": { "start": "node server.js", "seal": "node seal.js" }, "engines": { "node": ">=20" } }
