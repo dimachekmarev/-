@@ -432,7 +432,7 @@ body { background: var(--bg) }
 .ht-ix b { font-weight: 600 }
 .ht-ix small { color: var(--ink3) }
 .ht-ix:hover { border-color: var(--blue); transform: translateY(-2px); color: var(--ink) }
-@media print { .mk-cur { display: none } .howto, .ht-step { break-inside: avoid } }
+@media print { .mk-cur { display: none } .ht-step, .ht-head { break-inside: avoid } .ht-head { break-after: avoid } }
 @media (max-width: 560px) { #pill, #login-top { display: none !important } .app-page .brand-t { display: none } }
 @media (max-width: 420px) { .top-act .btn { padding: .6em .85em; font-size: .82rem } }
 
