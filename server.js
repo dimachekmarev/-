@@ -2,7 +2,7 @@
 const http = require('http'), fs = require('fs'), path = require('path'), url = require('url');
 const ROOT = __dirname;
 const MIME = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.json': 'application/json', '.svg': 'image/svg+xml', '.png': 'image/png', '.ico': 'image/x-icon', '.txt': 'text/plain; charset=utf-8' };
-const API = new Set(['config', 'content', 'checkout', 'order', 'webhook', 'login', 'demo-pay', 'admin']);
+const API = new Set(['config', 'content', 'checkout', 'order', 'webhook', 'login', 'demo-pay', 'admin', 'tutor']);
 require('./api/_course').parse();
 http.createServer((req, res) => {
   const u = url.parse(req.url, true); let p = decodeURIComponent(u.pathname);

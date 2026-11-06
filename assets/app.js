@@ -187,5 +187,42 @@
     K.mountHowto(v, D); K.mountDash(v, D); $$('.reveal', v).forEach(x => x.classList.add('in')); K.still(v);
   }
 
-  load();
+  // ---------- ИИ-наставник ----------
+  function tutor() {
+    const btn = document.createElement('button'); btn.type = 'button'; btn.className = 'tu-btn'; btn.innerHTML = '<span class="tu-dot"></span>Наставник';
+    const box = document.createElement('section'); box.className = 'tu'; box.hidden = true; box.setAttribute('aria-label', 'ИИ-наставник курса');
+    box.innerHTML = `<header class="tu-h"><div><b>ИИ-наставник</b><small>Отвечает по материалам курса</small></div><button type="button" class="tu-x" aria-label="Закрыть">×</button></header>
+      <div class="tu-log" aria-live="polite"></div>
+      <div class="tu-sug">${['Какой ассистент выбрать новичку?', 'Как оплатить ChatGPT из России?', 'С чего начать заработок?', 'Как сделать бота в Telegram?'].map(t => `<button type="button">${t}</button>`).join('')}</div>
+      <form class="tu-f"><textarea id="tu-q" rows="2" placeholder="Спросите о любом уроке или задаче" aria-label="Вопрос наставнику"></textarea><button class="btn" type="submit">Спросить</button></form>`;
+    document.body.append(btn, box);
+    const log = $('.tu-log', box), hist = K.store.get('tutor', []);
+    const add = (r, t, refs) => {
+      const d = document.createElement('div'); d.className = 'tu-m ' + r;
+      d.innerHTML = r === 'a' ? K.inline(t).replace(/\n\s*[-•]\s+/g, '<br>• ').replace(/\n/g, '<br>') + (refs && refs.length ? `<div class="tu-refs">${refs.map(x => `<a href="#l-${x.id}">Урок ${x.id}</a>`).join('')}</div>` : '') : esc(t);
+      log.appendChild(d); log.scrollTop = log.scrollHeight; return d;
+    };
+    if (!hist.length) add('a', D.paid ? 'Здравствуйте! Я наставник курса. Спросите, что непонятно в уроке, или опишите задачу — подскажу следующий шаг и нужный урок.' : 'Наставник доступен в полной версии курса. Он отвечает на вопросы по урокам и помогает с вашей задачей.');
+    hist.slice(-12).forEach(m => add(m.r, m.t, m.refs));
+    const toggle = v => { box.hidden = !v; btn.classList.toggle('on', v); if (v) { log.scrollTop = log.scrollHeight; setTimeout(() => $('#tu-q').focus(), 50); } };
+    btn.onclick = () => toggle(box.hidden); $('.tu-x', box).onclick = () => toggle(false);
+    const ask = async q => {
+      if (!q.trim()) return;
+      if (!D.paid) { add('a', 'Вопросы наставнику открываются после покупки. [Открыть полный доступ](/#pricing)'); return; }
+      add('u', q); $('#tu-q').value = '';
+      const wait = add('a', 'Думаю…'); wait.classList.add('wait');
+      const cur = location.hash.startsWith('#l-') ? location.hash.slice(3) : '';
+      try {
+        const r = await K.api('tutor', { body: { q, lesson: cur, history: hist.slice(-6) } });
+        wait.remove(); add('a', r.answer, r.refs);
+        hist.push({ r: 'u', t: q }, { r: 'a', t: r.answer, refs: r.refs }); K.store.set('tutor', hist.slice(-30));
+      } catch (e) { wait.remove(); add('a', e.message); }
+    };
+    $('.tu-f', box).addEventListener('submit', e => { e.preventDefault(); ask($('#tu-q').value); });
+    $('#tu-q').addEventListener('keydown', e => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); ask(e.target.value); } });
+    $('.tu-sug', box).addEventListener('click', e => { const b = e.target.closest('button'); if (b) ask(b.textContent); });
+    log.addEventListener('click', e => { if (e.target.closest('a[href^="#l-"]') && innerWidth < 700) toggle(false); });
+  }
+
+  load().then(() => { if (D) tutor(); });
 })();
