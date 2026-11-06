@@ -235,7 +235,20 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .book-l { margin-top: 2em }
 .book-l h3.bl-t { font-size: 1.4rem; margin-bottom: .6em }
 .book-l h3.bl-t::before { display: none }
-.book-cover { padding: 2em; border-radius: 22px; background: var(--blue); color: #fff; display: grid; gap: .8em }
+.book-cover { padding: 2.2em; border-radius: 22px; background: var(--blue); color: #fff; display: grid; gap: 2em; align-content: space-between }
+.bc-top { display: flex; align-items: center; gap: .8em }
+.bc-top .brand-mark { background: #fff; color: var(--blue) }
+.bc-title { display: grid; gap: .8em; padding-bottom: 1.2em; border-bottom: 4px solid var(--red); max-width: 34em }
+.bc-title h1 { font-size: 3.4rem; line-height: 1.02 }
+.bc-title p { font-size: 1.05rem; color: #DCE3FF; line-height: 1.5 }
+.bc-toc { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 0 2em }
+.bc-toc li { display: flex; gap: .8em; padding: .55em 0; border-bottom: 1px solid rgba(255,255,255,.22); font-size: .95rem }
+.bc-toc span { font: 600 .8rem var(--f-m); color: #FFB3B8; min-width: 1.8em; padding-top: .15em }
+.bc-stats { display: grid; grid-template-columns: repeat(4, 1fr); margin: 0; gap: 1em }
+.bc-stats div { display: flex; flex-direction: column-reverse }
+.bc-stats dd { margin: 0; font: 700 2.4rem/1 var(--f-d); letter-spacing: -.03em }
+.bc-stats dt { font-size: .82rem; color: #C9D4FF }
+.bc-foot { font-size: .85rem; color: #C9D4FF }
 .book-cover h1 { color: #fff }
 .book-cover .eyebrow { color: #C9D4FF }
 
@@ -250,7 +263,7 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
   .fig, .prompt, .tbl-wrap, .note { break-inside: avoid; box-shadow: none }
   *, *::before, *::after { animation: none !important; transition: none !important }
   .book-mod { break-before: page; border-top: 0 }
-  .book-cover { break-after: page; min-height: 240mm; align-content: end; -webkit-print-color-adjust: exact; print-color-adjust: exact }
+  .book-cover { break-after: page; min-height: 258mm; -webkit-print-color-adjust: exact; print-color-adjust: exact }
   a.ext::after { content: '' }
   .fig, .prompt-tag, .note, .note-mark, .chip-blue, .tok, .pipe li, .rm-stage, .g-track i, .tbl th { -webkit-print-color-adjust: exact; print-color-adjust: exact }
 }

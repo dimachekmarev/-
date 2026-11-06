@@ -167,7 +167,11 @@
     const v = setView(`<div class="no-print page-h"><span class="eyebrow">Учебник</span><h1 class="l-title" style="margin:0">Весь курс одной страницей</h1>
       <p>Нажмите «Сохранить в PDF» и в окне печати выберите «Сохранить как PDF». Схемы и таблицы сохранятся, интерактивные панели — в онлайн-версии.</p>
       <div class="row" style="display:flex;gap:.6em;flex-wrap:wrap"><button class="btn btn-lg" type="button" id="print">Сохранить в PDF</button>${D.paid ? '' : '<a class="btn btn-lg btn-ghost" href="/#pricing">Полная версия учебника</a>'}</div></div>
-      <div class="book"><div class="book-cover"><span class="eyebrow">Учебник курса · 2026</span><h1>ИИ. Полный доступ</h1><p>${D.paid ? 'Полная версия' : 'Пробная версия: модули 00 и 01'} · ${mods.reduce((s, m) => s + m.lessons.length, 0)} уроков</p></div>
+      <div class="book"><div class="book-cover"><div class="bc-top"><span class="brand-mark">ИИ</span><span class="eyebrow">Учебник курса · 2026</span></div>
+        <div class="bc-title"><h1>ИИ.<br>Полный доступ</h1><p>Нейросети для работы и заработка: инструменты, доступ из России, промпты, сайты, автоматизация, первые клиенты</p></div>
+        <ol class="bc-toc">${D.modules.map(m => `<li><span>${m.num}</span>${esc(m.title)}</li>`).join('')}</ol>
+        <dl class="bc-stats"><div><dt>модулей</dt><dd>${D.stats.modules}</dd></div><div><dt>уроков</dt><dd>${D.stats.lessons}</dd></div><div><dt>часов</dt><dd>${Math.round(D.stats.minutes / 60)}</dd></div><div><dt>промптов</dt><dd>${D.stats.prompts}</dd></div></dl>
+        <p class="bc-foot">${D.paid ? 'Полная версия' : 'Пробная версия: модули 00 и 01'} · Автор — Дмитрий Чекмарёв, Smart Agent AI</p></div>
       ${mods.map(m => `<section class="book-mod"><span class="eyebrow">Модуль ${m.num}</span><h2>${esc(m.title)}</h2><p class="sec-lead">${esc(m.sub)}</p>
         ${m.lessons.map(l => `<div class="book-l"><h3 class="bl-t">${l.id}. ${esc(l.title)}</h3><div class="prose">${K.md(l.md)}</div></div>`).join('')}
         ${m.quiz.length ? `<div class="book-l"><h3 class="bl-t">Вопросы для самопроверки</h3><ol class="steps">${m.quiz.map(q => `<li><b>${esc(q.q)}</b><br>Ответ: ${esc(q.a[q.c])}. ${esc(q.e)}</li>`).join('')}</ol></div>` : ''}</section>`).join('')}
