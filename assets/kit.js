@@ -40,6 +40,7 @@
       const raw = lines[i]; const l = raw.trim();
       if (!l) { flush(); i++; continue; }
       if (l.startsWith('::fig ')) { flush(); out.push(K.fig(l.slice(6).trim())); i++; continue; }
+      if (l.startsWith('::howto ')) { flush(); out.push(`<div class="howto-slot" data-howto="${l.slice(8).trim()}"></div>`); i++; continue; }
       if (l.startsWith('::dash ')) { flush(); out.push(`<div class="dash-slot" data-dash="${l.slice(7).trim()}"></div>`); i++; continue; }
       if (l.startsWith('::prompt ')) {
         flush(); const title = l.slice(9); const buf = [];
@@ -206,12 +207,14 @@
           const f = el.dataset.fig;
           if (f && PLAY[f] && !RM && !running.has(el)) running.set(el, PLAY[f](el));
           if (el.dataset.count && !el._counted) { el._counted = 1; K.countUp(el); }
-        } else if (running.has(el)) {
+          if (el.hasAttribute('data-mock')) K.playMock(el);
+        } else if (el._play) { clearTimeout(el._t); el._play = 0; }
+        else if (running.has(el)) {
           const h = running.get(el); if (h && h.stop) h.stop(); else clearInterval(h); running.delete(el);
         }
       });
     }, { threshold: 0.2 }));
-    $$('.reveal, [data-fig], [data-count]', root).forEach(el => io.observe(el));
+    $$('.reveal, [data-fig], [data-count], [data-mock]', root).forEach(el => io.observe(el));
     $$('[data-fig]', root).forEach(el => { if (RM && PLAY[el.dataset.fig] && !el._static) { el._static = 1; const h = PLAY[el.dataset.fig](el); if (h && h.stop) h.stop(); else clearInterval(h); } });
   };
   K.still = root => $$('[data-fig]', root).forEach(el => { const f = PLAY[el.dataset.fig]; if (f && !el._static) { el._static = 1; const h = f(el); if (h && h.stop) h.stop(); else clearInterval(h); } });
@@ -352,6 +355,54 @@
     }
   };
   K.mountDash = (root, D) => $$('.dash-slot', root).forEach(el => { const f = K.dash[el.dataset.dash]; if (f && !el._m) { el._m = 1; f(el, D); } });
+
+  // ---------- пошаговые инструкции с нарисованными экранами ----------
+  K.mock = function (lines) {
+    let n = 0, url = '';
+    const hot = (txt) => { const h = /\*$/.test(txt.trim()); const t = txt.trim().replace(/\*$/, ''); return h ? [t, ++n] : [t, 0]; };
+    const mark = (k) => k ? ` hot" data-n="${k}` : '';
+    const body = lines.map(raw => {
+      const sp = raw.indexOf(' '), k = raw.slice(0, sp), v = raw.slice(sp + 1);
+      if (k === 'url') { url = v; return ''; }
+      if (k === 'bar') { const [logo, ...b] = v.split('|'); return `<div class="mk-bar"><b>${esc(logo.trim())}</b><span>${b.map(x => { const [t, h] = hot(x); return `<em class="mk-btn sm${mark(h)}">${esc(t)}</em>`; }).join('')}</span></div>`; }
+      if (k === 'side') return `<div class="mk-side">${v.split('|').map(x => { const [t, h] = hot(x); return `<span class="${h ? 'sel' : ''}${mark(h)}">${esc(t)}</span>`; }).join('')}</div>`;
+      if (k === 'h') { const [t, h] = hot(v); return `<div class="mk-h${mark(h)}">${esc(t)}</div>`; }
+      if (k === 'p') return `<div class="mk-p">${esc(v)}</div>`;
+      if (k === 'btn') { const [t, h] = hot(v); return `<div class="mk-row"><em class="mk-btn${h ? ' pri' : ''}${mark(h)}">${esc(t)}</em></div>`; }
+      if (k === 'in') { const [t, h] = hot(v); return `<div class="mk-in${mark(h)}"><span>${esc(t)}</span><i>➤</i></div>`; }
+      if (k === 'msg') { const who = v[0], [t, h] = hot(v.slice(3)); return `<div class="mk-msg ${who === 'u' ? 'u' : 'a'}${mark(h)}">${esc(t)}</div>`; }
+      if (k === 'field') { const c = v.indexOf(':'); const [t, h] = hot(v.slice(c + 1)); return `<div class="mk-field${mark(h)}"><small>${esc(v.slice(0, c))}</small><span>${esc(t)}</span></div>`; }
+      if (k === 'code') { const [t, h] = hot(v); return `<div class="mk-code${mark(h)}">${esc(t)}</div>`; }
+      if (k === 'toggle') { const [t, h] = hot(v); return `<div class="mk-tog${mark(h)}"><i></i>${esc(t)}</div>`; }
+      if (k === 'list' || k === 'tabs') return `<div class="mk-${k}">${v.split('|').map(x => { const [t, h] = hot(x); return `<span class="${h ? 'sel' : ''}${mark(h)}">${esc(t)}</span>`; }).join('')}</div>`;
+      if (k === 'nodes') return `<div class="mk-nodes">${v.split('>').map((x, i) => { const [t, h] = hot(x); return `${i ? '<i class="mk-wire"></i>' : ''}<span class="${h ? 'sel' : ''}${mark(h)}">${esc(t)}</span>`; }).join('')}</div>`;
+      return '';
+    }).join('');
+    return `<div class="mock" data-mock><div class="mk-top"><i></i><i></i><i></i><span>${esc(url)}</span></div><div class="mk-body">${body}</div><span class="mk-cur" aria-hidden="true"></span></div>`;
+  };
+  K.howto = function (h) {
+    const head = `<div class="ht-head"><span class="eyebrow">Пошаговая инструкция</span><h3>${esc(h.title)}</h3>
+      <p class="ht-meta">${esc(h.svc)}${h.url ? ` · <a href="${h.url}" target="_blank" rel="noopener" class="ext">${esc(h.url.replace(/^https?:\/\/(www\.)?/, ''))}</a>` : ''} · ${h.min} мин · ${h.steps ? h.steps.length : h.n} ${(h.steps ? h.steps.length : h.n) < 5 ? 'шага' : 'шагов'}</p></div>`;
+    if (h.locked) return `<section class="howto reveal">${head}<div class="prompt-locked">Инструкция с экранами открывается в полном доступе</div></section>`;
+    return `<section class="howto reveal">${head}<ol class="ht-steps">${h.steps.map((st, i) => `<li class="ht-step"><div class="ht-txt"><span class="ht-n">${i + 1}</span><p>${inline(st.t).replace(/\((\d)\)/g, '<b class="ht-ref">$1</b>')}</p></div>${K.mock(st.s)}</li>`).join('')}</ol>
+      <p class="ht-note">Экраны упрощены: в сервисе кнопки могут называться и стоять чуть иначе. Ищите похожие подписи.</p></section>`;
+  };
+  K.mountHowto = (root, D) => $$('.howto-slot', root).forEach(el => { const h = (D.howto || []).find(x => x.id === el.dataset.howto); if (h && !el._m) { el._m = 1; el.innerHTML = K.howto(h); K.observe(el); } });
+  // курсор проходит по отмеченным местам
+  K.playMock = el => {
+    if (RM || el._play) return; el._play = 1;
+    const hs = $$('.hot', el), cur = $('.mk-cur', el); if (!hs.length) return;
+    let i = 0; const box = el.getBoundingClientRect();
+    const go = () => {
+      if (!el.isConnected) return;
+      const b = el.getBoundingClientRect(), r = hs[i % hs.length].getBoundingClientRect();
+      cur.style.transform = `translate(${r.left - b.left + Math.min(r.width * .7, r.width - 10)}px, ${r.top - b.top + r.height * .55}px)`;
+      hs.forEach((x, k) => x.classList.toggle('now', k === i % hs.length));
+      setTimeout(() => { cur.classList.add('click'); setTimeout(() => cur.classList.remove('click'), 260); }, 700);
+      i++; el._t = setTimeout(go, hs.length > 1 ? 1700 : 2600);
+    };
+    go();
+  };
 
   // ---------- тест ----------
   K.quiz = function (el, mod, onDone) {

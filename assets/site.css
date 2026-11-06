@@ -468,3 +468,76 @@ h3 { font-size: 1.3rem; letter-spacing: .01em }
 @media (max-width: 900px) { .hero-in { grid-template-columns: 1fr } .hero-vis { padding: 22px 0 0 16px } .hero-vis .bar { right: 0 } }
 .top-act .btn { white-space: nowrap }
 @media (max-width: 420px) { .brand-t { font-size: 1rem } .top-act .btn { padding: .6em .8em; font-size: .78rem } .pf-keys li { font-size: .74rem } h1 { font-size: 2.6rem } }
+
+/* ---------- пошаговые инструкции ---------- */
+.howto { margin: 2em 0; border: 2px solid var(--ink); background: #fff }
+.ht-head { padding: 1.1em 1.3em; border-bottom: 2px solid var(--ink); display: grid; gap: .45em; background: var(--blue); color: #fff }
+.ht-head .eyebrow { color: #fff }
+.ht-head h3 { font-size: 1.5rem }
+.ht-head h3::before { display: none }
+.ht-meta { font-size: .88rem; color: #DDE3FF }
+.ht-meta a { color: #fff }
+.ht-steps { list-style: none; margin: 0; padding: 0 }
+.ht-step { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: 1.4em; padding: 1.3em; border-bottom: 1.5px solid var(--line); align-items: start }
+.ht-step:last-child { border-bottom: 0 }
+.ht-txt { display: grid; grid-template-columns: auto 1fr; gap: .9em; align-items: start }
+.ht-n { font: 700 2.4rem/1 var(--f-d); color: var(--red); min-width: 1.1em }
+.ht-txt p { font-size: 1rem; line-height: 1.6; max-width: none }
+.ht-ref { display: inline-grid; place-items: center; width: 1.45em; height: 1.45em; background: var(--red); color: #fff; font: 700 .78rem var(--f-b); vertical-align: .1em; margin: 0 .1em }
+.ht-note { padding: .8em 1.3em; font-size: .82rem; color: var(--ink3); border-top: 1.5px solid var(--line); background: #F7F8FA }
+@media (max-width: 760px) { .ht-step { grid-template-columns: 1fr } }
+
+.mock { position: relative; border: 2px solid var(--ink); background: #fff; font: 400 .82rem/1.4 var(--f-b); color: var(--ink); overflow: hidden; box-shadow: 6px 6px 0 var(--blue-soft) }
+.mk-top { display: flex; gap: 5px; align-items: center; padding: 7px 9px; background: #EEF0F4; border-bottom: 1.5px solid var(--ink) }
+.mk-top i { width: 8px; height: 8px; background: #C3C7D0; border-radius: 50% !important }
+.mk-top span { margin-left: 8px; flex: 1; min-width: 0; background: #fff; border: 1px solid #D5D8DF; padding: 2px 8px; font: .72rem var(--f-m); color: var(--ink3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+.mk-body { padding: 12px; display: grid; gap: 8px; min-height: 120px }
+.mk-bar { display: flex; justify-content: space-between; align-items: center; gap: 8px; padding-bottom: 8px; border-bottom: 1px solid var(--line) }
+.mk-bar b { font: 600 .9rem var(--f-d); text-transform: uppercase }
+.mk-bar span { display: flex; gap: 6px; flex-wrap: wrap }
+.mk-h { font: 600 1rem var(--f-d); text-transform: uppercase }
+.mk-p { color: var(--ink3); font-size: .78rem }
+.mk-row { display: flex }
+.mk-btn { font-style: normal; display: inline-block; padding: .45em .9em; border: 1.5px solid var(--ink); font-weight: 600; font-size: .78rem; background: #fff }
+.mk-btn.sm { padding: .3em .6em; font-size: .72rem }
+.mk-btn.pri { background: var(--ink); color: #fff }
+.mk-in { display: flex; justify-content: space-between; gap: 8px; align-items: center; border: 1.5px solid #B8BDC8; padding: .55em .7em; color: var(--ink2) }
+.mk-in span { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap }
+.mk-in i { font-style: normal; color: var(--ink3) }
+.mk-msg { padding: .5em .7em; max-width: 88%; background: #F1F2F5 }
+.mk-msg.u { justify-self: end; background: var(--blue-soft) }
+.mk-field { display: grid; gap: 2px }
+.mk-field small { color: var(--ink3); font-size: .7rem }
+.mk-field span { border: 1.5px solid #B8BDC8; padding: .4em .6em; font-family: var(--f-m); font-size: .74rem; overflow-wrap: anywhere }
+.mk-code { font: .74rem var(--f-m); background: var(--ink); color: #fff; padding: .6em .7em; overflow-wrap: anywhere }
+.mk-tog { display: inline-flex; gap: 8px; align-items: center; font-weight: 600; font-size: .78rem; justify-self: start }
+.mk-tog i { width: 26px; height: 14px; background: var(--blue); position: relative }
+.mk-tog i::after { content: ''; position: absolute; right: 2px; top: 2px; width: 10px; height: 10px; background: #fff }
+.mk-list, .mk-side, .mk-tabs { display: flex; flex-wrap: wrap; gap: 6px }
+.mk-list { flex-direction: column }
+.mk-list span, .mk-side span { padding: .4em .6em; border: 1px solid var(--line) }
+.mk-side { padding: 6px; background: #F6F7F9 }
+.mk-tabs span { padding: .35em .7em; border-bottom: 2px solid transparent; font-weight: 600 }
+.mk-tabs span.sel { border-bottom-color: var(--blue) }
+.mk-list span.sel, .mk-side span.sel { background: var(--blue-soft); border-color: var(--blue) }
+.mk-nodes { display: flex; align-items: center; flex-wrap: wrap; gap: 0; padding: 8px 0 }
+.mk-nodes span { padding: .55em .7em; border: 1.5px solid var(--ink); font-weight: 600; font-size: .74rem; background: #fff }
+.mk-nodes span.sel { background: var(--blue); color: #fff; border-color: var(--blue) }
+.mk-wire { width: 22px; height: 2px; background: var(--ink) }
+.hot { position: relative; outline: 2.5px solid var(--red); outline-offset: 2px }
+.hot::after { content: attr(data-n); position: absolute; top: -11px; right: -11px; width: 20px; height: 20px; display: grid; place-items: center; background: var(--red); color: #fff; font: 700 .7rem/1 var(--f-b); z-index: 2 }
+.hot.now { animation: hotPulse 1.2s ease }
+@keyframes hotPulse { 0%, 100% { outline-offset: 2px } 40% { outline-offset: 6px; outline-color: var(--blue) } }
+.mk-cur { position: absolute; left: 0; top: 0; width: 18px; height: 22px; z-index: 3; pointer-events: none; transform: translate(-40px, -40px); transition: transform .65s cubic-bezier(.3, .8, .3, 1); background: var(--ink); clip-path: polygon(0 0, 0 78%, 26% 58%, 44% 100%, 58% 94%, 40% 54%, 76% 54%) }
+.mk-cur.click { transform-origin: 0 0; filter: drop-shadow(0 0 0 var(--red)) }
+.mk-cur.click::after { content: '' }
+.ht-index { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 0; margin-bottom: 1em }
+.ht-ix { display: grid; grid-template-columns: 2.6em 1fr; gap: 0 .6em; padding: .9em 1em; border: 1.5px solid var(--ink); margin: 0 -1.5px -1.5px 0; text-decoration: none; color: var(--ink); background: #fff; transition: background .15s, color .15s }
+.ht-ix span { grid-row: span 2; font: 700 1.6rem/1 var(--f-d); color: var(--red) }
+.ht-ix b { font-weight: 600 }
+.ht-ix small { color: var(--ink3) }
+.ht-ix:hover { background: var(--blue); color: #fff }
+.ht-ix:hover small, .ht-ix:hover span { color: #fff }
+@media print { .mk-cur { display: none } .howto, .ht-step { break-inside: avoid } .ht-head, .hot::after, .mk-code, .mk-btn.pri, .mk-nodes span.sel { -webkit-print-color-adjust: exact; print-color-adjust: exact } }
+.prose .ht-note, .ht-note { max-width: none }
+@media (max-width: 560px) { #pill, #login-top { display: none !important } .app-page .brand-t { display: none } }

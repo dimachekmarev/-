@@ -8,7 +8,7 @@ let cache = null;
 // Контент: из папки private/ (разработка) или из зашифрованного content.enc (публикация)
 function files() {
   if (fs.existsSync(path.join(DIR, 'part1.md'))) {
-    const o = {}; for (const f of FILES.concat('data.js')) o[f] = fs.readFileSync(path.join(DIR, f), 'utf8'); return o;
+    const o = {}; for (const f of FILES.concat('data.js', 'howto.js')) o[f] = fs.readFileSync(path.join(DIR, f), 'utf8'); return o;
   }
   const crypto = require('crypto');
   const raw = Buffer.from(fs.readFileSync(path.join(__dirname, '..', 'content.enc'), 'utf8'), 'base64');
@@ -35,6 +35,8 @@ function parse() {
   const md = FILES.map(f => src[f]).join('\n');
   const mod = { exports: {} }; new Function('module', 'exports', src['data.js'])(mod, mod.exports);
   const data = mod.exports;
+  const hm = { exports: {} }; new Function('module', 'exports', src['howto.js'])(hm, hm.exports);
+  data.howto = hm.exports;
   const modules = [];
   const prompts = [];
   let m = null, l = null;
@@ -86,13 +88,14 @@ function payload(paid) {
       };
     }),
     prompts: prompts.map(p => (paid || p.free) ? p : { cat: p.cat, title: p.title, locked: true, mod: p.mod }),
+    howto: data.howto.map(h => (paid || h.free) ? h : { id: h.id, title: h.title, svc: h.svc, url: h.url, min: h.min, n: h.steps.length, locked: true }),
     tools: data.tools, links: data.links, money: data.money, subs: data.subs, glossary: data.glossary,
     stats: {
       modules: modules.length,
       lessons: modules.reduce((s, x) => s + x.lessons.length, 0),
       minutes: modules.reduce((s, x) => s + x.lessons.reduce((a, b) => a + b.min, 0), 0),
       prompts: prompts.length, quiz: modules.reduce((s, x) => s + x.quiz.length, 0),
-      tools: data.tools.length, money: data.money.length, glossary: data.glossary.length
+      howto: data.howto.length, tools: data.tools.length, money: data.money.length, glossary: data.glossary.length
     }
   };
 }

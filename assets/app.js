@@ -28,7 +28,7 @@
       return `<div class="s-mod${m.locked ? ' locked' : ''}${m.id === curMod ? ' cur open' : ''}" data-m="${m.id}"><button type="button" aria-expanded="${m.id === curMod}"><span class="s-num">${m.num}</span><span>${esc(m.title)}</span><span class="s-st${md === m.lessons.length ? ' done' : ''}">${m.locked ? 'закрыт' : md + '/' + m.lessons.length}</span></button>
         <ul class="s-ls">${m.lessons.map(l => `<li><a href="#l-${l.id}" class="${cur && cur.id === l.id ? 'on' : ''}${done[l.id] ? ' done' : ''}${m.locked ? ' lk' : ''}"><span class="ck"></span><span>${l.id} ${esc(l.title)}</span></a></li>`).join('')}</ul></div>`;
     }).join('')}
-      <nav class="side-sec" aria-label="Разделы">${[['home', 'Главная'], ['prompts', 'Промпты', D.prompts.length], ['tools', 'Инструменты и ссылки', D.tools.length], ['money', 'Заработок'], ['glossary', 'Глоссарий', D.glossary.length], ['progress', 'Мой прогресс'], ['book', 'Учебник и PDF']].map(([k, t, c]) => `<a href="#${k}" class="${view === k ? 'on' : ''}">${t}${c ? `<small>${c}</small>` : ''}</a>`).join('')}</nav>`;
+      <nav class="side-sec" aria-label="Разделы">${[['home', 'Главная'], ['prompts', 'Промпты', D.prompts.length], ['howto', 'Пошаговые инструкции', D.howto.length], ['tools', 'Инструменты и ссылки', D.tools.length], ['money', 'Заработок'], ['glossary', 'Глоссарий', D.glossary.length], ['progress', 'Мой прогресс'], ['book', 'Учебник и PDF']].map(([k, t, c]) => `<a href="#${k}" class="${view === k ? 'on' : ''}">${t}${c ? `<small>${c}</small>` : ''}</a>`).join('')}</nav>`;
   }
   side.addEventListener('click', e => {
     const b = e.target.closest('.s-mod > button'); if (b) { const m = b.parentElement; m.classList.toggle('open'); b.setAttribute('aria-expanded', m.classList.contains('open')); return; }
@@ -43,7 +43,7 @@
     let cur = null;
     if (h.startsWith('l-')) { cur = allLessons().find(l => l.id === h.slice(2)); }
     drawSide(cur);
-    const V = { home, prompts, tools, money, glossary, progress, book, login };
+    const V = { home, howto, prompts, tools, money, glossary, progress, book, login };
     if (cur) lesson(cur); else (V[h] || home)();
     $('#m-where').textContent = cur ? `Урок ${cur.id}` : '';
     window.scrollTo(0, 0);
@@ -85,7 +85,7 @@
       <div class="l-foot">${prev ? `<a class="btn btn-ghost" href="#l-${prev.id}">← ${prev.id}</a>` : ''}<span class="sp"></span>
         <button class="btn btn-done${done[l.id] ? ' is' : ''}" type="button" id="done">${done[l.id] ? 'Урок пройден' : 'Отметить пройденным'}</button>
         ${next ? `<a class="btn" href="#l-${next.id}">${next.m.locked ? 'Дальше: модуль ' + next.m.num : 'Следующий урок →'}</a>` : ''}</div>`);
-    K.mountDash(v, D);
+    K.mountDash(v, D); K.mountHowto(v, D);
     if (last && m.quiz.length) K.quiz($('#quiz'), m, () => drawSide(l));
     $('#done').addEventListener('click', () => {
       const d = prog(); d[l.id] = !d[l.id]; K.store.set('done', d);
@@ -126,6 +126,13 @@
     v.addEventListener('click', e => { const b = e.target.closest('.fchip'); if (b) { cat = b.dataset.c; $$('.fchip', v).forEach(x => x.classList.toggle('on', x === b)); draw(); } });
     $('#pq').addEventListener('input', e => { q = e.target.value; draw(); });
     draw();
+  }
+
+  function howto() {
+    const v = setView(`<div class="page-h"><span class="eyebrow">Пакеты действий</span><h1 class="l-title" style="margin:0">Пошаговые инструкции</h1><p>${D.howto.length} инструкций с экранами: куда зайти, что нажать, как это должно выглядеть. Красные номера на экране совпадают с номерами в тексте шага.</p></div>
+      <div class="ht-index">${D.howto.map((h, i) => `<a href="#ht-${h.id}" class="ht-ix"><span>${String(i + 1).padStart(2, '0')}</span><b>${esc(h.title)}</b><small>${esc(h.svc)} · ${h.min} мин${h.locked ? ' · в полном доступе' : ''}</small></a>`).join('')}</div>
+      ${D.howto.map(h => `<div id="ht-${h.id}">${K.howto(h)}</div>`).join('')}`, true);
+    v.addEventListener('click', e => { const a = e.target.closest('.ht-ix'); if (a) { e.preventDefault(); const t = document.querySelector(a.getAttribute('href')); if (t) t.scrollIntoView({ behavior: K.RM ? 'auto' : 'smooth' }); } });
   }
 
   function tools() {
@@ -177,7 +184,7 @@
         ${m.quiz.length ? `<div class="book-l"><h3 class="bl-t">Вопросы для самопроверки</h3><ol class="steps">${m.quiz.map(q => `<li><b>${esc(q.q)}</b><br>Ответ: ${esc(q.a[q.c])}. ${esc(q.e)}</li>`).join('')}</ol></div>` : ''}</section>`).join('')}
       <section class="book-mod"><span class="eyebrow">Приложение</span><h2>Глоссарий</h2><div class="gl">${D.glossary.map(([t, d]) => `<div><b>${esc(t)}</b><p>${esc(d)}</p></div>`).join('')}</div></section></div>`, true);
     $('#print').addEventListener('click', () => window.print());
-    $$('.reveal', v).forEach(x => x.classList.add('in')); K.still(v);
+    K.mountHowto(v, D); $$('.reveal', v).forEach(x => x.classList.add('in')); K.still(v);
   }
 
   load();
